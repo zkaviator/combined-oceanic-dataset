@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Profile Name="VATNZ Oceanic" FullName="VATNZ Combined Oceanic (NZZO/NZCM/NTTT/NSFA)">
-  
-  <Version AIRAC="2201" Revision="a" PublishDate="20220208" UpdateURL="xxx" />
-  
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Profile Name="South Pacific" FullName="Eurocat South Pacific (NTTT/NZZO/NZCM/NFFF)">
+  <Version AIRAC="2201" Revision="a" PublishDate="20220127" UpdateURL="https://vatsys.sawbe.com/downloads/data/South%20Pacific"/>
   <Servers>
-    <VATSIMStatus url="https://status.vatsim.net/" />
-    <GRIB url="https://sawbe.com/GRIB" />
-    <G2G url="antifaff.vatsys.sawbe.com" port="64738" />
+    <VATSIMStatus url="https://status.vatsim.net/"/>
+    <GRIB url="https://sawbe.com/GRIB/"/>
+    <G2G url="antifaff.vatsys.sawbe.com" port="64738"/>
   </Servers>
-
 </Profile>
