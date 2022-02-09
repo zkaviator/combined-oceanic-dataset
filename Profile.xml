@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Profile Name="South Pacific" FullName="Eurocat South Pacific (NTTT/NZZO/NZCM/NFFF)">
-  <Version AIRAC="2201" Revision="a" PublishDate="20220127" UpdateURL="https://vatsys.sawbe.com/downloads/data/South%20Pacific"/>
+<Profile Name="VATNZ Combined Oceanic Dataset" FullName="VATNZ Combined Oceanic (NZZO/NZCM/NTTT/NSFA)">
+  <Version AIRAC="2202" Revision="a" PublishDate="20220224" UpdateURL="https://vatsys.sawbe.com/downloads/data/xxx"/> <!-- TODO: Get UpdateURL -->
   <Servers>
     <VATSIMStatus url="https://status.vatsim.net/"/>
     <GRIB url="https://sawbe.com/GRIB/"/>

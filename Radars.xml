@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Radars>
+
+   <!-- TODO: Add non-NZ radar stations to Master ESE -->
+
    <Radar Name="Tahiti TAR" Type="PRI" Elevation="28" MaxRange="50" LatLong="-173324.000-1493641.000" />
    <Radar Name="Mt Marau" Type="SSR_ModeS" Elevation="4500" MaxRange="1450"  LatLong="-173619.944-1493215.504" />
    <Radar Name="Tahiti ADS-C" Type="ADSB" Elevation="34500" MaxRange="7500" LatLong="-173619.944-1493215.504" />
@@ -33,6 +36,7 @@
    <Radar Name="Nauru" Type="ADSB" Elevation="203" MaxRange="255" LatLong="-003240.920+1665501.680" />
    <Radar Name="Noumea" Type="ADSB" Elevation="51" MaxRange="255" LatLong="-220052.000+1661247.000" />
    <Radar Name="Magenta" Type="ADSB" Elevation="9" MaxRange="255" LatLong="-221530.000+1662822.000" />
+
    <Radar Name="Auckland" Type="PRI" Elevation="123" MaxRange="50" LatLong="-370022.745+1744720.144" />
    <Radar Name="Christchurch" Type="PRI" Elevation="121" MaxRange="50" LatLong="-432933.666+1723120.460" />
    <Radar Name="Hawkins Hill" Type="PRI" Elevation="1585" MaxRange="50" LatLong="-411947.492+1744332.081" />
@@ -53,4 +57,3 @@
    <Radar Name="Mt Nicholas" Type="ADSB" Elevation="4704" MaxRange="255" LatLong="-450744.587+1682352.159" />
    <Radar Name="Obelisk" Type="ADSB" Elevation="5521" MaxRange="255" LatLong="-451921.770+1691227.252" />
 </Radars>
-

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ATIS>
+<ATIS> <!-- TODO: Replace with VATNZ Config -->
 <Frequencies>
     <Frequency Airport="NTAA" Frequency="128.8"/>
     <Frequency Airport="NTTB" Frequency="121.5"/>
@@ -14,7 +14,7 @@
     <Frequency Airport="NFTF" Frequency="121.9"/>
     <Frequency Airport="NFTV" Frequency="127.0"/>
     <Frequency Airport="NIUE" Frequency="127.5"/>
-   <Frequency Airport="NZWD" Frequency="122.6"/> 
+    <Frequency Airport="NZWD" Frequency="122.6"/> 
     
 
   </Frequencies>
