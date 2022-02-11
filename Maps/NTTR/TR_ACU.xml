@@ -195,20 +195,24 @@
   <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.722253-151.459331">
     <Line>
       <!--Rwy25 BB1R-->
-      BB NDB
+      BB NDB/RU NDB
     </Line>
     <Line>
       <!--Rwy25 HHN1R-->
-      HHN VOR
+      HHN VOR/RU NDB
     </Line>
     <Line>
       <!--Rwy25 MA1R-->
-      MA NDB
+      MA NDB/MEREV/RU NDB
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
+      <Point>RU NDB</Point>
       <Point>HHN VOR</Point>
       <Point>MA NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>MEREV</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BB NDB</Point>

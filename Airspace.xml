@@ -8127,15 +8127,15 @@ CH VOR
     </STAR>
     <STAR Name="BB1R" Airport="NTTR" Runways="07,25">
       <Route Runway="07">BB NDB/RU NDB</Route>
-      <Route Runway="25">BB NDB</Route>
+      <Route Runway="25">BB NDB/RU NDB</Route>
     </STAR>
     <STAR Name="HHN1R" Airport="NTTR" Runways="07,25">
       <Route Runway="07">HHN VOR/RU NDB</Route>
-      <Route Runway="25">HHN VOR</Route>
+      <Route Runway="25">HHN VOR/RU NDB</Route>
     </STAR>
     <STAR Name="MA1R" Airport="NTTR" Runways="07,25">
       <Route Runway="07">MA NDB/MEREV/RU NDB</Route>
-      <Route Runway="25">MA NDB</Route>
+      <Route Runway="25">MA NDB/MEREV/RU NDB</Route>
     </STAR>
     <Approach Name="RNP-ARW" Airport="NCRG" Runway="08">
       <Transition Name="RAKIA">RAKIA</Transition>
