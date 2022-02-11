@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
   <Group Name="NZZO">
     <Position Name="Auckland Radio" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name=""/>
+        <Sector Name="" />
       </Sectors>
-
       <Maps>
         <Map Name="Coast" />
         <Map Name="ALL_CTA" />
@@ -15,24 +13,18 @@
         <Map Name="" />
         <Map Name="" />
       </Maps>
-
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-
-      <ArrivalLists>
-      </ArrivalLists>
-
       <CFL QuickLevel="29000" />
-
+      <ArrivalLists />
       <ControllerInfo>
         <Line>Auckland Radio | CPDLC available through text</Line>
-        <Line>Oceanic Reporting Tool - vats.im/nz/oce</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
-
 </Positions>
