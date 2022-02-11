@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="12 RNP" Priority="1" Center="-18.064242-140.957097" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>OBLEK</Point>
+      <Point>ODODO</Point>
+      <Point>OREVA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TO401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TO403</Point>
+    </Symbol>
+    <Line Pattern="Solid">TO403/TO401/-180351.271-1405725.549</Line>
+    <Line Pattern="Solid">OBLEK/TO403</Line>
+    <Line Pattern="Solid">ODODO/TO403</Line>
+    <Line Pattern="Solid">OREVA/TO403</Line>
+  </Map>
+  <Map Type="System2" Name="12 RNP Labels" Priority="1" Center="-18.064242-140.957097" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>OBLEK</Point>
+      <Point>ODODO</Point>
+      <Point>OREVA</Point>
+      <Point>TO401</Point>
+      <Point>TO403</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 RNP" Priority="1" Center="-18.085517-140.934678" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>OKATA</Point>
+      <Point>OLDIS</Point>
+      <Point>OSRAN</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TO402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TO404</Point>
+    </Symbol>
+    <Line Pattern="Solid">TO404/TO402/-180507.861-1405604.841</Line>
+    <Line Pattern="Solid">OKATA/TO404</Line>
+    <Line Pattern="Solid">OLDIS/TO404</Line>
+    <Line Pattern="Solid">OSRAN/TO404</Line>
+  </Map>
+  <Map Type="System2" Name="30 RNP Labels" Priority="1" Center="-18.085517-140.934678" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>OKATA</Point>
+      <Point>OLDIS</Point>
+      <Point>OSRAN</Point>
+      <Point>TO402</Point>
+      <Point>TO404</Point>
+    </Label>
+  </Map>
+</Maps>

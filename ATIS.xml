@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ATIS> <!-- TODO: Replace with VATNZ Config -->
-<Frequencies>
+  <Frequencies>
+    
     <Frequency Airport="NTAA" Frequency="128.8"/>
     <Frequency Airport="NTTB" Frequency="121.5"/>
     <Frequency Airport="NTTR" Frequency="119.6"/>    
-    <Frequency Airport="NTTH" Frequency="123.3"/>
-    <Frequency Airport="NTTG" Frequency="122.7"/>
-    <Frequency Airport="NTTO" Frequency="119.8"/>
     <Frequency Airport="NTTM" Frequency="118.4"/>
     <Frequency Airport="NCRG" Frequency="121.9"/>
     <Frequency Airport="NSFA" Frequency="126.9"/>
@@ -15,24 +13,24 @@
     <Frequency Airport="NFTV" Frequency="127.0"/>
     <Frequency Airport="NIUE" Frequency="127.5"/>
     <Frequency Airport="NZWD" Frequency="122.6"/> 
-    
 
   </Frequencies>
+  
   <Translations>
-   <Translation String="NTAA" Spoken="Tahiti"/>
-   <Translation String="NTTB" Spoken="Bora"/>
+    <Translation String="NTAA" Spoken="Tahiti"/>
+    <Translation String="NTTB" Spoken="Bora"/>
     <Translation String="NTTR" Spoken="Ray ee tay uh"/>
     <Translation String="NTTH" Spoken="Who a hee nee"/>
     <Translation String="NTTG" Spoken="Rang ee rower"/>
     <Translation String="NTTO" Spoken="Hay ow"/>
     <Translation String="NTTM" Spoken="Moo ray uh"/>
-   <Translation String="NCRG" Spoken="Raro tonga"/>
-   <Translation String="NSFA" Spoken="Fay lee olo"/>
-   <Translation String="NSTU" Spoken="Pango"/>
-   <Translation String="NFTF" Spoken="Fua Amotu"/>
-   <Translation String="NFTV" Spoken="Vav ow"/>
-   <Translation String="NIUE" Spoken="Nooay"/>
-   <Translation String="NZWD" Spoken="Williams"/>
+    <Translation String="NCRG" Spoken="Raro tonga"/>
+    <Translation String="NSFA" Spoken="Fay lee olo"/>
+    <Translation String="NSTU" Spoken="Pango"/>
+    <Translation String="NFTF" Spoken="Fua Amotu"/>
+    <Translation String="NFTV" Spoken="Vav ow"/>
+    <Translation String="NIUE" Spoken="Nooay"/>
+    <Translation String="NZWD" Spoken="Williams"/>
 
 
     <Translation String="ATIS" Spoken="terminal information"/>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="11 RNP" Priority="1" Center="-19.774231-174.346206" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ELDIL</Point>
+      <Point>PILUR</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TL546</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>SEKDA</Point>
+    </Symbol>
+    <Line Pattern="Solid">SEKDA/TL546/-194627.232-1742046.342</Line>
+    <Line Pattern="Solid">ELDIL/SEKDA</Line>
+    <Line Pattern="Solid">PILUR/SEKDA</Line>
+  </Map>
+  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-19.774231-174.346206" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ELDIL</Point>
+      <Point>PILUR</Point>
+      <Point>TL546</Point>
+      <Point>SEKDA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="29 RNP" Priority="1" Center="-19.779708-174.336322" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>UPDIG</Point>
+      <Point>VIDEB</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TL837</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>AVNOX</Point>
+    </Symbol>
+    <Line Pattern="Solid">AVNOX/TL837/-194646.949-1742010.759</Line>
+    <Line Pattern="Solid">UPDIG/AVNOX</Line>
+    <Line Pattern="Solid">VIDEB/AVNOX</Line>
+  </Map>
+  <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-19.779708-174.336322" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>UPDIG</Point>
+      <Point>VIDEB</Point>
+      <Point>TL837</Point>
+      <Point>AVNOX</Point>
+    </Label>
+  </Map>
+</Maps>

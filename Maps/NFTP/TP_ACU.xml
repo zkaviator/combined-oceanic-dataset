@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="11 RNP" Priority="1" Center="-15.973772-173.795992" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GUVOS</Point>
+      <Point>SUNBA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TP689</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>POSUS</Point>
+    </Symbol>
+    <Line Pattern="Solid">POSUS/TP689/-155825.579-1734745.571</Line>
+    <Line Pattern="Solid">GUVOS/POSUS</Line>
+    <Line Pattern="Solid">SUNBA/POSUS</Line>
+  </Map>
+  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-15.973772-173.795992" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>GUVOS</Point>
+      <Point>SUNBA</Point>
+      <Point>TP689</Point>
+      <Point>POSUS</Point>
+    </Label>
+  </Map>
+</Maps>

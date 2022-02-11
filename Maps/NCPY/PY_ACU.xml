@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="32 RNP" Priority="1" Center="-09.023619-158.027306" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AKLEN</Point>
+      <Point>RIKSA</Point>
+      <Point>VIRUS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>PY405</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TAMEV</Point>
+    </Symbol>
+    <Line Pattern="Solid">TAMEV/PY405/-090125.028-1580138.302</Line>
+    <Line Pattern="Solid">AKLEN/TAMEV</Line>
+    <Line Pattern="Solid">RIKSA/TAMEV</Line>
+    <Line Pattern="Solid">VIRUS/TAMEV</Line>
+  </Map>
+  <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-09.023619-158.027306" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AKLEN</Point>
+      <Point>RIKSA</Point>
+      <Point>VIRUS</Point>
+      <Point>PY405</Point>
+      <Point>TAMEV</Point>
+    </Label>
+  </Map>
+</Maps>

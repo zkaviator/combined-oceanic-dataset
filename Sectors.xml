@@ -36,6 +36,7 @@
   <Sector FullName="NZWN_DEP" Frequency="122.300" Callsign="NZWN_DEP" Name="DummyName" />
   <Sector FullName="NCRG_GND" Frequency="121.900" Callsign="NCRG_GND" Name="DummyName" />
   <Sector FullName="NFTF_GND" Frequency="121.900" Callsign="NFTF_GND" Name="DummyName" />
+  <Sector FullName="NFTV_GND" Frequency="121.900" Callsign="NFTV_GND" Name="DummyName" />
   <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="DummyName" />
   <Sector FullName="NIUE_TWR" Frequency="118.100" Callsign="NIUE_TWR" Name="DummyName" />
   <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
@@ -44,8 +45,6 @@
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
   <Sector FullName="NTAA_TWR" Frequency="118.100" Callsign="NTAA_TWR" Name="DummyName" />
   <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="DummyName" />
-  <Sector FullName="NTTG_TWR" Frequency="118.300" Callsign="NTTG_TWR" Name="DummyName" />
-  <Sector FullName="NTTH_TWR" Frequency="119.300" Callsign="NTTH_TWR" Name="DummyName" />
   <Sector FullName="NTTM_TWR" Frequency="118.700" Callsign="NTTM_TWR" Name="DummyName" />
   <Sector FullName="NTTR_TWR" Frequency="118.500" Callsign="NTTR_TWR" Name="DummyName" />
   <Sector FullName="NZAA_DEL" Frequency="128.200" Callsign="NZAA_DEL" Name="DummyName" />

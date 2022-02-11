@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.426392-152.239206">
+    <Line Pattern="Dashed">
+      <!--Rwy08 BB3G-->
+      -16.426392-152.239206/BB NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 BOKA1G-->
+      -16.426392-152.239206/BOKAL
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 REVK1G-->
+      -16.426392-152.239206/TP501/SUDOR/REVKO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 RU3G-->
+      -16.426392-152.239206/RU NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BB NDB</Point>
+      <Point>RU NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BOKAL</Point>
+      <Point>TP501</Point>
+      <Point>SUDOR</Point>
+      <Point>REVKO</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BB NDB</Point>
+      <Point>BOKAL</Point>
+      <Point>REVKO</Point>
+      <Point>RU NDB</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="08 RNP" Priority="1" Center="-16.426597-152.247950" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MEKES</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MOXUL</Point>
+      <Point>TP403</Point>
+      <Point>MULER</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TP401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MOXUL/TP401/-162535.749-1521452.620</Line>
+    <Line Pattern="Solid">TP403/MULER/MEKES/MOXUL</Line>
+    <Line Pattern="Solid">MULER/MOXUL</Line>
+  </Map>
+  <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-16.426597-152.247950" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MOXUL</Point>
+      <Point>TP403</Point>
+      <Point>MULER</Point>
+      <Point>TP401</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.426597-152.247950">
+    <Line Pattern="Dashed">
+      <!--Rwy26 BAMB1H-->
+      -16.426597-152.247950/TP502/BAMBI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 BB3H-->
+      -16.426597-152.247950/BB NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 RU3H-->
+      -16.426597-152.247950/RU NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 RULO1H-->
+      TP502/TB504/RULOM
+    </Line>
+    <Symbol Type="Circle">
+      <Point>BB NDB</Point>
+      <Point>RU NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>TP502</Point>
+      <Point>BAMBI</Point>
+      <Point>TB504</Point>
+      <Point>RULOM</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BAMBI</Point>
+      <Point>BB NDB</Point>
+      <Point>RU NDB</Point>
+      <Point>RULOM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 RNP" Priority="1" Center="-16.426392-152.239206" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TP404</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MANAX</Point>
+      <Point>MEREV</Point>
+      <Point>MUSIL</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TP402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">MANAX/TP402/TP404/-162535.011-1521421.142</Line>
+    <Line Pattern="Solid">MEREV/MANAX</Line>
+    <Line Pattern="Solid">MUSIL/MANAX</Line>
+  </Map>
+  <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-16.426392-152.239206" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MANAX</Point>
+      <Point>MEREV</Point>
+      <Point>MUSIL</Point>
+      <Point>TP402</Point>
+    </Label>
+  </Map>
+</Maps>

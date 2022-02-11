@@ -1,47 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SystemRunways>
+    <Airport Name="NCMG">
+      <Runway Name="13" DataRunway="13" />
+      <Runway Name="31" DataRunway="31" />
+    </Airport>
+    <Airport Name="NCMH">
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NCMK">
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="NCMR">
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="27" DataRunway="27" />
+    </Airport>
+    <Airport Name="NCPK">
+      <Runway Name="07" DataRunway="07" />
+      <Runway Name="25" DataRunway="25" />
+    </Airport>
+    <Airport Name="NCPY">
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
     <Airport Name="NCRG">
       <Runway Name="08" DataRunway="08">
         <SID Name="BAVE1T" />
         <SID Name="BELI1R" />
         <SID Name="TOKE1P" />
-        <STAR Name="ANIV1A" />
-        <STAR Name="BAVE1A" />
-        <STAR Name="OSPI1A" />
+        <STAR Name="ANIV1A" ApproachName="RNP-ARW" />
+        <STAR Name="BAVE1A" ApproachName="RNP-ARW" />
+        <STAR Name="OSPI1A" ApproachName="RNP-ARW" />
       </Runway>
       <Runway Name="26" DataRunway="26">
         <SID Name="ATSO1Q" />
-        <STAR Name="KARS1B" />
-        <STAR Name="NOLA1B" />
-        <STAR Name="SAKA1B" />
+        <STAR Name="KARS1B" ApproachName="RNP-ARZ" />
+        <STAR Name="NOLA1B" ApproachName="RNP-ARZ" />
+        <STAR Name="SAKA1B" ApproachName="RNP-ARZ" />
       </Runway>
     </Airport>
     <Airport Name="NFTF">
       <Runway Name="11" DataRunway="11">
         <SID Name="ADNE1P" />
-        <STAR Name="AGEX1A" />
-        <STAR Name="DALD1A" />
-        <STAR Name="EKED1A" />
-        <STAR Name="GOBI1A" />
-        <STAR Name="HOBA1A" />
-        <STAR Name="IBAK1A" />
-        <STAR Name="KETU1A" />
+        <STAR Name="AGEX1A" ApproachName="RNP" />
+        <STAR Name="DALD1A" ApproachName="RNP" />
+        <STAR Name="EKED1A" ApproachName="RNP" />
+        <STAR Name="GOBI1A" ApproachName="RNP" />
+        <STAR Name="HOBA1A" ApproachName="RNP" />
+        <STAR Name="IBAK1A" ApproachName="RNP" />
+        <STAR Name="KETU1A" ApproachName="RNP" />
       </Runway>
       <Runway Name="17" DataRunway="17" />
       <Runway Name="29" DataRunway="29">
         <SID Name="ANGO1Q" />
-        <STAR Name="AGEX1B" />
-        <STAR Name="DALD1B" />
-        <STAR Name="EKED1B" />
-        <STAR Name="GOBI1B" />
-        <STAR Name="HOBA1B" />
-        <STAR Name="IBAK1B" />
-        <STAR Name="KETU1B" />
+        <STAR Name="AGEX1B" ApproachName="RNP" />
+        <STAR Name="DALD1B" ApproachName="RNP" />
+        <STAR Name="EKED1B" ApproachName="RNP" />
+        <STAR Name="GOBI1B" ApproachName="RNP" />
+        <STAR Name="HOBA1B" ApproachName="RNP" />
+        <STAR Name="IBAK1B" ApproachName="RNP" />
+        <STAR Name="KETU1B" ApproachName="RNP" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
     </Airport>
     <Airport Name="NFTL">
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
+    </Airport>
+    <Airport Name="NFTO">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="NFTP">
       <Runway Name="11" DataRunway="11" />
       <Runway Name="29" DataRunway="29" />
     </Airport>
@@ -63,24 +95,24 @@
         <SID Name="ODUM1R" />
         <SID Name="PONA1R" />
         <SID Name="UVUT1R" />
-        <STAR Name="BIGE2B" />
-        <STAR Name="BIGE2D" />
-        <STAR Name="DORO2B" />
-        <STAR Name="DORO2D" />
-        <STAR Name="ISDO2B" />
-        <STAR Name="ISDO2D" />
-        <STAR Name="LANA2B" />
-        <STAR Name="LANA2D" />
-        <STAR Name="LAVE2B" />
-        <STAR Name="LAVE2D" />
-        <STAR Name="ODUM2B" />
-        <STAR Name="ODUM2D" />
-        <STAR Name="PONA2B" />
-        <STAR Name="PONA2D" />
-        <STAR Name="SAMV2B" />
-        <STAR Name="SAMV2D" />
-        <STAR Name="UVUT2B" />
-        <STAR Name="UVUT2D" />
+        <STAR Name="BIGE2B" ApproachName="RNP" />
+        <STAR Name="BIGE2D" ApproachName="RNP" />
+        <STAR Name="DORO2B" ApproachName="RNP" />
+        <STAR Name="DORO2D" ApproachName="RNP" />
+        <STAR Name="ISDO2B" ApproachName="RNP" />
+        <STAR Name="ISDO2D" ApproachName="RNP" />
+        <STAR Name="LANA2B" ApproachName="RNP" />
+        <STAR Name="LANA2D" ApproachName="RNP" />
+        <STAR Name="LAVE2B" ApproachName="RNP" />
+        <STAR Name="LAVE2D" ApproachName="RNP" />
+        <STAR Name="ODUM2B" ApproachName="RNP" />
+        <STAR Name="ODUM2D" ApproachName="RNP" />
+        <STAR Name="PONA2B" ApproachName="RNP" />
+        <STAR Name="PONA2D" ApproachName="RNP" />
+        <STAR Name="SAMV2B" ApproachName="RNP" />
+        <STAR Name="SAMV2D" ApproachName="RNP" />
+        <STAR Name="UVUT2B" ApproachName="RNP" />
+        <STAR Name="UVUT2D" ApproachName="RNP" />
       </Runway>
       <Runway Name="26" DataRunway="26">
         <SID Name="ALAP1S" />
@@ -91,15 +123,21 @@
         <SID Name="ODUM1S" />
         <SID Name="PONA1S" />
         <SID Name="UVUT1S" />
-        <STAR Name="BIGE2C" />
-        <STAR Name="DORO2C" />
-        <STAR Name="ISDO2C" />
-        <STAR Name="LANA2C" />
-        <STAR Name="ODUM2C" />
-        <STAR Name="PONA2C" />
-        <STAR Name="SAMV2C" />
-        <STAR Name="UVUT2C" />
+        <STAR Name="BIGE2C" ApproachName="RNP" />
+        <STAR Name="DORO2C" ApproachName="RNP" />
+        <STAR Name="ISDO2C" ApproachName="RNP" />
+        <STAR Name="LANA2C" ApproachName="RNP" />
+        <STAR Name="LAVE2A" />
+        <STAR Name="ODUM2C" ApproachName="RNP" />
+        <STAR Name="PONA2A" />
+        <STAR Name="PONA2C" ApproachName="RNP" />
+        <STAR Name="SAMV2C" ApproachName="RNP" />
+        <STAR Name="UVUT2C" ApproachName="RNP" />
       </Runway>
+    </Airport>
+    <Airport Name="NSMA">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
     </Airport>
     <Airport Name="NSTU">
       <Runway Name="05" DataRunway="05" />
@@ -110,10 +148,10 @@
     <Airport Name="NTAA">
       <Runway Name="04" DataRunway="04">
         <SID Name="ARIT4E" />
-        <SID Name="BENK4E" />
         <SID Name="BENK3E" />
-        <SID Name="IKEL4E" />
+        <SID Name="BENK4E" />
         <SID Name="IKEL3E" />
+        <SID Name="IKEL4E" />
         <SID Name="MOSM4E" />
         <SID Name="PAST4E" />
         <SID Name="PAST3E" />
@@ -127,17 +165,81 @@
         <SID Name="ARIT4W" />
         <SID Name="BEBI4W" />
         <SID Name="BEBI3W" />
-        <SID Name="IKEL4W" />
         <SID Name="IKEL3W" />
+        <SID Name="IKEL4W" />
         <SID Name="MOSM4W" />
         <SID Name="ONID4W" />
         <SID Name="ONID3W" />
-        <SID Name="VAIT4W" />
         <SID Name="VAIT3W" />
-        <STAR Name="AROB3M" />
-        <STAR Name="ASOK3M" />
-        <STAR Name="IDUT3M" />
+        <SID Name="VAIT4W" />
+        <STAR Name="AROB3M" ApproachName="RNP" />
+        <STAR Name="ASOK3M" ApproachName="RNP" />
+        <STAR Name="IDUT3M" ApproachName="RNP" />
       </Runway>
+    </Airport>
+    <Airport Name="NTAM">
+      <Runway Name="07" DataRunway="07" />
+      <Runway Name="25" DataRunway="25" />
+    </Airport>
+    <Airport Name="NTAR">
+      <Runway Name="09" DataRunway="09" />
+      <Runway Name="27" DataRunway="27" />
+    </Airport>
+    <Airport Name="NTAT">
+      <Runway Name="03" DataRunway="03" />
+      <Runway Name="21" DataRunway="21" />
+    </Airport>
+    <Airport Name="NTAV">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
+    </Airport>
+    <Airport Name="NTGB">
+      <Runway Name="07" DataRunway="07" />
+      <Runway Name="25" DataRunway="25" />
+    </Airport>
+    <Airport Name="NTGC">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
+    </Airport>
+    <Airport Name="NTGF">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
+    <Airport Name="NTGI">
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="22" DataRunway="22" />
+    </Airport>
+    <Airport Name="NTGJ">
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="30" DataRunway="30" />
+    </Airport>
+    <Airport Name="NTGM">
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
+    </Airport>
+    <Airport Name="NTGY">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="NTKO">
+      <Runway Name="16" DataRunway="16" />
+      <Runway Name="34" DataRunway="34" />
+    </Airport>
+    <Airport Name="NTKR">
+      <Runway Name="07" DataRunway="07" />
+      <Runway Name="25" DataRunway="25" />
+    </Airport>
+    <Airport Name="NTKU">
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
+    <Airport Name="NTMD">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="24" DataRunway="24" />
+    </Airport>
+    <Airport Name="NTMN">
+      <Runway Name="02" DataRunway="02" />
+      <Runway Name="20" DataRunway="20" />
     </Airport>
     <Airport Name="NTTB">
       <Runway Name="11" DataRunway="11">
@@ -149,6 +251,10 @@
         <SID Name="RUTI1A" />
         <SID Name="SUDO1A" />
         <SID Name="UDIN1A" />
+        <STAR Name="HHN1B" />
+        <STAR Name="MAUP1B" />
+        <STAR Name="RAIA1B" />
+        <STAR Name="RAN1B" />
       </Runway>
       <Runway Name="29" DataRunway="29">
         <SID Name="HHN3B" />
@@ -160,9 +266,17 @@
         <SID Name="SUDO1B" />
         <SID Name="UBKI1B" />
         <STAR Name="HHN1B" />
-        <STAR Name="MA1B" />
+        <STAR Name="MAUP1B" />
+        <STAR Name="RAIA1B" />
         <STAR Name="RAN1B" />
-        <STAR Name="RU1B" />
+      </Runway>
+    </Airport>
+    <Airport Name="NTTE">
+      <Runway Name="06" DataRunway="06">
+        <SID Name="TAVI1E" Type="NonJet" />
+      </Runway>
+      <Runway Name="24" DataRunway="24">
+        <SID Name="TAVI1W" />
       </Runway>
     </Airport>
     <Airport Name="NTTG">
@@ -178,6 +292,9 @@
         <SID Name="RU3E" />
         <SID Name="RULO1E" />
         <SID Name="TEAN3E" />
+        <STAR Name="BB1H" />
+        <STAR Name="RU1H" />
+        <STAR Name="VAIT1H" />
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="BATO1F" />
@@ -187,6 +304,9 @@
         <SID Name="REVR1F" />
         <SID Name="RU3F" />
         <SID Name="TEAN3F" />
+        <STAR Name="BB1H" />
+        <STAR Name="RU1H" />
+        <STAR Name="VAIT1H" />
       </Runway>
     </Airport>
     <Airport Name="NTTM">
@@ -206,6 +326,20 @@
     <Airport Name="NTTO">
       <Runway Name="12" DataRunway="12" />
       <Runway Name="30" DataRunway="30" />
+    </Airport>
+    <Airport Name="NTTP">
+      <Runway Name="08" DataRunway="08">
+        <SID Name="BB3G" />
+        <SID Name="BOKA1G" />
+        <SID Name="REVK1G" />
+        <SID Name="RU3G" />
+      </Runway>
+      <Runway Name="26" DataRunway="26">
+        <SID Name="BAMB1H" />
+        <SID Name="BB3H" />
+        <SID Name="RU3H" />
+        <SID Name="RULO1H" />
+      </Runway>
     </Airport>
     <Airport Name="NTTR">
       <Runway Name="07" DataRunway="07">
@@ -237,6 +371,10 @@
         <STAR Name="MA1R" />
       </Runway>
     </Airport>
+    <Airport Name="NZCI">
+      <Runway Name="05" DataRunway="05" />
+      <Runway Name="23" DataRunway="23" />
+    </Airport>
     <Airport Name="NZFX">
       <Runway Name="15" DataRunway="15" />
       <Runway Name="33" DataRunway="33" />
@@ -244,28 +382,6 @@
     <Airport Name="NZWD">
       <Runway Name="07" DataRunway="07" />
       <Runway Name="25" DataRunway="25" />
-    </Airport>
-    <Airport Name="NTTE">
-      <Runway Name="06" DataRunway="06">
-        <SID Name="TAVI1E" />
-      </Runway>
-      <Runway Name="24" DataRunway="24">
-        <SID Name="TAVI1W" />
-      </Runway>
-    </Airport>
-    <Airport Name="NTTP">
-      <Runway Name="26" DataRunway="26">
-        <SID Name="BAMB1H" />
-        <SID Name="BB3H" />
-        <SID Name="RU3H" />
-        <SID Name="RULO1H" />
-      </Runway>
-      <Runway Name="08" DataRunway="08">
-        <SID Name="BB3G" />
-        <SID Name="BOKA1G" />
-        <SID Name="REVK1G" />
-        <SID Name="RU3G" />
-      </Runway>
     </Airport>
   </SystemRunways>
   <Airways>
@@ -7546,28 +7662,28 @@ CH VOR
       <Route Runway="22">ARITI</Route>
     </SID>
     <SID Name="BEBI4W" Airport="NTAA" Runways="22">
-      <Route Runway="22">AA502/AA506/AA508/ONIDO/BEBIG</Route>
+      <Route Runway="22">AA506/AA508/ONIDO/BEBIG</Route>
     </SID>
     <SID Name="BEBI3W" Airport="NTAA" Runways="22">
       <Route Runway="22">BEBIG</Route>
     </SID>
-    <SID Name="BENK4E" Airport="NTAA" Runways="04">
-      <Route Runway="04">MOANA/AA501/BENKO</Route>
-    </SID>
     <SID Name="BENK3E" Airport="NTAA" Runways="04">
       <Route Runway="04">MOANA/BENKO</Route>
     </SID>
-    <SID Name="IKEL4E" Airport="NTAA" Runways="04">
-      <Route Runway="04">AA505/IKELO</Route>
+    <SID Name="BENK4E" Airport="NTAA" Runways="04">
+      <Route Runway="04">MOANA/AA501/BENKO</Route>
     </SID>
     <SID Name="IKEL3E" Airport="NTAA" Runways="04">
       <Route Runway="04">IKELO</Route>
     </SID>
-    <SID Name="IKEL4W" Airport="NTAA" Runways="22">
-      <Route Runway="22">AA502/AA506/AA503/AA505/IKELO</Route>
+    <SID Name="IKEL4E" Airport="NTAA" Runways="04">
+      <Route Runway="04">AA505/IKELO</Route>
     </SID>
     <SID Name="IKEL3W" Airport="NTAA" Runways="22">
       <Route Runway="22">IKELO</Route>
+    </SID>
+    <SID Name="IKEL4W" Airport="NTAA" Runways="22">
+      <Route Runway="22">AA502/AA505/IKELO</Route>
     </SID>
     <SID Name="MOSM4E" Airport="NTAA" Runways="04">
       <Route Runway="04">BOBIX/MOSMA</Route>
@@ -7576,10 +7692,10 @@ CH VOR
       <Route Runway="22">BOBIX/MOSMA</Route>
     </SID>
     <SID Name="ONID4W" Airport="NTAA" Runways="22">
-      <Route Runway="22">AA502/AA506/AA508/ONIDO</Route>
+      <Route Runway="22">AA506/AA508/ONIDO</Route>
     </SID>
     <SID Name="ONID3W" Airport="NTAA" Runways="22">
-      <Route Runway="22">ONIDO</Route>
+      <Route Runway="22">ONIDO/ONIDO</Route>
     </SID>
     <SID Name="PAST4E" Airport="NTAA" Runways="04">
       <Route Runway="04">MOANA/AA501/PASTI</Route>
@@ -7593,11 +7709,11 @@ CH VOR
     <SID Name="VAIT3E" Airport="NTAA" Runways="04">
       <Route Runway="04">VAITE</Route>
     </SID>
-    <SID Name="VAIT4W" Airport="NTAA" Runways="22">
-      <Route Runway="22">AA502/AA506/AA503/VAITE</Route>
-    </SID>
     <SID Name="VAIT3W" Airport="NTAA" Runways="22">
       <Route Runway="22">VAITE</Route>
+    </SID>
+    <SID Name="VAIT4W" Airport="NTAA" Runways="22">
+      <Route Runway="22">AA502/AA503/VAITE</Route>
     </SID>
     <SID Name="HHN3A" Airport="NTTB" Runways="11">
       <Route Runway="11">HHN VOR</Route>
@@ -7627,19 +7743,19 @@ CH VOR
       <Route Runway="11">RU NDB</Route>
     </SID>
     <SID Name="RU3B" Airport="NTTB" Runways="29">
-      <Route Runway="29">RU NDB</Route>
+      <Route Runway="29">BB NDB/RU NDB</Route>
     </SID>
     <SID Name="RULO1B" Airport="NTTB" Runways="29">
-      <Route Runway="29">TB504/RU NDB</Route>
+      <Route Runway="29">TB504/RULOM</Route>
     </SID>
     <SID Name="RUTI1A" Airport="NTTB" Runways="11">
       <Route Runway="11">TB501/TB503/RUTIX</Route>
     </SID>
-    <SID Name="SUDO1B" Airport="NTTB" Runways="29">
-      <Route Runway="29">TB504</Route>
-    </SID>
     <SID Name="SUDO1A" Airport="NTTB" Runways="11">
       <Route Runway="11">TB501/TB503/TB504/SUDOR</Route>
+    </SID>
+    <SID Name="SUDO1B" Airport="NTTB" Runways="29">
+      <Route Runway="29">TB504/SUDOR</Route>
     </SID>
     <SID Name="UBKI1B" Airport="NTTB" Runways="29">
       <Route Runway="29">TB502/UDOLO/UBKIM</Route>
@@ -7672,10 +7788,11 @@ CH VOR
       <Route Runway="25">TH502/TH504/IDUTA</Route>
     </SID>
     <SID Name="ORAM3E" Airport="NTTH" Runways="07">
-      <Route Runway="07">ORAMA</Route>
+      <Route Runway="07">TH501/ORAMA/IDUTA</Route>
     </SID>
     <SID Name="ORAM3F" Airport="NTTH" Runways="25">
-      <Route Runway="25">ORAMA</Route>
+      <Route Runway="25">HHN VOR/ORAMA</Route>
+      <Transition Name="IDUTA">IDUTA</Transition>
     </SID>
     <SID Name="REVR1F" Airport="NTTH" Runways="25">
       <Route Runway="25">TH502/REVRI</Route>
@@ -7690,7 +7807,7 @@ CH VOR
       <Route Runway="07">TH503/RULOM</Route>
     </SID>
     <SID Name="TEAN3E" Airport="NTTH" Runways="07">
-      <Route Runway="07">ORAMA/TEANO</Route>
+      <Route Runway="07">TH501/ORAMA/TEANO</Route>
     </SID>
     <SID Name="TEAN3F" Airport="NTTH" Runways="25">
       <Route Runway="25">ORAMA/TEANO</Route>
@@ -7914,6 +8031,9 @@ CH VOR
     <STAR Name="LANA2D" Airport="NSFA" Runways="08">
       <Route Runway="08">LANAT/DINAR</Route>
     </STAR>
+    <STAR Name="LAVE2A" Airport="NSFA" Runways="26">
+      <Route Runway="26">LAVEK/FA VOR</Route>
+    </STAR>
     <STAR Name="LAVE2B" Airport="NSFA" Runways="08">
       <Route Runway="08">LAVEK/SHMPA</Route>
     </STAR>
@@ -7928,6 +8048,9 @@ CH VOR
     </STAR>
     <STAR Name="ODUM2D" Airport="NSFA" Runways="08">
       <Route Runway="08">ODUMA/DINAR</Route>
+    </STAR>
+    <STAR Name="PONA2A" Airport="NSFA" Runways="26">
+      <Route Runway="26">PONAT/FA VOR</Route>
     </STAR>
     <STAR Name="PONA2B" Airport="NSFA" Runways="08">
       <Route Runway="08">PONAT/TAFUA</Route>
@@ -7974,30 +8097,81 @@ CH VOR
     <STAR Name="IDUT3V" Airport="NTAA" Runways="04">
       <Route Runway="04">IDUTA/OVINI</Route>
     </STAR>
-    <STAR Name="HHN1B" Airport="NTTB" Runways="29">
+    <STAR Name="HHN1B" Airport="NTTB" Runways="11,29">
+      <Route Runway="11">HHN VOR/ATALA/BB NDB</Route>
       <Route Runway="29">HHN VOR/ATALA/BB NDB</Route>
     </STAR>
-    <STAR Name="MA1B" Airport="NTTB" Runways="29">
+    <STAR Name="MAUP1B" Airport="NTTB" Runways="11,29">
+      <Route Runway="11">MA NDB/MALBO/BB NDB</Route>
       <Route Runway="29">MA NDB/MALBO/BB NDB</Route>
     </STAR>
-    <STAR Name="RAN1B" Airport="NTTB" Runways="29">
-      <Route Runway="29">BIBUS/BB NDB</Route>
+    <STAR Name="RAIA1B" Airport="NTTB" Runways="11,29">
+      <Route Runway="11">HHN VOR/OSPOD/RU NDB/BB NDB</Route>
+      <Route Runway="29">HHN VOR/OSPOD/RU NDB/BB NDB</Route>
     </STAR>
-    <STAR Name="RU1B" Airport="NTTB" Runways="29">
-      <Route Runway="29">RU NDB/BB NDB</Route>
+    <STAR Name="RAN1B" Airport="NTTB" Runways="11,29">
+      <Route Runway="11">RAN VOR/BIBUS/BB NDB</Route>
+      <Route Runway="29">RAN VOR/BIBUS/BB NDB</Route>
+    </STAR>
+    <STAR Name="BB1H" Airport="NTTH" Runways="07,25">
+      <Route Runway="07">BB NDB/HHN VOR</Route>
+      <Route Runway="25">BB NDB/HHN VOR</Route>
+    </STAR>
+    <STAR Name="RU1H" Airport="NTTH" Runways="07,25">
+      <Route Runway="07">RU NDB/HHN VOR</Route>
+      <Route Runway="25">RU NDB/HHN VOR</Route>
+    </STAR>
+    <STAR Name="VAIT1H" Airport="NTTH" Runways="07,25">
+      <Route Runway="07">VAITE/HHN VOR</Route>
+      <Route Runway="25">VAITE/HHN VOR</Route>
     </STAR>
     <STAR Name="BB1R" Airport="NTTR" Runways="07,25">
-      <Route Runway="07">BB NDB</Route>
+      <Route Runway="07">BB NDB/RU NDB</Route>
       <Route Runway="25">BB NDB</Route>
     </STAR>
     <STAR Name="HHN1R" Airport="NTTR" Runways="07,25">
-      <Route Runway="07">HHN VOR</Route>
+      <Route Runway="07">HHN VOR/RU NDB</Route>
       <Route Runway="25">HHN VOR</Route>
     </STAR>
     <STAR Name="MA1R" Airport="NTTR" Runways="07,25">
-      <Route Runway="07">MA NDB</Route>
+      <Route Runway="07">MA NDB/MEREV/RU NDB</Route>
       <Route Runway="25">MA NDB</Route>
     </STAR>
+    <Approach Name="RNP-ARW" Airport="NCRG" Runway="08">
+      <Transition Name="RAKIA">RAKIA</Transition>
+      <Transition Name="TOKEA">TOKEA</Transition>
+      <Route>OPUNA/ADLIS/-211209.299-1594856.549</Route>
+    </Approach>
+    <Approach Name="RNP-ARZ" Airport="NCRG" Runway="26">
+      <Transition Name="MOAKE">MOAKE</Transition>
+      <Transition Name="MURIA">MURIA</Transition>
+      <Route>ANGAI/PEXIS/-211209.310-1594743.609</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="NFTF" Runway="11">
+      <Transition Name="KILEK">KILEK</Transition>
+      <Transition Name="LEMAS">LEMAS</Transition>
+      <Route>LURGA/TF762/-211404.049-1750939.251</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="NFTF" Runway="29">
+      <Transition Name="BETLI">BETLI</Transition>
+      <Transition Name="OLPER">OLPER</Transition>
+      <Route>DORNI/TF982/-211449.949-1750820.609</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="NSFA" Runway="08">
+      <Transition Name="SHMPA">SHMPA</Transition>
+      <Transition Name="TAFUA">TAFUA</Transition>
+      <Route>DINAR/FA406/-134948.770-1720120.201</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="NSFA" Runway="26">
+      <Transition Name="LAVEK">LAVEK</Transition>
+      <Transition Name="MAUGA">MAUGA</Transition>
+      <Route>FALFA/FA515/-134947.590-1715940.132</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="NTAA" Runway="22">
+      <Transition Name="SALUT">SALUT</Transition>
+      <Transition Name="TAVIS">TAVIS</Transition>
+      <Route>MOANA/FAA22/-173244.030-1493543.390</Route>
+    </Approach>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="AGAR" FullName="Arona" Position="-095138.000+1615848.000" Elevation="15">

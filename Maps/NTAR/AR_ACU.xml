@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="09 RNP" Priority="1" Center="-22.431653-151.367069" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AR403</Point>
+      <Point>AR405</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>RAXON</Point>
+      <Point>RUXAR</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AR401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>REKEK</Point>
+    </Symbol>
+    <Line Pattern="Solid">REKEK/AR401/AR403/-222553.951-1512201.448</Line>
+    <Line Pattern="Solid">RAXON/REKEK</Line>
+    <Line Pattern="Solid">RUXAR/AR405/RAXON</Line>
+  </Map>
+  <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-22.431653-151.367069" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>RAXON</Point>
+      <Point>RUXAR</Point>
+      <Point>AR401</Point>
+      <Point>REKEK</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="27 RNP" Priority="1" Center="-22.435608-151.353897" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AR404</Point>
+      <Point>AR406</Point>
+      <Point>AR408</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>RUXAR</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AR402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>RISKI</Point>
+    </Symbol>
+    <Line Pattern="Solid">RISKI/AR402/AR404/-222608.189-1512114.029</Line>
+    <Line Pattern="Solid">RUXAR/AR406/AR408/RISKI</Line>
+  </Map>
+  <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-22.435608-151.353897" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>RUXAR</Point>
+      <Point>AR402</Point>
+      <Point>RISKI</Point>
+    </Label>
+  </Map>
+</Maps>

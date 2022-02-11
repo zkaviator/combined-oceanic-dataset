@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="06 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.014081-149.585928">
+    <Line Pattern="Dashed">
+      <!--Rwy06 TAVI1E-->
+      -17.014081-149.585928/TE405/TAVIS
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TE405</Point>
+      <Point>TAVIS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>TAVIS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-17.015783-149.592458" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TE401</Point>
+      <Point>TE403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TE402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ARITI</Point>
+    </Symbol>
+    <Line Pattern="Solid">ARITI/TE401/TE402/TE403/-170056.819-1493532.849</Line>
+  </Map>
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-17.015783-149.592458" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>TE402</Point>
+      <Point>ARITI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.015783-149.592458">
+    <Line Pattern="Dashed">
+      <!--Rwy24 TAVI1W-->
+      -17.015783-149.592458/-17.022820-149.619400/TE404/TE405/TAVIS
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>-17.022820-149.619400</Point>
+      <Point>TE404</Point>
+      <Point>TE405</Point>
+      <Point>TAVIS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>TAVIS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-17.014081-149.585928" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TE401</Point>
+      <Point>TE403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>TE402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ARITI</Point>
+    </Symbol>
+    <Line Pattern="Solid">ARITI/TE401/TE402/TE403/-170050.692-1493509.341</Line>
+  </Map>
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-17.014081-149.585928" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>TE402</Point>
+      <Point>ARITI</Point>
+    </Label>
+  </Map>
+</Maps>

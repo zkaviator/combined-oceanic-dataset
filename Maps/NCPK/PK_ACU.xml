@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="25 RNP" Priority="1" Center="-10.913783-165.833097" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>OSEKA</Point>
+      <Point>POLOD</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>PK401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>SAPAS</Point>
+    </Symbol>
+    <Line Pattern="Solid">SAPAS/PK401/-105449.619-1654959.149</Line>
+    <Line Pattern="Solid">OSEKA/SAPAS</Line>
+    <Line Pattern="Solid">POLOD/SAPAS</Line>
+  </Map>
+  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-10.913783-165.833097" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>OSEKA</Point>
+      <Point>POLOD</Point>
+      <Point>PK401</Point>
+      <Point>SAPAS</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="05 RNP" Priority="1" Center="-16.057344-145.663853" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>VALMI</Point>
+      <Point>VELDA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGF05</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>VIBOX</Point>
+    </Symbol>
+    <Line Pattern="Solid">VIBOX/FGF05/-160326.438-1453949.871</Line>
+    <Line Pattern="Solid">VALMI/VIBOX</Line>
+    <Line Pattern="Solid">VELDA/VIBOX</Line>
+  </Map>
+  <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-16.057344-145.663853" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>VALMI</Point>
+      <Point>VELDA</Point>
+      <Point>FGF05</Point>
+      <Point>VIBOX</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="23 RNP" Priority="1" Center="-16.051914-145.652022" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>VARGO</Point>
+      <Point>VISIT</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGF23</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>VEXUS</Point>
+    </Symbol>
+    <Line Pattern="Solid">VEXUS/FGF23/-160306.890-1453907.279</Line>
+    <Line Pattern="Solid">VARGO/VEXUS</Line>
+    <Line Pattern="Solid">VISIT/VEXUS</Line>
+  </Map>
+  <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-16.051914-145.652022" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>VARGO</Point>
+      <Point>VISIT</Point>
+      <Point>FGF23</Point>
+      <Point>VEXUS</Point>
+    </Label>
+  </Map>
+</Maps>

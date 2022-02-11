@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="07 RNP" Priority="1" Center="-14.456203-145.029400" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KR410</Point>
+      <Point>KR420</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KAPTU</Point>
+      <Point>TAVOR</Point>
+      <Point>TUPRO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FKR07</Point>
+      <Point>FKR25</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IDIKA</Point>
+      <Point>DADAX</Point>
+    </Symbol>
+    <Line Pattern="Solid">IDIKA/FKR07/-142722.331-1450145.840</Line>
+    <Line Pattern="Solid">KAPTU/IDIKA</Line>
+    <Line Pattern="Solid">TAVOR/KR410/KAPTU</Line>
+    <Line Pattern="Solid">DADAX/FKR25/-142722.331-1450145.840</Line>
+    <Line Pattern="Solid">TAVOR/KR420/TUPRO/DADAX</Line>
+  </Map>
+  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-14.456203-145.029400" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KAPTU</Point>
+      <Point>TAVOR</Point>
+      <Point>TUPRO</Point>
+      <Point>FKR07</Point>
+      <Point>FKR25</Point>
+      <Point>IDIKA</Point>
+      <Point>DADAX</Point>
+    </Label>
+  </Map>
+</Maps>

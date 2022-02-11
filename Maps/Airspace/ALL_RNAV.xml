@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="RNP-AR" Priority="1" Center="-20.000-167.000" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>RAKIA</Point>
+      <Point>TOKEA</Point>
+      <Point>MOAKE</Point>
+      <Point>MURIA</Point>
+      <Point>ADLIS</Point>
+      <Point>PEXIS</Point>
+      <Point>OPUNA</Point>
+      <Point>ANGAI</Point>
+    </Label>
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>RAKIA</Point>
+      <Point>TOKEA</Point>
+      <Point>MOAKE</Point>
+      <Point>MURIA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>ADLIS</Point>
+      <Point>PEXIS</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>OPUNA</Point>
+      <Point>ANGAI</Point>
+    </Symbol>
+    <Line Pattern="Solid">OPUNA/ADLIS/-211209.299-1594856.549</Line>
+    <Line Pattern="Solid">RAKIA/OPUNA</Line>
+    <Line Pattern="Solid">TOKEA/OPUNA</Line>
+    <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
+    <Line Pattern="Solid">MOAKE/ANGAI</Line>
+    <Line Pattern="Solid">MURIA/ANGAI</Line>
+  </Map>
+  <Map Type="System2" Name="RNP" Priority="1" Center="-20.000-167.000" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MANOM</Point>
+      <Point>ORASU</Point>
+      <Point>GUMBI</Point>
+      <Point>LIMSA</Point>
+      <Point>MATSO</Point>
+      <Point>SUKEL</Point>
+      <Point>ASAMO</Point>
+      <Point>ENDAK</Point>
+      <Point>AKENI</Point>
+      <Point>LEKOM</Point>
+      <Point>OSEKA</Point>
+      <Point>POLOD</Point>
+      <Point>AKLEN</Point>
+      <Point>RIKSA</Point>
+      <Point>VIRUS</Point>
+      <Point>RAKIA</Point>
+      <Point>TOKEA</Point>
+      <Point>MOAKE</Point>
+      <Point>MURIA</Point>
+      <Point>KILEK</Point>
+      <Point>LEMAS</Point>
+      <Point>BETLI</Point>
+      <Point>OLPER</Point>
+      <Point>ELDIL</Point>
+      <Point>PILUR</Point>
+      <Point>UPDIG</Point>
+      <Point>VIDEB</Point>
+      <Point>ARIES</Point>
+      <Point>VIRGO</Point>
+      <Point>GUVOS</Point>
+      <Point>SUNBA</Point>
+      <Point>BIVAD</Point>
+      <Point>LIKVA</Point>
+      <Point>GOGUL</Point>
+      <Point>LAMIP</Point>
+      <Point>APABU</Point>
+      <Point>IBVON</Point>
+      <Point>EXOPU</Point>
+      <Point>IBADO</Point>
+      <Point>SHMPA</Point>
+      <Point>TAFUA</Point>
+      <Point>LAVEK</Point>
+      <Point>MAUGA</Point>
+      <Point>MAPTA</Point>
+      <Point>SETTS</Point>
+      <Point>SUMLE</Point>
+      <Point>DUBAK</Point>
+      <Point>VEDRI</Point>
+      <Point>SALUT</Point>
+      <Point>TAVIS</Point>
+      <Point>TARIR</Point>
+      <Point>RAXON</Point>
+      <Point>RUXAR</Point>
+      <Point>IBELI</Point>
+      <Point>IGAMA</Point>
+      <Point>IBAKO</Point>
+      <Point>IGENO</Point>
+      <Point>VALSA</Point>
+      <Point>VEKRO</Point>
+      <Point>VAPLU</Point>
+      <Point>NIRUX</Point>
+      <Point>SAGUP</Point>
+      <Point>NOLEB</Point>
+      <Point>SUGOV</Point>
+      <Point>KABLU</Point>
+      <Point>KILIL</Point>
+      <Point>OLKID</Point>
+      <Point>VALMI</Point>
+      <Point>VELDA</Point>
+      <Point>VARGO</Point>
+      <Point>VISIT</Point>
+      <Point>MIDEM</Point>
+      <Point>NISUD</Point>
+      <Point>NONAS</Point>
+      <Point>TONED</Point>
+      <Point>ESGAN</Point>
+      <Point>REPAS</Point>
+      <Point>AKUSA</Point>
+      <Point>MAKOM</Point>
+      <Point>EGOVA</Point>
+      <Point>AKOPO</Point>
+      <Point>TURVA</Point>
+      <Point>ATOPU</Point>
+      <Point>ESNAD</Point>
+      <Point>RAXIP</Point>
+      <Point>GUSED</Point>
+      <Point>KAPTU</Point>
+      <Point>TAVOR</Point>
+      <Point>TUPRO</Point>
+      <Point>PIPIL</Point>
+      <Point>SOVGO</Point>
+      <Point>KASDA</Point>
+      <Point>KULIA</Point>
+      <Point>MD405</Point>
+      <Point>NOGES</Point>
+      <Point>NUBSI</Point>
+      <Point>MD406</Point>
+      <Point>NITOR</Point>
+      <Point>IBULO</Point>
+      <Point>ISBON</Point>
+      <Point>IKAMI</Point>
+      <Point>BAMBI</Point>
+      <Point>BATOP</Point>
+      <Point>NOMIS</Point>
+      <Point>GITUL</Point>
+      <Point>GODOL</Point>
+      <Point>GIVIX</Point>
+      <Point>GOBER</Point>
+      <Point>GULEM</Point>
+      <Point>UBKIM</Point>
+      <Point>UDINI</Point>
+      <Point>UDUMA</Point>
+      <Point>MOSMA</Point>
+      <Point>OBLEK</Point>
+      <Point>ODODO</Point>
+      <Point>OREVA</Point>
+      <Point>OKATA</Point>
+      <Point>OLDIS</Point>
+      <Point>OSRAN</Point>
+      <Point>MOXUL</Point>
+      <Point>TP403</Point>
+      <Point>MULER</Point>
+      <Point>MANAX</Point>
+      <Point>MEREV</Point>
+      <Point>MUSIL</Point>
+      <Point>RULOM</Point>
+      <Point>RUTIX</Point>
+      <Point>BENRA</Point>
+      <Point>UPSIT</Point>
+      <Point>ESDUN</Point>
+      <Point>IDPUB</Point>
+      <Point>MG934</Point>
+      <Point>MH401</Point>
+      <Point>MH501</Point>
+      <Point>MK934</Point>
+      <Point>MR934</Point>
+      <Point>PK401</Point>
+      <Point>PY405</Point>
+      <Point>RG401</Point>
+      <Point>RG407</Point>
+      <Point>ADLIS</Point>
+      <Point>PEXIS</Point>
+      <Point>TF762</Point>
+      <Point>TF982</Point>
+      <Point>TL546</Point>
+      <Point>TL837</Point>
+      <Point>FF303</Point>
+      <Point>TP689</Point>
+      <Point>TV843</Point>
+      <Point>TV683</Point>
+      <Point>UE901</Point>
+      <Point>UE928</Point>
+      <Point>FA406</Point>
+      <Point>FA515</Point>
+      <Point>MA401</Point>
+      <Point>BLUJA</Point>
+      <Point>NOTSE</Point>
+      <Point>FAA04</Point>
+      <Point>FAA22</Point>
+      <Point>FAM07</Point>
+      <Point>FAM25</Point>
+      <Point>AR401</Point>
+      <Point>AR402</Point>
+      <Point>AT401</Point>
+      <Point>AT402</Point>
+      <Point>AV401</Point>
+      <Point>AV402</Point>
+      <Point>FGB07</Point>
+      <Point>FGB25</Point>
+      <Point>GC401</Point>
+      <Point>FGF05</Point>
+      <Point>FGF23</Point>
+      <Point>GI401</Point>
+      <Point>GI402</Point>
+      <Point>FGJ12</Point>
+      <Point>FGJ30</Point>
+      <Point>GM401</Point>
+      <Point>GM402</Point>
+      <Point>FGY18</Point>
+      <Point>FGY36</Point>
+      <Point>FKO16</Point>
+      <Point>FKO34</Point>
+      <Point>FKR07</Point>
+      <Point>FKR25</Point>
+      <Point>FKU14</Point>
+      <Point>FKU32</Point>
+      <Point>FMD06</Point>
+      <Point>FMD24</Point>
+      <Point>FMN02</Point>
+      <Point>FMN20</Point>
+      <Point>FTB29</Point>
+      <Point>FTB11</Point>
+      <Point>TE402</Point>
+      <Point>TG401</Point>
+      <Point>TG402</Point>
+      <Point>FTH07</Point>
+      <Point>FTH25</Point>
+      <Point>FTM12</Point>
+      <Point>TO401</Point>
+      <Point>TO402</Point>
+      <Point>TP401</Point>
+      <Point>TP402</Point>
+      <Point>FTR07</Point>
+      <Point>FTR25</Point>
+      <Point>CI452</Point>
+      <Point>CI704</Point>
+      <Point>TUMPI</Point>
+      <Point>BUNTU</Point>
+      <Point>LEBEN</Point>
+      <Point>MEKUX</Point>
+      <Point>TANOU</Point>
+      <Point>SAPAS</Point>
+      <Point>TAMEV</Point>
+      <Point>OPUNA</Point>
+      <Point>ANGAI</Point>
+      <Point>LURGA</Point>
+      <Point>DORNI</Point>
+      <Point>SEKDA</Point>
+      <Point>AVNOX</Point>
+      <Point>ORION</Point>
+      <Point>POSUS</Point>
+      <Point>EKVUK</Point>
+      <Point>DOXUS</Point>
+      <Point>MEGUD</Point>
+      <Point>GUGAG</Point>
+      <Point>DINAR</Point>
+      <Point>FALFA</Point>
+      <Point>IBIMA</Point>
+      <Point>GRUPY</Point>
+      <Point>HUMTU</Point>
+      <Point>KARNO</Point>
+      <Point>MOANA</Point>
+      <Point>ADKUP</Point>
+      <Point>MALYC</Point>
+      <Point>REKEK</Point>
+      <Point>RISKI</Point>
+      <Point>IKOVA</Point>
+      <Point>IDOPI</Point>
+      <Point>VORSY</Point>
+      <Point>VETAL</Point>
+      <Point>TASOV</Point>
+      <Point>TEBED</Point>
+      <Point>KEVOL</Point>
+      <Point>VIBOX</Point>
+      <Point>VEXUS</Point>
+      <Point>ARIVA</Point>
+      <Point>MINIT</Point>
+      <Point>KAMVO</Point>
+      <Point>MANVU</Point>
+      <Point>AKARI</Point>
+      <Point>IBUKI</Point>
+      <Point>DUMEK</Point>
+      <Point>MAGIX</Point>
+      <Point>FITYO</Point>
+      <Point>IKONU</Point>
+      <Point>IDIKA</Point>
+      <Point>DADAX</Point>
+      <Point>LIBKU</Point>
+      <Point>ROBMU</Point>
+      <Point>NODIL</Point>
+      <Point>NISAK</Point>
+      <Point>IMN02</Point>
+      <Point>IMN20</Point>
+      <Point>BELBO</Point>
+      <Point>BOKAL</Point>
+      <Point>ARITI</Point>
+      <Point>GUMTI</Point>
+      <Point>TG404</Point>
+      <Point>UXINO</Point>
+      <Point>NIVAL</Point>
+      <Point>MORNI</Point>
+      <Point>TO403</Point>
+      <Point>TO404</Point>
+      <Point>REVKO</Point>
+      <Point>REVRI</Point>
+      <Point>RUKDU</Point>
+      <Point>MAVGI</Point>
+    </Label>
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>RG403</Point>
+      <Point>MA303</Point>
+      <Point>MA602</Point>
+      <Point>CAXEB</Point>
+      <Point>HOPID</Point>
+      <Point>WUTEB</Point>
+      <Point>IAA04</Point>
+      <Point>AM410</Point>
+      <Point>AM412</Point>
+      <Point>AM420</Point>
+      <Point>AM422</Point>
+      <Point>AR403</Point>
+      <Point>AR405</Point>
+      <Point>AR404</Point>
+      <Point>AR406</Point>
+      <Point>AR408</Point>
+      <Point>AV405</Point>
+      <Point>AV407</Point>
+      <Point>AV406</Point>
+      <Point>AV408</Point>
+      <Point>GC403</Point>
+      <Point>GI403</Point>
+      <Point>GI404</Point>
+      <Point>GJ420</Point>
+      <Point>GM403</Point>
+      <Point>GM404</Point>
+      <Point>GY410</Point>
+      <Point>GY420</Point>
+      <Point>KO410</Point>
+      <Point>KO420</Point>
+      <Point>KR410</Point>
+      <Point>KR420</Point>
+      <Point>MD420</Point>
+      <Point>BELTI</Point>
+      <Point>BIDOP</Point>
+      <Point>TE401</Point>
+      <Point>TE403</Point>
+      <Point>MTH07</Point>
+      <Point>UKALA</Point>
+      <Point>UGANI</Point>
+      <Point>MTM12</Point>
+      <Point>MEKES</Point>
+      <Point>TP404</Point>
+      <Point>MTR07</Point>
+      <Point>TR410</Point>
+      <Point>MTR25</Point>
+      <Point>REDOK</Point>
+      <Point>RIBRA</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MANOM</Point>
+      <Point>ORASU</Point>
+      <Point>GUMBI</Point>
+      <Point>LIMSA</Point>
+      <Point>MATSO</Point>
+      <Point>SUKEL</Point>
+      <Point>ASAMO</Point>
+      <Point>ENDAK</Point>
+      <Point>AKENI</Point>
+      <Point>LEKOM</Point>
+      <Point>OSEKA</Point>
+      <Point>POLOD</Point>
+      <Point>AKLEN</Point>
+      <Point>RIKSA</Point>
+      <Point>VIRUS</Point>
+      <Point>RAKIA</Point>
+      <Point>TOKEA</Point>
+      <Point>MOAKE</Point>
+      <Point>MURIA</Point>
+      <Point>KILEK</Point>
+      <Point>LEMAS</Point>
+      <Point>BETLI</Point>
+      <Point>OLPER</Point>
+      <Point>ELDIL</Point>
+      <Point>PILUR</Point>
+      <Point>UPDIG</Point>
+      <Point>VIDEB</Point>
+      <Point>ARIES</Point>
+      <Point>VIRGO</Point>
+      <Point>GUVOS</Point>
+      <Point>SUNBA</Point>
+      <Point>BIVAD</Point>
+      <Point>LIKVA</Point>
+      <Point>GOGUL</Point>
+      <Point>LAMIP</Point>
+      <Point>APABU</Point>
+      <Point>IBVON</Point>
+      <Point>EXOPU</Point>
+      <Point>IBADO</Point>
+      <Point>SHMPA</Point>
+      <Point>TAFUA</Point>
+      <Point>LAVEK</Point>
+      <Point>MAUGA</Point>
+      <Point>MAPTA</Point>
+      <Point>SETTS</Point>
+      <Point>SUMLE</Point>
+      <Point>DUBAK</Point>
+      <Point>VEDRI</Point>
+      <Point>SALUT</Point>
+      <Point>TAVIS</Point>
+      <Point>TARIR</Point>
+      <Point>RAXON</Point>
+      <Point>RUXAR</Point>
+      <Point>IBELI</Point>
+      <Point>IGAMA</Point>
+      <Point>IBAKO</Point>
+      <Point>IGENO</Point>
+      <Point>VALSA</Point>
+      <Point>VEKRO</Point>
+      <Point>VAPLU</Point>
+      <Point>NIRUX</Point>
+      <Point>SAGUP</Point>
+      <Point>NOLEB</Point>
+      <Point>SUGOV</Point>
+      <Point>KABLU</Point>
+      <Point>KILIL</Point>
+      <Point>OLKID</Point>
+      <Point>VALMI</Point>
+      <Point>VELDA</Point>
+      <Point>VARGO</Point>
+      <Point>VISIT</Point>
+      <Point>MIDEM</Point>
+      <Point>NISUD</Point>
+      <Point>NONAS</Point>
+      <Point>TONED</Point>
+      <Point>ESGAN</Point>
+      <Point>REPAS</Point>
+      <Point>AKUSA</Point>
+      <Point>MAKOM</Point>
+      <Point>EGOVA</Point>
+      <Point>AKOPO</Point>
+      <Point>TURVA</Point>
+      <Point>ATOPU</Point>
+      <Point>ESNAD</Point>
+      <Point>RAXIP</Point>
+      <Point>GUSED</Point>
+      <Point>KAPTU</Point>
+      <Point>TAVOR</Point>
+      <Point>TUPRO</Point>
+      <Point>PIPIL</Point>
+      <Point>SOVGO</Point>
+      <Point>KASDA</Point>
+      <Point>KULIA</Point>
+      <Point>MD405</Point>
+      <Point>NOGES</Point>
+      <Point>NUBSI</Point>
+      <Point>MD406</Point>
+      <Point>NITOR</Point>
+      <Point>IBULO</Point>
+      <Point>ISBON</Point>
+      <Point>IKAMI</Point>
+      <Point>BAMBI</Point>
+      <Point>BATOP</Point>
+      <Point>NOMIS</Point>
+      <Point>GITUL</Point>
+      <Point>GODOL</Point>
+      <Point>GIVIX</Point>
+      <Point>GOBER</Point>
+      <Point>GULEM</Point>
+      <Point>UBKIM</Point>
+      <Point>UDINI</Point>
+      <Point>UDUMA</Point>
+      <Point>MOSMA</Point>
+      <Point>OBLEK</Point>
+      <Point>ODODO</Point>
+      <Point>OREVA</Point>
+      <Point>OKATA</Point>
+      <Point>OLDIS</Point>
+      <Point>OSRAN</Point>
+      <Point>MOXUL</Point>
+      <Point>TP403</Point>
+      <Point>MULER</Point>
+      <Point>MANAX</Point>
+      <Point>MEREV</Point>
+      <Point>MUSIL</Point>
+      <Point>RULOM</Point>
+      <Point>RUTIX</Point>
+      <Point>BENRA</Point>
+      <Point>UPSIT</Point>
+      <Point>ESDUN</Point>
+      <Point>IDPUB</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>MG934</Point>
+      <Point>MH401</Point>
+      <Point>MH501</Point>
+      <Point>MK934</Point>
+      <Point>MR934</Point>
+      <Point>PK401</Point>
+      <Point>PY405</Point>
+      <Point>RG401</Point>
+      <Point>RG407</Point>
+      <Point>ADLIS</Point>
+      <Point>PEXIS</Point>
+      <Point>TF762</Point>
+      <Point>TF982</Point>
+      <Point>TL546</Point>
+      <Point>TL837</Point>
+      <Point>FF303</Point>
+      <Point>TP689</Point>
+      <Point>TV843</Point>
+      <Point>TV683</Point>
+      <Point>UE901</Point>
+      <Point>UE928</Point>
+      <Point>FA406</Point>
+      <Point>FA515</Point>
+      <Point>MA401</Point>
+      <Point>BLUJA</Point>
+      <Point>NOTSE</Point>
+      <Point>FAA04</Point>
+      <Point>FAA22</Point>
+      <Point>FAM07</Point>
+      <Point>FAM25</Point>
+      <Point>AR401</Point>
+      <Point>AR402</Point>
+      <Point>AT401</Point>
+      <Point>AT402</Point>
+      <Point>AV401</Point>
+      <Point>AV402</Point>
+      <Point>FGB07</Point>
+      <Point>FGB25</Point>
+      <Point>GC401</Point>
+      <Point>FGF05</Point>
+      <Point>FGF23</Point>
+      <Point>GI401</Point>
+      <Point>GI402</Point>
+      <Point>FGJ12</Point>
+      <Point>FGJ30</Point>
+      <Point>GM401</Point>
+      <Point>GM402</Point>
+      <Point>FGY18</Point>
+      <Point>FGY36</Point>
+      <Point>FKO16</Point>
+      <Point>FKO34</Point>
+      <Point>FKR07</Point>
+      <Point>FKR25</Point>
+      <Point>FKU14</Point>
+      <Point>FKU32</Point>
+      <Point>FMD06</Point>
+      <Point>FMD24</Point>
+      <Point>FMN02</Point>
+      <Point>FMN20</Point>
+      <Point>FTB29</Point>
+      <Point>FTB11</Point>
+      <Point>TE402</Point>
+      <Point>TG401</Point>
+      <Point>TG402</Point>
+      <Point>FTH07</Point>
+      <Point>FTH25</Point>
+      <Point>FTM12</Point>
+      <Point>TO401</Point>
+      <Point>TO402</Point>
+      <Point>TP401</Point>
+      <Point>TP402</Point>
+      <Point>FTR07</Point>
+      <Point>FTR25</Point>
+      <Point>CI452</Point>
+      <Point>CI704</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TUMPI</Point>
+      <Point>BUNTU</Point>
+      <Point>LEBEN</Point>
+      <Point>MEKUX</Point>
+      <Point>TANOU</Point>
+      <Point>SAPAS</Point>
+      <Point>TAMEV</Point>
+      <Point>OPUNA</Point>
+      <Point>ANGAI</Point>
+      <Point>LURGA</Point>
+      <Point>DORNI</Point>
+      <Point>SEKDA</Point>
+      <Point>AVNOX</Point>
+      <Point>ORION</Point>
+      <Point>POSUS</Point>
+      <Point>EKVUK</Point>
+      <Point>DOXUS</Point>
+      <Point>MEGUD</Point>
+      <Point>GUGAG</Point>
+      <Point>DINAR</Point>
+      <Point>FALFA</Point>
+      <Point>IBIMA</Point>
+      <Point>GRUPY</Point>
+      <Point>HUMTU</Point>
+      <Point>KARNO</Point>
+      <Point>MOANA</Point>
+      <Point>ADKUP</Point>
+      <Point>MALYC</Point>
+      <Point>REKEK</Point>
+      <Point>RISKI</Point>
+      <Point>IKOVA</Point>
+      <Point>IDOPI</Point>
+      <Point>VORSY</Point>
+      <Point>VETAL</Point>
+      <Point>TASOV</Point>
+      <Point>TEBED</Point>
+      <Point>KEVOL</Point>
+      <Point>VIBOX</Point>
+      <Point>VEXUS</Point>
+      <Point>ARIVA</Point>
+      <Point>MINIT</Point>
+      <Point>KAMVO</Point>
+      <Point>MANVU</Point>
+      <Point>AKARI</Point>
+      <Point>IBUKI</Point>
+      <Point>DUMEK</Point>
+      <Point>MAGIX</Point>
+      <Point>FITYO</Point>
+      <Point>IKONU</Point>
+      <Point>IDIKA</Point>
+      <Point>DADAX</Point>
+      <Point>LIBKU</Point>
+      <Point>ROBMU</Point>
+      <Point>NODIL</Point>
+      <Point>NISAK</Point>
+      <Point>IMN02</Point>
+      <Point>IMN20</Point>
+      <Point>BELBO</Point>
+      <Point>BOKAL</Point>
+      <Point>ARITI</Point>
+      <Point>GUMTI</Point>
+      <Point>TG404</Point>
+      <Point>UXINO</Point>
+      <Point>NIVAL</Point>
+      <Point>MORNI</Point>
+      <Point>TO403</Point>
+      <Point>TO404</Point>
+      <Point>REVKO</Point>
+      <Point>REVRI</Point>
+      <Point>RUKDU</Point>
+      <Point>MAVGI</Point>
+    </Symbol>
+    <Line Pattern="Solid">TUMPI/MG934/-215331.740-1575433.660</Line>
+    <Line Pattern="Solid">MANOM/TUMPI</Line>
+    <Line Pattern="Solid">ORASU/TUMPI</Line>
+    <Line Pattern="Solid">BUNTU/MH401/-102232.401-1610008.989</Line>
+    <Line Pattern="Solid">GUMBI/BUNTU</Line>
+    <Line Pattern="Solid">LIMSA/BUNTU</Line>
+    <Line Pattern="Solid">LEBEN/MH501/-102311.299-1605945.650</Line>
+    <Line Pattern="Solid">MATSO/LEBEN</Line>
+    <Line Pattern="Solid">SUKEL/LEBEN</Line>
+    <Line Pattern="Solid">MEKUX/MK934/-200801.219-1572106.829</Line>
+    <Line Pattern="Solid">ASAMO/MEKUX</Line>
+    <Line Pattern="Solid">ENDAK/MEKUX</Line>
+    <Line Pattern="Solid">TANOU/MR934/-195027.532-1574231.381</Line>
+    <Line Pattern="Solid">AKENI/TANOU</Line>
+    <Line Pattern="Solid">LEKOM/TANOU</Line>
+    <Line Pattern="Solid">SAPAS/PK401/-105449.619-1654959.149</Line>
+    <Line Pattern="Solid">OSEKA/SAPAS</Line>
+    <Line Pattern="Solid">POLOD/SAPAS</Line>
+    <Line Pattern="Solid">TAMEV/PY405/-090125.028-1580138.302</Line>
+    <Line Pattern="Solid">AKLEN/TAMEV</Line>
+    <Line Pattern="Solid">RIKSA/TAMEV</Line>
+    <Line Pattern="Solid">VIRUS/TAMEV</Line>
+    <Line Pattern="Solid">OPUNA/RG401/RG403/-211209.299-1594856.549</Line>
+    <Line Pattern="Solid">RAKIA/OPUNA</Line>
+    <Line Pattern="Solid">TOKEA/OPUNA</Line>
+    <Line Pattern="Solid">RG401/-211209.299-1594856.549</Line>
+    <Line Pattern="Solid">ANGAI/RG407/-211209.310-1594743.609</Line>
+    <Line Pattern="Solid">MOAKE/ANGAI</Line>
+    <Line Pattern="Solid">MURIA/ANGAI</Line>
+    <Line Pattern="Solid">OPUNA/ADLIS/-211209.299-1594856.549</Line>
+    <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
+    <Line Pattern="Solid">LURGA/TF762/-211404.049-1750939.251</Line>
+    <Line Pattern="Solid">KILEK/LURGA</Line>
+    <Line Pattern="Solid">LEMAS/LURGA</Line>
+    <Line Pattern="Solid">DORNI/TF982/-211449.949-1750820.609</Line>
+    <Line Pattern="Solid">BETLI/DORNI</Line>
+    <Line Pattern="Solid">OLPER/DORNI</Line>
+    <Line Pattern="Solid">SEKDA/TL546/-194627.232-1742046.342</Line>
+    <Line Pattern="Solid">ELDIL/SEKDA</Line>
+    <Line Pattern="Solid">PILUR/SEKDA</Line>
+    <Line Pattern="Solid">AVNOX/TL837/-194646.949-1742010.759</Line>
+    <Line Pattern="Solid">UPDIG/AVNOX</Line>
+    <Line Pattern="Solid">VIDEB/AVNOX</Line>
+    <Line Pattern="Solid">ORION/FF303/MA303/-153414.160-1753805.752</Line>
+    <Line Pattern="Solid">ARIES/ORION</Line>
+    <Line Pattern="Solid">VIRGO/ORION</Line>
+    <Line Pattern="Solid">MA303/-153414.189-1753730.220</Line>
+    <Line Pattern="Solid">POSUS/TP689/-155825.579-1734745.571</Line>
+    <Line Pattern="Solid">GUVOS/POSUS</Line>
+    <Line Pattern="Solid">SUNBA/POSUS</Line>
+    <Line Pattern="Solid">EKVUK/TV843/-183506.601-1735758.028</Line>
+    <Line Pattern="Solid">BIVAD/EKVUK</Line>
+    <Line Pattern="Solid">LIKVA/EKVUK</Line>
+    <Line Pattern="Solid">DOXUS/TV683/-183509.751-1735727.641</Line>
+    <Line Pattern="Solid">GOGUL/DOXUS</Line>
+    <Line Pattern="Solid">LAMIP/DOXUS</Line>
+    <Line Pattern="Solid">MEGUD/UE901/-190431.411-1695610.252</Line>
+    <Line Pattern="Solid">APABU/MEGUD</Line>
+    <Line Pattern="Solid">IBVON/MEGUD</Line>
+    <Line Pattern="Solid">GUGAG/UE928/-190457.169-1695455.091</Line>
+    <Line Pattern="Solid">EXOPU/GUGAG</Line>
+    <Line Pattern="Solid">IBADO/GUGAG</Line>
+    <Line Pattern="Solid">DINAR/FA406/-134948.770-1720120.201</Line>
+    <Line Pattern="Solid">SHMPA/DINAR</Line>
+    <Line Pattern="Solid">TAFUA/DINAR</Line>
+    <Line Pattern="Solid">FALFA/FA515/-134947.590-1715940.132</Line>
+    <Line Pattern="Solid">LAVEK/FALFA</Line>
+    <Line Pattern="Solid">MAUGA/FALFA</Line>
+    <Line Pattern="Solid">MAPTA/IBIMA/MA401/MA602/-134432.140-1721540.201</Line>
+    <Line Pattern="Solid">GRUPY/BLUJA/CAXEB/HOPID/-142020.890-1704322.000</Line>
+    <Line Pattern="Solid">SETTS/GRUPY</Line>
+    <Line Pattern="Solid">HUMTU/NOTSE/WUTEB/-141940.372-1704209.580</Line>
+    <Line Pattern="Solid">SUMLE/HUMTU</Line>
+    <Line Pattern="Solid">KARNO/IAA04/FAA04/-173339.780-1493704.170</Line>
+    <Line Pattern="Solid">DUBAK/KARNO</Line>
+    <Line Pattern="Solid">VEDRI/KARNO</Line>
+    <Line Pattern="Solid">MOANA/FAA22/-173244.030-1493543.390</Line>
+    <Line Pattern="Solid">SALUT/MOANA</Line>
+    <Line Pattern="Solid">TAVIS/MOANA</Line>
+    <Line Pattern="Solid">ADKUP/FAM07/-223814.669-1524846.069</Line>
+    <Line Pattern="Solid">TARIR/AM410/AM412/ADKUP</Line>
+    <Line Pattern="Solid">MALYC/FAM25/-223813.538-1524757.052</Line>
+    <Line Pattern="Solid">TARIR/AM420/AM422/MALYC</Line>
+    <Line Pattern="Solid">REKEK/AR401/AR403/-222553.951-1512201.448</Line>
+    <Line Pattern="Solid">RAXON/REKEK</Line>
+    <Line Pattern="Solid">RUXAR/AR405/RAXON</Line>
+    <Line Pattern="Solid">RISKI/AR402/AR404/-222608.189-1512114.029</Line>
+    <Line Pattern="Solid">RUXAR/AR406/AR408/RISKI</Line>
+    <Line Pattern="Solid">IKOVA/AT401/-232211.431-1493146.981</Line>
+    <Line Pattern="Solid">IBELI/IKOVA</Line>
+    <Line Pattern="Solid">IGAMA/IKOVA</Line>
+    <Line Pattern="Solid">IDOPI/AT402/-232138.930-1493107.590</Line>
+    <Line Pattern="Solid">IBAKO/IDOPI</Line>
+    <Line Pattern="Solid">IGENO/IDOPI</Line>
+    <Line Pattern="Solid">VORSY/AV401/-235313.841-1474006.380</Line>
+    <Line Pattern="Solid">VALSA/AV405/AV407/VORSY</Line>
+    <Line Pattern="Solid">VEKRO/VORSY</Line>
+    <Line Pattern="Solid">VETAL/AV402/-235300.280-1473919.130</Line>
+    <Line Pattern="Solid">VALSA/AV406/AV408/VETAL</Line>
+    <Line Pattern="Solid">VAPLU/VETAL</Line>
+    <Line Pattern="Solid">TASOV/FGB07/-154913.490-1405332.662</Line>
+    <Line Pattern="Solid">NIRUX/TASOV</Line>
+    <Line Pattern="Solid">SAGUP/TASOV</Line>
+    <Line Pattern="Solid">TEBED/FGB25/-154910.639-1405257.490</Line>
+    <Line Pattern="Solid">NOLEB/TEBED</Line>
+    <Line Pattern="Solid">SUGOV/TEBED</Line>
+    <Line Pattern="Solid">KEVOL/GC401/-150716.360-1481413.160</Line>
+    <Line Pattern="Solid">KABLU/KEVOL</Line>
+    <Line Pattern="Solid">KILIL/KEVOL</Line>
+    <Line Pattern="Solid">OLKID/GC403/KABLU</Line>
+    <Line Pattern="Solid">VIBOX/FGF05/-160326.438-1453949.871</Line>
+    <Line Pattern="Solid">VALMI/VIBOX</Line>
+    <Line Pattern="Solid">VELDA/VIBOX</Line>
+    <Line Pattern="Solid">VEXUS/FGF23/-160306.890-1453907.279</Line>
+    <Line Pattern="Solid">VARGO/VEXUS</Line>
+    <Line Pattern="Solid">VISIT/VEXUS</Line>
+    <Line Pattern="Solid">ARIVA/GI401/-142618.920-1460424.121</Line>
+    <Line Pattern="Solid">MIDEM/GI403/NISUD/ARIVA</Line>
+    <Line Pattern="Solid">MINIT/GI402/-142555.330-1460347.891</Line>
+    <Line Pattern="Solid">MIDEM/GI404/NONAS/MINIT</Line>
+    <Line Pattern="Solid">KAMVO/FGJ12/-230429.320-1345343.508</Line>
+    <Line Pattern="Solid">TONED/KAMVO</Line>
+    <Line Pattern="Solid">MANVU/FGJ30/-230510.399-1345301.460</Line>
+    <Line Pattern="Solid">ESGAN/MANVU</Line>
+    <Line Pattern="Solid">REPAS/GJ420/ESGAN</Line>
+    <Line Pattern="Solid">AKARI/GM401/-163448.292-1433951.250</Line>
+    <Line Pattern="Solid">AKUSA/AKARI</Line>
+    <Line Pattern="Solid">MAKOM/GM403/AKUSA</Line>
+    <Line Pattern="Solid">IBUKI/GM402/-163513.340-1433911.801</Line>
+    <Line Pattern="Solid">EGOVA/IBUKI</Line>
+    <Line Pattern="Solid">MAKOM/GM404/EGOVA</Line>
+    <Line Pattern="Solid">DUMEK/FGY18/-204649.300-1383401.369</Line>
+    <Line Pattern="Solid">AKOPO/DUMEK</Line>
+    <Line Pattern="Solid">TURVA/GY410/AKOPO</Line>
+    <Line Pattern="Solid">MAGIX/FGY36/-204649.300-1383401.369</Line>
+    <Line Pattern="Solid">ATOPU/MAGIX</Line>
+    <Line Pattern="Solid">TURVA/GY420/ATOPU</Line>
+    <Line Pattern="Solid">FITYO/FKO16/-160242.119-1422837.672</Line>
+    <Line Pattern="Solid">ESNAD/FITYO</Line>
+    <Line Pattern="Solid">RAXIP/KO410/ESNAD</Line>
+    <Line Pattern="Solid">IKONU/FKO34/-160320.329-1422833.820</Line>
+    <Line Pattern="Solid">GUSED/IKONU</Line>
+    <Line Pattern="Solid">RAXIP/KO420/GUSED</Line>
+    <Line Pattern="Solid">IDIKA/FKR07/-142722.331-1450145.840</Line>
+    <Line Pattern="Solid">KAPTU/IDIKA</Line>
+    <Line Pattern="Solid">TAVOR/KR410/KAPTU</Line>
+    <Line Pattern="Solid">DADAX/FKR25/-142722.331-1450145.840</Line>
+    <Line Pattern="Solid">TAVOR/KR420/TUPRO/DADAX</Line>
+    <Line Pattern="Solid">LIBKU/FKU14/-204143.418-1430253.009</Line>
+    <Line Pattern="Solid">PIPIL/LIBKU</Line>
+    <Line Pattern="Solid">SOVGO/LIBKU</Line>
+    <Line Pattern="Solid">ROBMU/FKU32/-204143.418-1430253.009</Line>
+    <Line Pattern="Solid">KASDA/ROBMU</Line>
+    <Line Pattern="Solid">KULIA/ROBMU</Line>
+    <Line Pattern="Solid">NODIL/FMD06/-084754.442-1401409.352</Line>
+    <Line Pattern="Solid">MD405/NODIL</Line>
+    <Line Pattern="Solid">NOGES/NODIL</Line>
+    <Line Pattern="Solid">NUBSI/MD420/NODIL</Line>
+    <Line Pattern="Solid">NISAK/FMD24/-084734.051-1401318.070</Line>
+    <Line Pattern="Solid">MD406/NISAK</Line>
+    <Line Pattern="Solid">NITOR/NISAK</Line>
+    <Line Pattern="Solid">IMN02/FMN02/-094614.930-1390044.932</Line>
+    <Line Pattern="Solid">IBULO/IMN02</Line>
+    <Line Pattern="Solid">ISBON/IMN02</Line>
+    <Line Pattern="Solid">IMN20/FMN20/-094534.088-1390021.758</Line>
+    <Line Pattern="Solid">IKAMI/IMN20</Line>
+    <Line Pattern="Solid">BELBO/FTB29/-162653.491-1514443.710</Line>
+    <Line Pattern="Solid">BAMBI/BELTI/BATOP/BELBO</Line>
+    <Line Pattern="Solid">BOKAL/FTB11/-162625.760-1514525.531</Line>
+    <Line Pattern="Solid">BAMBI/BIDOP/NOMIS/BOKAL</Line>
+    <Line Pattern="Solid">ARITI/TE401/TE402/TE403/-170056.819-1493532.849</Line>
+    <Line Pattern="Solid">TE403/-170050.692-1493509.341</Line>
+    <Line Pattern="Solid">GUMTI/TG401/-145705.782-1474012.850</Line>
+    <Line Pattern="Solid">GITUL/GUMTI</Line>
+    <Line Pattern="Solid">GODOL/GUMTI</Line>
+    <Line Pattern="Solid">TG404/TG402/-145719.980-1473923.540</Line>
+    <Line Pattern="Solid">GIVIX/TG404</Line>
+    <Line Pattern="Solid">GOBER/TG404</Line>
+    <Line Pattern="Solid">GULEM/TG404</Line>
+    <Line Pattern="Solid">UXINO/FTH07/MTH07/-164117.570-1510141.210</Line>
+    <Line Pattern="Solid">UBKIM/UKALA/UDINI/UXINO</Line>
+    <Line Pattern="Solid">NIVAL/FTH25/-164109.031-1510053.039</Line>
+    <Line Pattern="Solid">UBKIM/UGANI/UDUMA/NIVAL</Line>
+    <Line Pattern="Solid">MORNI/FTM12/MTM12/-172908.959-1494556.902</Line>
+    <Line Pattern="Solid">MOSMA/MORNI</Line>
+    <Line Pattern="Solid">TO403/TO401/-180351.271-1405725.549</Line>
+    <Line Pattern="Solid">OBLEK/TO403</Line>
+    <Line Pattern="Solid">ODODO/TO403</Line>
+    <Line Pattern="Solid">OREVA/TO403</Line>
+    <Line Pattern="Solid">TO404/TO402/-180507.861-1405604.841</Line>
+    <Line Pattern="Solid">OKATA/TO404</Line>
+    <Line Pattern="Solid">OLDIS/TO404</Line>
+    <Line Pattern="Solid">OSRAN/TO404</Line>
+    <Line Pattern="Solid">MOXUL/TP401/-162535.749-1521452.620</Line>
+    <Line Pattern="Solid">TP403/MULER/MEKES/MOXUL</Line>
+    <Line Pattern="Solid">MULER/MOXUL</Line>
+    <Line Pattern="Solid">MANAX/TP402/TP404/-162535.011-1521421.142</Line>
+    <Line Pattern="Solid">MEREV/MANAX</Line>
+    <Line Pattern="Solid">MUSIL/MANAX</Line>
+    <Line Pattern="Solid">REVKO/FTR07/MTR07/-164324.982-1512820.539</Line>
+    <Line Pattern="Solid">RULOM/TR410/RUTIX/REVKO</Line>
+    <Line Pattern="Solid">REVRI/FTR25/MTR25/-164320.111-1512733.592</Line>
+    <Line Pattern="Solid">RULOM/REDOK/RIBRA/REVRI</Line>
+    <Line Pattern="Solid">RUKDU/CI452/-434849.792-1762824.301</Line>
+    <Line Pattern="Solid">BENRA/RUKDU</Line>
+    <Line Pattern="Solid">UPSIT/RUKDU</Line>
+    <Line Pattern="Solid">MAVGI/CI704/-434836.151-1762726.309</Line>
+    <Line Pattern="Solid">ESDUN/MAVGI</Line>
+    <Line Pattern="Solid">IDPUB/MAVGI</Line>
+  </Map>
+</Maps>

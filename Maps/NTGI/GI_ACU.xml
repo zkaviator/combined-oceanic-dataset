@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="04 RNP" Priority="1" Center="-14.438589-146.073367" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GI403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MIDEM</Point>
+      <Point>NISUD</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>GI401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>ARIVA</Point>
+    </Symbol>
+    <Line Pattern="Solid">ARIVA/GI401/-142618.920-1460424.121</Line>
+    <Line Pattern="Solid">MIDEM/GI403/NISUD/ARIVA</Line>
+  </Map>
+  <Map Type="System2" Name="04 RNP Labels" Priority="1" Center="-14.438589-146.073367" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MIDEM</Point>
+      <Point>NISUD</Point>
+      <Point>GI401</Point>
+      <Point>ARIVA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-14.432036-146.063303" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GI404</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MIDEM</Point>
+      <Point>NONAS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>GI402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>MINIT</Point>
+    </Symbol>
+    <Line Pattern="Solid">MINIT/GI402/-142555.330-1460347.891</Line>
+    <Line Pattern="Solid">MIDEM/GI404/NONAS/MINIT</Line>
+  </Map>
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-14.432036-146.063303" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MIDEM</Point>
+      <Point>NONAS</Point>
+      <Point>GI402</Point>
+      <Point>MINIT</Point>
+    </Label>
+  </Map>
+</Maps>

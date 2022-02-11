@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="08 RNP" Priority="1" Center="-13.742261-172.261167" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MA602</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MAPTA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>MA401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IBIMA</Point>
+    </Symbol>
+    <Line Pattern="Solid">MAPTA/IBIMA/MA401/MA602/-134432.140-1721540.201</Line>
+  </Map>
+  <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-13.742261-172.261167" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MAPTA</Point>
+      <Point>MA401</Point>
+      <Point>IBIMA</Point>
+    </Label>
+  </Map>
+</Maps>

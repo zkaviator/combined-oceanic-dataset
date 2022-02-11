@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="07 RNP" Priority="1" Center="-15.820414-140.892406" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NIRUX</Point>
+      <Point>SAGUP</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGB07</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TASOV</Point>
+    </Symbol>
+    <Line Pattern="Solid">TASOV/FGB07/-154913.490-1405332.662</Line>
+    <Line Pattern="Solid">NIRUX/TASOV</Line>
+    <Line Pattern="Solid">SAGUP/TASOV</Line>
+  </Map>
+  <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-15.820414-140.892406" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NIRUX</Point>
+      <Point>SAGUP</Point>
+      <Point>FGB07</Point>
+      <Point>TASOV</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="25 RNP" Priority="1" Center="-15.819622-140.882636" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>NOLEB</Point>
+      <Point>SUGOV</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGB25</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>TEBED</Point>
+    </Symbol>
+    <Line Pattern="Solid">TEBED/FGB25/-154910.639-1405257.490</Line>
+    <Line Pattern="Solid">NOLEB/TEBED</Line>
+    <Line Pattern="Solid">SUGOV/TEBED</Line>
+  </Map>
+  <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-15.819622-140.882636" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>NOLEB</Point>
+      <Point>SUGOV</Point>
+      <Point>FGB25</Point>
+      <Point>TEBED</Point>
+    </Label>
+  </Map>
+</Maps>

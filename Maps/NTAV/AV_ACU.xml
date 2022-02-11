@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-23.887178-147.668439" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AV405</Point>
+      <Point>AV407</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>VALSA</Point>
+      <Point>VEKRO</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AV401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>VORSY</Point>
+    </Symbol>
+    <Line Pattern="Solid">VORSY/AV401/-235313.841-1474006.380</Line>
+    <Line Pattern="Solid">VALSA/AV405/AV407/VORSY</Line>
+    <Line Pattern="Solid">VEKRO/VORSY</Line>
+  </Map>
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-23.887178-147.668439" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>VALSA</Point>
+      <Point>VEKRO</Point>
+      <Point>AV401</Point>
+      <Point>VORSY</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-23.883411-147.655314" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AV406</Point>
+      <Point>AV408</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>VALSA</Point>
+      <Point>VAPLU</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>AV402</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>VETAL</Point>
+    </Symbol>
+    <Line Pattern="Solid">VETAL/AV402/-235300.280-1473919.130</Line>
+    <Line Pattern="Solid">VALSA/AV406/AV408/VETAL</Line>
+    <Line Pattern="Solid">VAPLU/VETAL</Line>
+  </Map>
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-23.883411-147.655314" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>VALSA</Point>
+      <Point>VAPLU</Point>
+      <Point>AV402</Point>
+      <Point>VETAL</Point>
+    </Label>
+  </Map>
+</Maps>

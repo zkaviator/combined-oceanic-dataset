@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="14 RNP" Priority="1" Center="-20.695394-143.048058" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>PIPIL</Point>
+      <Point>SOVGO</Point>
+      <Point>KASDA</Point>
+      <Point>KULIA</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FKU14</Point>
+      <Point>FKU32</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>LIBKU</Point>
+      <Point>ROBMU</Point>
+    </Symbol>
+    <Line Pattern="Solid">LIBKU/FKU14/-204143.418-1430253.009</Line>
+    <Line Pattern="Solid">PIPIL/LIBKU</Line>
+    <Line Pattern="Solid">SOVGO/LIBKU</Line>
+    <Line Pattern="Solid">ROBMU/FKU32/-204143.418-1430253.009</Line>
+    <Line Pattern="Solid">KASDA/ROBMU</Line>
+    <Line Pattern="Solid">KULIA/ROBMU</Line>
+  </Map>
+  <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-20.695394-143.048058" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>PIPIL</Point>
+      <Point>SOVGO</Point>
+      <Point>KASDA</Point>
+      <Point>KULIA</Point>
+      <Point>FKU14</Point>
+      <Point>FKU32</Point>
+      <Point>LIBKU</Point>
+      <Point>ROBMU</Point>
+    </Label>
+  </Map>
+</Maps>

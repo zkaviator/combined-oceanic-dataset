@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="12 RNP" Priority="1" Center="-23.074811-134.895419" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>TONED</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGJ12</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>KAMVO</Point>
+    </Symbol>
+    <Line Pattern="Solid">KAMVO/FGJ12/-230429.320-1345343.508</Line>
+    <Line Pattern="Solid">TONED/KAMVO</Line>
+  </Map>
+  <Map Type="System2" Name="12 RNP Labels" Priority="1" Center="-23.074811-134.895419" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>TONED</Point>
+      <Point>FGJ12</Point>
+      <Point>KAMVO</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 RNP" Priority="1" Center="-23.086222-134.883739" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GJ420</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>ESGAN</Point>
+      <Point>REPAS</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGJ30</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>MANVU</Point>
+    </Symbol>
+    <Line Pattern="Solid">MANVU/FGJ30/-230510.399-1345301.460</Line>
+    <Line Pattern="Solid">ESGAN/MANVU</Line>
+    <Line Pattern="Solid">REPAS/GJ420/ESGAN</Line>
+  </Map>
+  <Map Type="System2" Name="30 RNP Labels" Priority="1" Center="-23.086222-134.883739" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>ESGAN</Point>
+      <Point>REPAS</Point>
+      <Point>FGJ30</Point>
+      <Point>MANVU</Point>
+    </Label>
+  </Map>
+</Maps>

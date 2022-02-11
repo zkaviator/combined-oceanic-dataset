@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-08.798456-140.235931" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MD420</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MD405</Point>
+      <Point>NOGES</Point>
+      <Point>NUBSI</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FMD06</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>NODIL</Point>
+    </Symbol>
+    <Line Pattern="Solid">NODIL/FMD06/-084754.442-1401409.352</Line>
+    <Line Pattern="Solid">MD405/NODIL</Line>
+    <Line Pattern="Solid">NOGES/NODIL</Line>
+    <Line Pattern="Solid">NUBSI/MD420/NODIL</Line>
+  </Map>
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-08.798456-140.235931" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MD405</Point>
+      <Point>NOGES</Point>
+      <Point>NUBSI</Point>
+      <Point>FMD06</Point>
+      <Point>NODIL</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="24 RNP" Priority="1" Center="-08.792792-140.221686" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>MD406</Point>
+      <Point>NITOR</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FMD24</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>NISAK</Point>
+    </Symbol>
+    <Line Pattern="Solid">NISAK/FMD24/-084734.051-1401318.070</Line>
+    <Line Pattern="Solid">MD406/NISAK</Line>
+    <Line Pattern="Solid">NITOR/NISAK</Line>
+  </Map>
+  <Map Type="System2" Name="24 RNP Labels" Priority="1" Center="-08.792792-140.221686" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>MD406</Point>
+      <Point>NITOR</Point>
+      <Point>FMD24</Point>
+      <Point>NISAK</Point>
+    </Label>
+  </Map>
+</Maps>

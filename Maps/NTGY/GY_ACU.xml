@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="18 RNP" Priority="1" Center="-20.780361-138.567047" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GY410</Point>
+      <Point>GY420</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>AKOPO</Point>
+      <Point>TURVA</Point>
+      <Point>ATOPU</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FGY18</Point>
+      <Point>FGY36</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>DUMEK</Point>
+      <Point>MAGIX</Point>
+    </Symbol>
+    <Line Pattern="Solid">DUMEK/FGY18/-204649.300-1383401.369</Line>
+    <Line Pattern="Solid">AKOPO/DUMEK</Line>
+    <Line Pattern="Solid">TURVA/GY410/AKOPO</Line>
+    <Line Pattern="Solid">MAGIX/FGY36/-204649.300-1383401.369</Line>
+    <Line Pattern="Solid">ATOPU/MAGIX</Line>
+    <Line Pattern="Solid">TURVA/GY420/ATOPU</Line>
+  </Map>
+  <Map Type="System2" Name="18 RNP Labels" Priority="1" Center="-20.780361-138.567047" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>AKOPO</Point>
+      <Point>TURVA</Point>
+      <Point>ATOPU</Point>
+      <Point>FGY18</Point>
+      <Point>FGY36</Point>
+      <Point>DUMEK</Point>
+      <Point>MAGIX</Point>
+    </Label>
+  </Map>
+</Maps>

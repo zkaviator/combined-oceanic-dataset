@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="06 RNP" Priority="1" Center="-15.121211-148.236989" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>GC403</Point>
+    </Symbol>
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>KABLU</Point>
+      <Point>KILIL</Point>
+      <Point>OLKID</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>GC401</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>KEVOL</Point>
+    </Symbol>
+    <Line Pattern="Solid">KEVOL/GC401/-150716.360-1481413.160</Line>
+    <Line Pattern="Solid">KABLU/KEVOL</Line>
+    <Line Pattern="Solid">KILIL/KEVOL</Line>
+    <Line Pattern="Solid">OLKID/GC403/KABLU</Line>
+  </Map>
+  <Map Type="System2" Name="06 RNP Labels" Priority="1" Center="-15.121211-148.236989" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>KABLU</Point>
+      <Point>KILIL</Point>
+      <Point>OLKID</Point>
+      <Point>GC401</Point>
+      <Point>KEVOL</Point>
+    </Label>
+  </Map>
+</Maps>

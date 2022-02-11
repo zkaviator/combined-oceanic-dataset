@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="02 RNP" Priority="1" Center="-09.770814-139.012481" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>IBULO</Point>
+      <Point>ISBON</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FMN02</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IMN02</Point>
+    </Symbol>
+    <Line Pattern="Solid">IMN02/FMN02/-094614.930-1390044.932</Line>
+    <Line Pattern="Solid">IBULO/IMN02</Line>
+    <Line Pattern="Solid">ISBON/IMN02</Line>
+  </Map>
+  <Map Type="System2" Name="02 RNP Labels" Priority="1" Center="-09.770814-139.012481" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IBULO</Point>
+      <Point>ISBON</Point>
+      <Point>FMN02</Point>
+      <Point>IMN02</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="20 RNP" Priority="1" Center="-09.759469-139.006044" CustomColourName="ProcArr">
+    <!--Fix Symbols-->
+    <Symbol Type="HollowTriangle" />
+    <!--IAF Symbols-->
+    <Symbol Type="HollowTriangle">
+      <Point>IKAMI</Point>
+    </Symbol>
+    <!--FAF Symbols-->
+    <Symbol Type="MalteseCross">
+      <Point>FMN20</Point>
+    </Symbol>
+    <!--IF Symbols-->
+    <Symbol Type="SolidTriangle">
+      <Point>IMN20</Point>
+    </Symbol>
+    <Line Pattern="Solid">IMN20/FMN20/-094534.088-1390021.758</Line>
+    <Line Pattern="Solid">IKAMI/IMN20</Line>
+  </Map>
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-09.759469-139.006044" CustomColourName="ProcArr">
+    <Label HasLeader="true">
+      <Point>IKAMI</Point>
+      <Point>FMN20</Point>
+      <Point>IMN20</Point>
+    </Label>
+  </Map>
+</Maps>
