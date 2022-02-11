@@ -1,9 +1,83 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-
-  
-  
-  <!-- Sectors for handoff -->
-  
+  <Sector FullName="NSFA_CTR" Frequency="123.800" Callsign="NSFA_CTR" Name="DummyName" />
+  <Sector FullName="NZAA_CTR" Frequency="123.900" Callsign="NZAA_CTR" Name="DummyName" />
+  <Sector FullName="NZAA-R_CTR" Frequency="126.000" Callsign="NZAA-R_CTR" Name="DummyName" />
+  <Sector FullName="NZCH-B_CTR" Frequency="119.500" Callsign="NZCH-B_CTR" Name="DummyName" />
+  <Sector FullName="NZCH-D_CTR" Frequency="129.200" Callsign="NZCH-D_CTR" Name="DummyName" />
+  <Sector FullName="NZCH-K_CTR" Frequency="129.400" Callsign="NZCH-K_CTR" Name="DummyName" />
+  <Sector FullName="NZCH-S_CTR" Frequency="129.300" Callsign="NZCH-S_CTR" Name="DummyName" />
+  <Sector FullName="NZCH-T_CTR" Frequency="123.700" Callsign="NZCH-T_CTR" Name="DummyName" />
+  <Sector FullName="NZOH_CTR" Frequency="126.200" Callsign="NZOH_CTR" Name="DummyName" />
+  <Sector FullName="BN-COL_FSS" Frequency="133.150" Callsign="BN-COL_FSS" Name="DummyName" />
+  <Sector FullName="BN-FLD_FSS" Frequency="132.850" Callsign="BN-FLD_FSS" Name="DummyName" />
+  <Sector FullName="BN-HWE_FSS" Frequency="124.950" Callsign="BN-HWE_FSS" Name="DummyName" />
+  <Sector FullName="BN-TSN_FSS" Frequency="124.650" Callsign="BN-TSN_FSS" Name="DummyName" />
+  <Sector FullName="KZAK-E_FSS" Frequency="131.950" Callsign="ZAK-E_FSS" Name="DummyName" />
+  <Sector FullName="KZAK-W_FSS" Frequency="122.500" Callsign="ZAK-W_FSS" Name="DummyName" />
+  <Sector FullName="ML-IND_FSS" Frequency="129.250" Callsign="ML-IND_FSS" Name="DummyName" />
+  <Sector FullName="NFFF_FSS" Frequency="123.600" Callsign="NFFF_FSS" Name="DummyName" />
+  <Sector FullName="NTTT_FSS" Frequency="125.500" Callsign="NTTT_FSS" Name="DummyName" />
+  <Sector FullName="NZCM_FSS" Frequency="128.700" Callsign="NZCM_FSS" Name="DummyName" />
+  <Sector FullName="NZZO_FSS" Frequency="128.900" Callsign="NZZO_FSS" Name="DummyName" />
+  <Sector FullName="NCRG_APP" Frequency="118.100" Callsign="NCRG_APP" Name="DummyName" />
+  <Sector FullName="NFTF_APP" Frequency="118.500" Callsign="NFTF_APP" Name="DummyName" />
+  <Sector FullName="NSFA_APP" Frequency="126.900" Callsign="NSFA_APP" Name="DummyName" />
+  <Sector FullName="NTAA_APP" Frequency="121.300" Callsign="NTAA_APP" Name="DummyName" />
+  <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="DummyName" />
+  <Sector FullName="NZAA_DEP" Frequency="118.000" Callsign="NZAA_DEP" Name="DummyName" />
+  <Sector FullName="NZAA-F_APP" Frequency="129.600" Callsign="NZAA-F_APP" Name="DummyName" />
+  <Sector FullName="NZCH_APP" Frequency="126.100" Callsign="NZCH_APP" Name="DummyName" />
+  <Sector FullName="NZCH_DEP" Frequency="120.900" Callsign="NZCH_DEP" Name="DummyName" />
+  <Sector FullName="NZHN_APP" Frequency="125.300" Callsign="NZHN_APP" Name="DummyName" />
+  <Sector FullName="NZOH_APP" Frequency="125.100" Callsign="NZOH_APP" Name="DummyName" />
+  <Sector FullName="NZQN_APP" Frequency="125.750" Callsign="NZQN_APP" Name="DummyName" />
+  <Sector FullName="NZWN_APP" Frequency="119.300" Callsign="NZWN_APP" Name="DummyName" />
+  <Sector FullName="NZWN_DEP" Frequency="122.300" Callsign="NZWN_DEP" Name="DummyName" />
+  <Sector FullName="NCRG_GND" Frequency="121.900" Callsign="NCRG_GND" Name="DummyName" />
+  <Sector FullName="NFTF_GND" Frequency="121.900" Callsign="NFTF_GND" Name="DummyName" />
+  <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="DummyName" />
+  <Sector FullName="NIUE_TWR" Frequency="118.100" Callsign="NIUE_TWR" Name="DummyName" />
+  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
+  <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
+  <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
+  <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
+  <Sector FullName="NTAA_TWR" Frequency="118.100" Callsign="NTAA_TWR" Name="DummyName" />
+  <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="DummyName" />
+  <Sector FullName="NTTG_TWR" Frequency="118.300" Callsign="NTTG_TWR" Name="DummyName" />
+  <Sector FullName="NTTH_TWR" Frequency="119.300" Callsign="NTTH_TWR" Name="DummyName" />
+  <Sector FullName="NTTM_TWR" Frequency="118.700" Callsign="NTTM_TWR" Name="DummyName" />
+  <Sector FullName="NTTR_TWR" Frequency="118.500" Callsign="NTTR_TWR" Name="DummyName" />
+  <Sector FullName="NZAA_DEL" Frequency="128.200" Callsign="NZAA_DEL" Name="DummyName" />
+  <Sector FullName="NZAA_GND" Frequency="121.900" Callsign="NZAA_GND" Name="DummyName" />
+  <Sector FullName="NZAA_TWR" Frequency="118.700" Callsign="NZAA_TWR" Name="DummyName" />
+  <Sector FullName="NZCH_DEL" Frequency="128.200" Callsign="NZCH_DEL" Name="DummyName" />
+  <Sector FullName="NZCH_GND" Frequency="121.900" Callsign="NZCH_GND" Name="DummyName" />
+  <Sector FullName="NZCH_TWR" Frequency="118.400" Callsign="NZCH_TWR" Name="DummyName" />
+  <Sector FullName="NZDN_TWR" Frequency="120.700" Callsign="NZDN_TWR" Name="DummyName" />
+  <Sector FullName="NZGS_TWR" Frequency="127.300" Callsign="NZGS_TWR" Name="DummyName" />
+  <Sector FullName="NZHN_DEL" Frequency="122.900" Callsign="NZHN_DEL" Name="DummyName" />
+  <Sector FullName="NZHN_TWR" Frequency="126.800" Callsign="NZHN_TWR" Name="DummyName" />
+  <Sector FullName="NZMF_TWR" Frequency="118.200" Callsign="NZMF_TWR" Name="DummyName" />
+  <Sector FullName="NZNP_TWR" Frequency="124.700" Callsign="NZNP_TWR" Name="DummyName" />
+  <Sector FullName="NZNR_TWR" Frequency="124.800" Callsign="NZNR_TWR" Name="DummyName" />
+  <Sector FullName="NZNS_DEL" Frequency="123.300" Callsign="NZNS_DEL" Name="DummyName" />
+  <Sector FullName="NZNS_TWR" Frequency="127.400" Callsign="NZNS_TWR" Name="DummyName" />
+  <Sector FullName="NZNV_TWR" Frequency="118.500" Callsign="NZNV_TWR" Name="DummyName" />
+  <Sector FullName="NZOH_GND" Frequency="122.100" Callsign="NZOH_GND" Name="DummyName" />
+  <Sector FullName="NZOH_TWR" Frequency="134.500" Callsign="NZOH_TWR" Name="DummyName" />
+  <Sector FullName="NZPM_GND" Frequency="121.700" Callsign="NZPM_GND" Name="DummyName" />
+  <Sector FullName="NZPM_TWR" Frequency="120.600" Callsign="NZPM_TWR" Name="DummyName" />
+  <Sector FullName="NZPP_TWR" Frequency="118.300" Callsign="NZPP_TWR" Name="DummyName" />
+  <Sector FullName="NZQN_DEL" Frequency="121.900" Callsign="NZQN_DEL" Name="DummyName" />
+  <Sector FullName="NZQN_GND" Frequency="128.300" Callsign="NZQN_GND" Name="DummyName" />
+  <Sector FullName="NZQN_TWR" Frequency="118.100" Callsign="NZQN_TWR" Name="DummyName" />
+  <Sector FullName="NZRO_TWR" Frequency="121.200" Callsign="NZRO_TWR" Name="DummyName" />
+  <Sector FullName="NZTG_TWR" Frequency="118.300" Callsign="NZTG_TWR" Name="DummyName" />
+  <Sector FullName="NZWB_TWR" Frequency="118.100" Callsign="NZWB_TWR" Name="DummyName" />
+  <Sector FullName="NZWD_TWR" Frequency="126.200" Callsign="NZWD_TWR" Name="DummyName" />
+  <Sector FullName="NZWN_DEL" Frequency="128.200" Callsign="NZWN_DEL" Name="DummyName" />
+  <Sector FullName="NZWN_GND" Frequency="121.900" Callsign="NZWN_GND" Name="DummyName" />
+  <Sector FullName="NZWN_TWR" Frequency="118.800" Callsign="NZWN_TWR" Name="DummyName" />
+  <Sector FullName="NZWP_TWR" Frequency="134.500" Callsign="NZWP_TWR" Name="DummyName" />
 </Sectors>

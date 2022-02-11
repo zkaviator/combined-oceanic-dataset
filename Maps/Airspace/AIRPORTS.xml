@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Aerodromes" Priority="1" Center="-20.000-167.000">
+    <Symbol Type="HollowTriangle">
+      <Point>AGAR</Point>
+      <Point>AGAT</Point>
+      <Point>AGGA</Point>
+      <Point>AGGB</Point>
+      <Point>AGGC</Point>
+      <Point>AGGE</Point>
+      <Point>AGGF</Point>
+      <Point>AGGH</Point>
+      <Point>AGGI</Point>
+      <Point>AGGJ</Point>
+      <Point>AGGK</Point>
+      <Point>AGGL</Point>
+      <Point>AGGM</Point>
+      <Point>AGGN</Point>
+      <Point>AGGO</Point>
+      <Point>AGGP</Point>
+      <Point>AGGR</Point>
+      <Point>AGGS</Point>
+      <Point>AGGT</Point>
+      <Point>AGGU</Point>
+      <Point>AGGV</Point>
+      <Point>AGGY</Point>
+      <Point>AGKG</Point>
+      <Point>AGLM</Point>
+      <Point>AGOB</Point>
+      <Point>AGRC</Point>
+      <Point>ANYN</Point>
+      <Point>AYBK</Point>
+      <Point>AYGN</Point>
+      <Point>AYKA</Point>
+      <Point>AYMS</Point>
+      <Point>NCAI</Point>
+      <Point>NCAT</Point>
+      <Point>NCMG</Point>
+      <Point>NCMH</Point>
+      <Point>NCMK</Point>
+      <Point>NCMR</Point>
+      <Point>NCPK</Point>
+      <Point>NCPY</Point>
+      <Point>NCRG</Point>
+      <Point>NFCI</Point>
+      <Point>NFFN</Point>
+      <Point>NFFO</Point>
+      <Point>NFKB</Point>
+      <Point>NFKD</Point>
+      <Point>NFMA</Point>
+      <Point>NFMO</Point>
+      <Point>NFNA</Point>
+      <Point>NFNB</Point>
+      <Point>NFNG</Point>
+      <Point>NFNH</Point>
+      <Point>NFNK</Point>
+      <Point>NFNL</Point>
+      <Point>NFNM</Point>
+      <Point>NFNO</Point>
+      <Point>NFNR</Point>
+      <Point>NFNS</Point>
+      <Point>NFNW</Point>
+      <Point>NFSW</Point>
+      <Point>NFTE</Point>
+      <Point>NFTF</Point>
+      <Point>NFTL</Point>
+      <Point>NFTO</Point>
+      <Point>NFTP</Point>
+      <Point>NFTV</Point>
+      <Point>NFVB</Point>
+      <Point>NFVL</Point>
+      <Point>NGFU</Point>
+      <Point>NGMA</Point>
+      <Point>NGMK</Point>
+      <Point>NGNU</Point>
+      <Point>NGTA</Point>
+      <Point>NGTB</Point>
+      <Point>NGTE</Point>
+      <Point>NGTR</Point>
+      <Point>NGTU</Point>
+      <Point>NIUE</Point>
+      <Point>NLWF</Point>
+      <Point>NLWW</Point>
+      <Point>NSAS</Point>
+      <Point>NSAU</Point>
+      <Point>NSFA</Point>
+      <Point>NSFQ</Point>
+      <Point>NSMA</Point>
+      <Point>NSTU</Point>
+      <Point>NTAA</Point>
+      <Point>NTAM</Point>
+      <Point>NTAR</Point>
+      <Point>NTAT</Point>
+      <Point>NTAV</Point>
+      <Point>NTGA</Point>
+      <Point>NTGB</Point>
+      <Point>NTGC</Point>
+      <Point>NTGD</Point>
+      <Point>NTGE</Point>
+      <Point>NTGF</Point>
+      <Point>NTGH</Point>
+      <Point>NTGI</Point>
+      <Point>NTGJ</Point>
+      <Point>NTGK</Point>
+      <Point>NTGM</Point>
+      <Point>NTGN</Point>
+      <Point>NTGO</Point>
+      <Point>NTGP</Point>
+      <Point>NTGQ</Point>
+      <Point>NTGR</Point>
+      <Point>NTGT</Point>
+      <Point>NTGU</Point>
+      <Point>NTGV</Point>
+      <Point>NTGW</Point>
+      <Point>NTGY</Point>
+      <Point>NTHE</Point>
+      <Point>NTKA</Point>
+      <Point>NTKF</Point>
+      <Point>NTKH</Point>
+      <Point>NTKK</Point>
+      <Point>NTKM</Point>
+      <Point>NTKN</Point>
+      <Point>NTKO</Point>
+      <Point>NTKR</Point>
+      <Point>NTKT</Point>
+      <Point>NTKU</Point>
+      <Point>NTMD</Point>
+      <Point>NTMN</Point>
+      <Point>NTMP</Point>
+      <Point>NTMU</Point>
+      <Point>NTTB</Point>
+      <Point>NTTE</Point>
+      <Point>NTTG</Point>
+      <Point>NTTH</Point>
+      <Point>NTTM</Point>
+      <Point>NTTO</Point>
+      <Point>NTTP</Point>
+      <Point>NTTR</Point>
+      <Point>NTUV</Point>
+      <Point>NVSA</Point>
+      <Point>NVSC</Point>
+      <Point>NVSE</Point>
+      <Point>NVSF</Point>
+      <Point>NVSG</Point>
+      <Point>NVSO</Point>
+      <Point>NVSP</Point>
+      <Point>NVSS</Point>
+      <Point>NVVF</Point>
+      <Point>NVVV</Point>
+      <Point>NVVW</Point>
+      <Point>NWWA</Point>
+      <Point>NWWB</Point>
+      <Point>NWWC</Point>
+      <Point>NWWD</Point>
+      <Point>NWWE</Point>
+      <Point>NWWK</Point>
+      <Point>NWWL</Point>
+      <Point>NWWM</Point>
+      <Point>NWWR</Point>
+      <Point>NWWT</Point>
+      <Point>NWWU</Point>
+      <Point>NWWV</Point>
+      <Point>NWWW</Point>
+      <Point>NWWX</Point>
+      <Point>NZCI</Point>
+      <Point>NZFX</Point>
+      <Point>NZSP</Point>
+      <Point>NZWD</Point>
+      <Point>PLCH</Point>
+      <Point>PLPA</Point>
+      <Point>PTSA</Point>
+      <Point>XN55</Point>
+      <Point>YLHI</Point>
+      <Point>YSNF</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="Aerodrome Labels" Priority="1" Center="-20.000-167.000">
+    <Label HasLeader="false" LabelOrientation="NW">
+      <Point Name="AR">AGAR</Point>
+      <Point Name="AT">AGAT</Point>
+      <Point Name="GA">AGGA</Point>
+      <Point Name="GB">AGGB</Point>
+      <Point Name="GC">AGGC</Point>
+      <Point Name="GE">AGGE</Point>
+      <Point Name="GF">AGGF</Point>
+      <Point Name="GH">AGGH</Point>
+      <Point Name="GI">AGGI</Point>
+      <Point Name="GJ">AGGJ</Point>
+      <Point Name="GK">AGGK</Point>
+      <Point Name="GL">AGGL</Point>
+      <Point Name="GM">AGGM</Point>
+      <Point Name="GN">AGGN</Point>
+      <Point Name="GO">AGGO</Point>
+      <Point Name="GP">AGGP</Point>
+      <Point Name="GR">AGGR</Point>
+      <Point Name="GS">AGGS</Point>
+      <Point Name="GT">AGGT</Point>
+      <Point Name="GU">AGGU</Point>
+      <Point Name="GV">AGGV</Point>
+      <Point Name="GY">AGGY</Point>
+      <Point Name="KG">AGKG</Point>
+      <Point Name="LM">AGLM</Point>
+      <Point Name="OB">AGOB</Point>
+      <Point Name="RC">AGRC</Point>
+      <Point Name="YN">ANYN</Point>
+      <Point Name="BK">AYBK</Point>
+      <Point Name="GN">AYGN</Point>
+      <Point Name="KA">AYKA</Point>
+      <Point Name="MS">AYMS</Point>
+      <Point Name="AI">NCAI</Point>
+      <Point Name="AT">NCAT</Point>
+      <Point Name="MG">NCMG</Point>
+      <Point Name="MH">NCMH</Point>
+      <Point Name="MK">NCMK</Point>
+      <Point Name="MR">NCMR</Point>
+      <Point Name="PK">NCPK</Point>
+      <Point Name="PY">NCPY</Point>
+      <Point Name="RG">NCRG</Point>
+      <Point Name="CI">NFCI</Point>
+      <Point Name="FN">NFFN</Point>
+      <Point Name="FO">NFFO</Point>
+      <Point Name="KB">NFKB</Point>
+      <Point Name="KD">NFKD</Point>
+      <Point Name="MA">NFMA</Point>
+      <Point Name="MO">NFMO</Point>
+      <Point Name="NA">NFNA</Point>
+      <Point Name="NB">NFNB</Point>
+      <Point Name="NG">NFNG</Point>
+      <Point Name="NH">NFNH</Point>
+      <Point Name="NK">NFNK</Point>
+      <Point Name="NL">NFNL</Point>
+      <Point Name="NM">NFNM</Point>
+      <Point Name="NO">NFNO</Point>
+      <Point Name="NR">NFNR</Point>
+      <Point Name="NS">NFNS</Point>
+      <Point Name="NW">NFNW</Point>
+      <Point Name="SW">NFSW</Point>
+      <Point Name="TE">NFTE</Point>
+      <Point Name="TF">NFTF</Point>
+      <Point Name="TL">NFTL</Point>
+      <Point Name="TO">NFTO</Point>
+      <Point Name="TP">NFTP</Point>
+      <Point Name="TV">NFTV</Point>
+      <Point Name="VB">NFVB</Point>
+      <Point Name="VL">NFVL</Point>
+      <Point Name="FU">NGFU</Point>
+      <Point Name="MA">NGMA</Point>
+      <Point Name="MK">NGMK</Point>
+      <Point Name="NU">NGNU</Point>
+      <Point Name="TA">NGTA</Point>
+      <Point Name="TB">NGTB</Point>
+      <Point Name="TE">NGTE</Point>
+      <Point Name="TR">NGTR</Point>
+      <Point Name="TU">NGTU</Point>
+      <Point Name="UE">NIUE</Point>
+      <Point Name="WF">NLWF</Point>
+      <Point Name="WW">NLWW</Point>
+      <Point Name="AS">NSAS</Point>
+      <Point Name="AU">NSAU</Point>
+      <Point Name="FA">NSFA</Point>
+      <Point Name="FQ">NSFQ</Point>
+      <Point Name="MA">NSMA</Point>
+      <Point Name="TU">NSTU</Point>
+      <Point Name="AA">NTAA</Point>
+      <Point Name="AM">NTAM</Point>
+      <Point Name="AR">NTAR</Point>
+      <Point Name="AT">NTAT</Point>
+      <Point Name="AV">NTAV</Point>
+      <Point Name="GA">NTGA</Point>
+      <Point Name="GB">NTGB</Point>
+      <Point Name="GC">NTGC</Point>
+      <Point Name="GD">NTGD</Point>
+      <Point Name="GE">NTGE</Point>
+      <Point Name="GF">NTGF</Point>
+      <Point Name="GH">NTGH</Point>
+      <Point Name="GI">NTGI</Point>
+      <Point Name="GJ">NTGJ</Point>
+      <Point Name="GK">NTGK</Point>
+      <Point Name="GM">NTGM</Point>
+      <Point Name="GN">NTGN</Point>
+      <Point Name="GO">NTGO</Point>
+      <Point Name="GP">NTGP</Point>
+      <Point Name="GQ">NTGQ</Point>
+      <Point Name="GR">NTGR</Point>
+      <Point Name="GT">NTGT</Point>
+      <Point Name="GU">NTGU</Point>
+      <Point Name="GV">NTGV</Point>
+      <Point Name="GW">NTGW</Point>
+      <Point Name="GY">NTGY</Point>
+      <Point Name="HE">NTHE</Point>
+      <Point Name="KA">NTKA</Point>
+      <Point Name="KF">NTKF</Point>
+      <Point Name="KH">NTKH</Point>
+      <Point Name="KK">NTKK</Point>
+      <Point Name="KM">NTKM</Point>
+      <Point Name="KN">NTKN</Point>
+      <Point Name="KO">NTKO</Point>
+      <Point Name="KR">NTKR</Point>
+      <Point Name="KT">NTKT</Point>
+      <Point Name="KU">NTKU</Point>
+      <Point Name="MD">NTMD</Point>
+      <Point Name="MN">NTMN</Point>
+      <Point Name="MP">NTMP</Point>
+      <Point Name="MU">NTMU</Point>
+      <Point Name="TB">NTTB</Point>
+      <Point Name="TE">NTTE</Point>
+      <Point Name="TG">NTTG</Point>
+      <Point Name="TH">NTTH</Point>
+      <Point Name="TM">NTTM</Point>
+      <Point Name="TO">NTTO</Point>
+      <Point Name="TP">NTTP</Point>
+      <Point Name="TR">NTTR</Point>
+      <Point Name="UV">NTUV</Point>
+      <Point Name="SA">NVSA</Point>
+      <Point Name="SC">NVSC</Point>
+      <Point Name="SE">NVSE</Point>
+      <Point Name="SF">NVSF</Point>
+      <Point Name="SG">NVSG</Point>
+      <Point Name="SO">NVSO</Point>
+      <Point Name="SP">NVSP</Point>
+      <Point Name="SS">NVSS</Point>
+      <Point Name="VF">NVVF</Point>
+      <Point Name="VV">NVVV</Point>
+      <Point Name="VW">NVVW</Point>
+      <Point Name="WA">NWWA</Point>
+      <Point Name="WB">NWWB</Point>
+      <Point Name="WC">NWWC</Point>
+      <Point Name="WD">NWWD</Point>
+      <Point Name="WE">NWWE</Point>
+      <Point Name="WK">NWWK</Point>
+      <Point Name="WL">NWWL</Point>
+      <Point Name="WM">NWWM</Point>
+      <Point Name="WR">NWWR</Point>
+      <Point Name="WT">NWWT</Point>
+      <Point Name="WU">NWWU</Point>
+      <Point Name="WV">NWWV</Point>
+      <Point Name="WW">NWWW</Point>
+      <Point Name="WX">NWWX</Point>
+      <Point Name="CI">NZCI</Point>
+      <Point Name="FX">NZFX</Point>
+      <Point Name="SP">NZSP</Point>
+      <Point Name="WD">NZWD</Point>
+      <Point Name="CH">PLCH</Point>
+      <Point Name="PA">PLPA</Point>
+      <Point Name="SA">PTSA</Point>
+      <Point Name="55">XN55</Point>
+      <Point Name="HI">YLHI</Point>
+      <Point Name="NF">YSNF</Point>
+    </Label>
+  </Map>
+</Maps>

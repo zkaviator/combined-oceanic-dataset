@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="11 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.448192-151.745475">
+    <Line Pattern="Dashed">
+      <!--Rwy11 HHN3A-->
+      -16.448192-151.745475/HHN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 MA3A-->
+      -16.448192-151.745475/MA NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 MEKE1A-->
+      -16.448192-151.745475/TB501/TB503/TB504/MEKES
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 ROBN1A-->
+      -16.448192-151.745475/ROBNA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 RU3A-->
+      -16.448192-151.745475/RU NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 RUTI1A-->
+      TB503/RUTIX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 SUDO1A-->
+      TB504/SUDOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy11 UDIN1A-->
+      TB501/UDINI
+    </Line>
+    <Symbol Type="Circle">
+      <Point>HHN VOR</Point>
+      <Point>MA NDB</Point>
+      <Point>RU NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>TB501</Point>
+      <Point>TB503</Point>
+      <Point>TB504</Point>
+      <Point>MEKES</Point>
+      <Point>ROBNA</Point>
+      <Point>RUTIX</Point>
+      <Point>SUDOR</Point>
+      <Point>UDINI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>HHN VOR</Point>
+      <Point>MA NDB</Point>
+      <Point>MEKES</Point>
+      <Point>ROBNA</Point>
+      <Point>RU NDB</Point>
+      <Point>RUTIX</Point>
+      <Point>SUDOR</Point>
+      <Point>UDINI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.440489-151.757092">
+    <Line Pattern="Dashed">
+      <!--Rwy29 HHN3B-->
+      -16.440489-151.757092/HHN VOR
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 MA3B-->
+      -16.440489-151.757092/MA NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 MANA1B-->
+      -16.440489-151.757092/MANAX
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 RELA1B-->
+      -16.440489-151.757092/RELAK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 RU3B-->
+      -16.440489-151.757092/RU NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 RULO1B-->
+      -16.440489-151.757092/TB504/RU NDB
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 SUDO1B-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy29 UBKI1B-->
+      -16.440489-151.757092/TB502/UDOLO/UBKIM
+    </Line>
+    <Symbol Type="Circle">
+      <Point>HHN VOR</Point>
+      <Point>MA NDB</Point>
+      <Point>RU NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>MANAX</Point>
+      <Point>RELAK</Point>
+      <Point>TB504</Point>
+      <Point>TB502</Point>
+      <Point>UDOLO</Point>
+      <Point>UBKIM</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>HHN VOR</Point>
+      <Point>MA NDB</Point>
+      <Point>MANAX</Point>
+      <Point>RELAK</Point>
+      <Point>RU NDB</Point>
+      <Point>TB504</Point>
+      <Point>UBKIM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="29 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.448192-151.745475">
+    <Line>
+      <!--Rwy29 HHN1B-->
+      HHN VOR/ATALA/BB NDB
+    </Line>
+    <Line>
+      <!--Rwy29 MA1B-->
+      MA NDB/MALBO/BB NDB
+    </Line>
+    <Line>
+      <!--Rwy29 RAN1B-->
+      BIBUS/BB NDB
+    </Line>
+    <Line>
+      <!--Rwy29 RU1B-->
+      RU NDB/BB NDB
+    </Line>
+    <Symbol Type="Circle">
+      <Point>HHN VOR</Point>
+      <Point>ATALA</Point>
+      <Point>BB NDB</Point>
+      <Point>MA NDB</Point>
+      <Point>MALBO</Point>
+      <Point>RU NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BIBUS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>HHN VOR</Point>
+      <Point>MA NDB</Point>
+      <Point>BIBUS</Point>
+      <Point>RU NDB</Point>
+    </Label>
+  </Map>
+</Maps>

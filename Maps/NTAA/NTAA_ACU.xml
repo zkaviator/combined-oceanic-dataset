@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="04 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.545564-149.595386">
+    <Line Pattern="Dashed">
+      <!--Rwy04 ARIT4E-->
+      -17.545564-149.595386/ARITI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 BENK4E-->
+      -17.545564-149.595386/MOANA/AA501/BENKO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 BENK3E-->
+      MOANA/BENKO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 IKEL4E-->
+      -17.545564-149.595386/AA505/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 IKEL3E-->
+      -17.545564-149.595386/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 MOSM4E-->
+      -17.545564-149.595386/BOBIX/MOSMA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 PAST4E-->
+      AA501/PASTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 PAST3E-->
+      MOANA/PASTI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 VAIT4E-->
+      -17.545564-149.595386/AA503/VAITE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy04 VAIT3E-->
+      -17.545564-149.595386/VAITE
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ARITI</Point>
+      <Point>MOANA</Point>
+      <Point>AA501</Point>
+      <Point>BENKO</Point>
+      <Point>AA505</Point>
+      <Point>IKELO</Point>
+      <Point>BOBIX</Point>
+      <Point>MOSMA</Point>
+      <Point>PASTI</Point>
+      <Point>AA503</Point>
+      <Point>VAITE</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ARITI</Point>
+      <Point>BENKO</Point>
+      <Point>IKELO</Point>
+      <Point>MOSMA</Point>
+      <Point>PASTI</Point>
+      <Point>VAITE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="04 STARs" Priority="1" CustomColourName="ProcArr" Center="-17.561050-149.617825">
+    <Line>
+      <!--Rwy04 AROB3V-->
+      AROBA/KARNO/OVINI
+    </Line>
+    <Line>
+      <!--Rwy04 ASOK3V-->
+      ASOKI/TAVIS/MOANA/TAF VOR/OVINI
+    </Line>
+    <Line>
+      <!--Rwy04 IDUT3V-->
+      IDUTA/OVINI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OVINI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>TAF VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AROBA</Point>
+      <Point>KARNO</Point>
+      <Point>ASOKI</Point>
+      <Point>TAVIS</Point>
+      <Point>MOANA</Point>
+      <Point>IDUTA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AROBA</Point>
+      <Point>ASOKI</Point>
+      <Point>IDUTA</Point>
+      <Point>OVINI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.561050-149.617825">
+    <Line Pattern="Dashed">
+      <!--Rwy22 ARIT4W-->
+      -17.561050-149.617825/ARITI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 BEBI4W-->
+      -17.561050-149.617825/AA502/AA506/AA508/ONIDO/BEBIG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 BEBI3W-->
+      -17.561050-149.617825/BEBIG
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 IKEL4W-->
+      AA506/AA503/AA505/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 IKEL3W-->
+      -17.561050-149.617825/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 MOSM4W-->
+      -17.561050-149.617825/BOBIX/MOSMA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 ONID4W-->
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 ONID3W-->
+      -17.561050-149.617825/ONIDO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 VAIT4W-->
+      AA503/VAITE
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy22 VAIT3W-->
+      -17.561050-149.617825/VAITE
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ARITI</Point>
+      <Point>AA502</Point>
+      <Point>AA506</Point>
+      <Point>AA508</Point>
+      <Point>ONIDO</Point>
+      <Point>BEBIG</Point>
+      <Point>AA503</Point>
+      <Point>AA505</Point>
+      <Point>IKELO</Point>
+      <Point>BOBIX</Point>
+      <Point>MOSMA</Point>
+      <Point>VAITE</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ARITI</Point>
+      <Point>BEBIG</Point>
+      <Point>IKELO</Point>
+      <Point>MOSMA</Point>
+      <Point>ONIDO</Point>
+      <Point>VAITE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="22 STARs" Priority="1" CustomColourName="ProcArr" Center="-17.545564-149.595386">
+    <Line>
+      <!--Rwy22 AROB3M-->
+      AROBA/KARNO/OVINI/TAF VOR/MOANA
+    </Line>
+    <Line>
+      <!--Rwy22 ASOK3M-->
+      ASOKI/TAVIS/MOANA
+    </Line>
+    <Line>
+      <!--Rwy22 IDUT3M-->
+      IDUTA/TAF VOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MOANA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>TAF VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>AROBA</Point>
+      <Point>KARNO</Point>
+      <Point>OVINI</Point>
+      <Point>ASOKI</Point>
+      <Point>TAVIS</Point>
+      <Point>IDUTA</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>AROBA</Point>
+      <Point>ASOKI</Point>
+      <Point>IDUTA</Point>
+      <Point>MOANA</Point>
+    </Label>
+  </Map>
+</Maps>

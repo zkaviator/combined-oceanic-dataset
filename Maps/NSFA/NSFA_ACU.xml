@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="08 SIDs" Priority="1" CustomColourName="ProcDep" Center="-13.829886-171.994481">
+    <Line Pattern="Dashed">
+      <!--Rwy08 ALAP1R-->
+      -13.829886-171.994481/FA388/FA386/ALAPI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 AROX1R-->
+      FA386/FA413/AROXA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 GOTS1R-->
+      FA413/GOTSO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 IKEN1R-->
+      FA388/FA471/IKENA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 LAVE1R-->
+      FA388/LAVEK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 ODUM1R-->
+      FA386/ODUMA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 PONA1R-->
+      FA388/FALFA/PONAT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy08 UVUT1R-->
+      FA386/UVUTI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>FA388</Point>
+      <Point>FA386</Point>
+      <Point>ALAPI</Point>
+      <Point>FA413</Point>
+      <Point>AROXA</Point>
+      <Point>GOTSO</Point>
+      <Point>FA471</Point>
+      <Point>IKENA</Point>
+      <Point>LAVEK</Point>
+      <Point>ODUMA</Point>
+      <Point>FALFA</Point>
+      <Point>PONAT</Point>
+      <Point>UVUTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ALAPI</Point>
+      <Point>AROXA</Point>
+      <Point>GOTSO</Point>
+      <Point>IKENA</Point>
+      <Point>LAVEK</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>UVUTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="08 STARs" Priority="1" CustomColourName="ProcArr" Center="-13.830214-172.022278">
+    <Line>
+      <!--Rwy08 BIGE2B-->
+      BIGEK/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 BIGE2D-->
+      BIGEK/FA818/DINAR
+    </Line>
+    <Line>
+      <!--Rwy08 DORO2B-->
+      DOROS/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 DORO2D-->
+      DOROS/FA818
+    </Line>
+    <Line>
+      <!--Rwy08 ISDO2B-->
+      ISDOT/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 ISDO2D-->
+      ISDOT/DINAR
+    </Line>
+    <Line>
+      <!--Rwy08 LANA2B-->
+      LANAT/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 LANA2D-->
+      LANAT/DINAR
+    </Line>
+    <Line>
+      <!--Rwy08 LAVE2B-->
+      LAVEK/SHMPA
+    </Line>
+    <Line>
+      <!--Rwy08 LAVE2D-->
+      LAVEK/FA812/DINAR
+    </Line>
+    <Line>
+      <!--Rwy08 ODUM2B-->
+      ODUMA/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 ODUM2D-->
+      ODUMA/DINAR
+    </Line>
+    <Line>
+      <!--Rwy08 PONA2B-->
+      PONAT/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 PONA2D-->
+      PONAT/FA818
+    </Line>
+    <Line>
+      <!--Rwy08 SAMV2B-->
+      SAMVU/SHMPA
+    </Line>
+    <Line>
+      <!--Rwy08 SAMV2D-->
+      SAMVU/FA812
+    </Line>
+    <Line>
+      <!--Rwy08 UVUT2B-->
+      UVUTI/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 UVUT2D-->
+      UVUTI/DINAR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TAFUA</Point>
+      <Point>DINAR</Point>
+      <Point>SHMPA</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BIGEK</Point>
+      <Point>FA818</Point>
+      <Point>DOROS</Point>
+      <Point>ISDOT</Point>
+      <Point>LANAT</Point>
+      <Point>LAVEK</Point>
+      <Point>FA812</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>SAMVU</Point>
+      <Point>UVUTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BIGEK</Point>
+      <Point>DOROS</Point>
+      <Point>ISDOT</Point>
+      <Point>LANAT</Point>
+      <Point>LAVEK</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>SAMVU</Point>
+      <Point>UVUTI</Point>
+      <Point>TAFUA</Point>
+      <Point>DINAR</Point>
+      <Point>SHMPA</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 SIDs" Priority="1" CustomColourName="ProcDep" Center="-13.830214-172.022278">
+    <Line Pattern="Dashed">
+      <!--Rwy26 ALAP1S-->
+      -13.830214-172.022278/FA512/ALAPI
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 AROX1S-->
+      FA512/FA616/AROXA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 GOTS1S-->
+      FA616/GOTSO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 IKEN1S-->
+      FA512/IKENA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 LAVE1S-->
+      FA512/FA733/LAVEK
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 ODUM1S-->
+      FA512/ODUMA
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 PONA1S-->
+      FA616/PONAT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy26 UVUT1S-->
+      FA512/UVUTI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>FA512</Point>
+      <Point>ALAPI</Point>
+      <Point>FA616</Point>
+      <Point>AROXA</Point>
+      <Point>GOTSO</Point>
+      <Point>IKENA</Point>
+      <Point>FA733</Point>
+      <Point>LAVEK</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>UVUTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>ALAPI</Point>
+      <Point>AROXA</Point>
+      <Point>GOTSO</Point>
+      <Point>IKENA</Point>
+      <Point>LAVEK</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>UVUTI</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Center="-13.829886-171.994481">
+    <Line>
+      <!--Rwy26 BIGE2C-->
+      BIGEK/MAUGA
+    </Line>
+    <Line>
+      <!--Rwy26 DORO2C-->
+      DOROS/MAUGA
+    </Line>
+    <Line>
+      <!--Rwy26 ISDO2C-->
+      ISDOT/MAUGA
+    </Line>
+    <Line>
+      <!--Rwy26 LANA2C-->
+      LANAT/MAUGA
+    </Line>
+    <Line>
+      <!--Rwy26 ODUM2C-->
+      ODUMA/MAUGA
+    </Line>
+    <Line>
+      <!--Rwy26 PONA2C-->
+      PONAT/FALFA
+    </Line>
+    <Line>
+      <!--Rwy26 SAMV2C-->
+      SAMVU/LAVEK
+    </Line>
+    <Line>
+      <!--Rwy26 UVUT2C-->
+      UVUTI/MAUGA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MAUGA</Point>
+      <Point>FALFA</Point>
+      <Point>LAVEK</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>BIGEK</Point>
+      <Point>DOROS</Point>
+      <Point>ISDOT</Point>
+      <Point>LANAT</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>SAMVU</Point>
+      <Point>UVUTI</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BIGEK</Point>
+      <Point>DOROS</Point>
+      <Point>ISDOT</Point>
+      <Point>LANAT</Point>
+      <Point>ODUMA</Point>
+      <Point>PONAT</Point>
+      <Point>SAMVU</Point>
+      <Point>UVUTI</Point>
+      <Point>MAUGA</Point>
+      <Point>FALFA</Point>
+      <Point>LAVEK</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="12 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.493717-149.757664">
+    <Line Pattern="Dashed">
+      <!--Rwy12 IKEL3S-->
+      -17.493717-149.757664/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 KARN4S-->
+      -17.493717-149.757664/ATANU/TM502/KARNO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 SALU4S-->
+      -17.493717-149.757664/BOBIX/TORAL/SALUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy12 VAIT3S-->
+      -17.493717-149.757664/VAITE
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IKELO</Point>
+      <Point>ATANU</Point>
+      <Point>TM502</Point>
+      <Point>KARNO</Point>
+      <Point>BOBIX</Point>
+      <Point>TORAL</Point>
+      <Point>SALUT</Point>
+      <Point>VAITE</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IKELO</Point>
+      <Point>KARNO</Point>
+      <Point>SALUT</Point>
+      <Point>VAITE</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="30 SIDs" Priority="1" CustomColourName="ProcDep" Center="-17.485822-149.765806">
+    <Line Pattern="Dashed">
+      <!--Rwy30 IKEL3N-->
+      -17.485822-149.765806/IKELO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 KARN4N-->
+      -17.485822-149.765806/TM501/ATANU/TM502/KARNO
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 SALU4N-->
+      TM501/BOBIX/TORAL/SALUT
+    </Line>
+    <Line Pattern="Dashed">
+      <!--Rwy30 VAIT3N-->
+      -17.485822-149.765806/VAITE
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>IKELO</Point>
+      <Point>TM501</Point>
+      <Point>ATANU</Point>
+      <Point>TM502</Point>
+      <Point>KARNO</Point>
+      <Point>BOBIX</Point>
+      <Point>TORAL</Point>
+      <Point>SALUT</Point>
+      <Point>VAITE</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>IKELO</Point>
+      <Point>KARNO</Point>
+      <Point>SALUT</Point>
+      <Point>VAITE</Point>
+    </Label>
+  </Map>
+</Maps>
