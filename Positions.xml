@@ -7,11 +7,7 @@
       </Sectors>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="ALL_CTA" />
-        <Map Name="" />
-        <Map Name="" />
-        <Map Name="" />
-        <Map Name="" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -24,6 +20,62 @@
         <Line>Auckland Radio | CPDLC available through text</Line>
         <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+
+  <Group Name="NTTT">
+    <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
+      <Sectors>
+        <Sector Name="NTTT" />
+      </Sectors>
+
+      <!-- TODO: Set ManualVisibility -->
+      <Maps>
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="29000" />
+      <ControllerInfo>
+        <Line>Tahiti Control (Oceanic)</Line>
+        <Line>Cl E from FL045. Cl A from FL195</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Tahiti Control" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="1000">
+      <Sectors>
+        <Sector Name="TCTR" />
+      </Sectors>
+
+      <!-- TODO: Set ManualVisibility -->
+      <Maps>
+        <Map Name="CTA" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="NTAA" />
+      </ArrivalLists>
+      <CFL QuickLevel="29000" />
+      <ControllerInfo>
+        <Line>Tahiti Control (Enroute)</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
   </Group>
