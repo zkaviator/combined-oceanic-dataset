@@ -28,7 +28,9 @@
   <Sector FullName="NCRG_APP" Frequency="118.100" Callsign="NCRG_APP" Name="DummyName" />
   <Sector FullName="NFTF_APP" Frequency="118.500" Callsign="NFTF_APP" Name="DummyName" />
   <Sector FullName="NSFA_APP" Frequency="126.900" Callsign="NSFA_APP" Name="DummyName" />
-  <Sector FullName="NTAA_APP" Frequency="121.300" Callsign="NTAA_APP" Name="DummyName" />
+  <Sector FullName="NTAA_APP" Frequency="121.300" Callsign="NTAA_APP" Name="DummyName">
+    <Volumes>NTAA-APP</Volumes>
+  </Sector>
   <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="DummyName" />
   <Sector FullName="NZAA_DEP" Frequency="118.000" Callsign="NZAA_DEP" Name="DummyName" />
   <Sector FullName="NZAA-F_APP" Frequency="129.600" Callsign="NZAA-F_APP" Name="DummyName" />
