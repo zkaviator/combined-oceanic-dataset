@@ -102,7 +102,7 @@
 
     <Position Name="Faaa Tower (NTAA)" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="120">
       <Sectors>
-        <Sector Name="NTAA_TWR" />
+        <Sector Name="NTAATWR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -129,7 +129,7 @@
 
     <Position Name="Moorea Tower (NTTM)" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="60">
       <Sectors>
-        <Sector Name="NTTM_TWR" />
+        <Sector Name="NTTMTWR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -156,7 +156,7 @@
 
     <Position Name="Bora Bora Tower (NTTB)" Type="ASD" DefaultCenter="-162637.000-1514509.000" DefaultRange="60">
       <Sectors>
-        <Sector Name="NTTB_TWR" />
+        <Sector Name="NTTBTWR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -181,7 +181,7 @@
     </Position>
   
     <Position Name="Raiatea Tower" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
-      <Sectors>NTTR_TWR</Sectors>
+      <Sectors Name="NTTR_TWR" />
     </Position>
     <Maps>
       <Map Name="CTA" />

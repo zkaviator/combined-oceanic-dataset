@@ -41,20 +41,20 @@
   <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
 
-  <Sector FullName="NTAA_TWR" Frequency="118.100" Callsign="NTAA_TWR" Name="NTAATWR">
+  <Sector FullName="Tahiti (Faaa) Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="NTAATWR">
     <Volumes>NTAATWR</Volumes>
     <ReponsibleSectors>NTTM</ReponsibleSectors>
   </Sector>
 
-  <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="NTTBTWR">
+  <Sector FullName="Bora Bora Tower" Frequency="118.900" Callsign="NTTB_TWR" Name="NTTBTWR">
     <Volumes>NTTBTWR_Main,NTTBTWR_Mount</Volumes>
   </Sector>
 
-  <Sector FullName="NTTM_TWR" Frequency="118.700" Callsign="NTTM_TWR" Name="NTTMTWR">
+  <Sector FullName="Moorea Tower" Frequency="118.700" Callsign="NTTM_TWR" Name="NTTMTWR">
     <Volumes>NTTMTWR</Volumes>
   </Sector>
 
-  <Sector FullName="NTTR_TWR" Frequency="118.500" Callsign="NTTR_TWR" Name="NTTRTWR">
+  <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="NTTRTWR">
     <Volumes>NTTRTWR</Volumes>
   </Sector>
 </Sectors>
