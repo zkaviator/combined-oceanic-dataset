@@ -26,7 +26,7 @@
   <Group Name="NTTT">
     <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
       <Sectors>
-        <Sector Name="NTTT" />
+        <Sector Name="NTTTFSS" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
@@ -41,15 +41,14 @@
       </Strips>
       <CFL QuickLevel="29000" />
       <ControllerInfo>
-        <Line>Tahiti Control (Oceanic)</Line>
-        <Line>Cl E from FL045. Cl A from FL195</Line>
+        <Line>Tahiti Control (Oceanic) | Class E from FL045. Class A from FL195</Line>
         <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Tahiti Control" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="1000">
       <Sectors>
-        <Sector Name="TCTR" />
+        <Sector Name="NTTTCTR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -72,9 +71,9 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tahiti Approach" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="150">
+    <Position Name="Tahiti (Faaa) Approach" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="300">
       <Sectors>
-        <Sector Name="NTAA-APP" />
+        <Sector Name="NTAAAPP" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -93,7 +92,61 @@
         <Airport Name="NTTM" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Tahiti Approach</Line>
+        <Line>Tahiti Approach | NTAA and NTTM</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Faaa Tower (NTAA)" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="120">
+      <Sectors>
+        <Sector Name="NTAATWR" />
+      </Sectors>
+      <Maps>
+        <Map Name="CTA" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="19500" />
+      <ArrivalLists>
+        <Airport Name="NTAA" />
+        <Airport Name="NTTM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Faaa Tower (Tahiti)</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Moorea Tower (NTTM)" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="60">
+      <Sectors>
+        <Sector Name="NTTMTWR" />
+      </Sectors>
+      <Maps>
+        <Map Name="CTA" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="19500" />
+      <ArrivalLists>
+        <Airport Name="NTAA" />
+        <Airport Name="NTTM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Moorea Tower</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>

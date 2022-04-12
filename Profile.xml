@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Profile Name="VATNZ Combined Oceanic Dataset" FullName="VATNZ Combined Oceanic (NZZO/NZCM/NTTT/NSFA)">
+<Profile Name="VATNZ Combined Oceanic Dataset" FullName="VATNZ Combined Oceanic (NZZO/NZCM/NTTT)">
   <Version AIRAC="2202" Revision="a" PublishDate="20220224" UpdateURL="https://vatsys.sawbe.com/downloads/data/xxx"/> <!-- TODO: Get UpdateURL -->
   <Servers>
     <VATSIMStatus url="https://status.vatsim.net/"/>
