@@ -3,7 +3,7 @@
   <Group Name="NZZO">
     <Position Name="Auckland Radio" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name="" />
+        <Sector Name="NZZO" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
