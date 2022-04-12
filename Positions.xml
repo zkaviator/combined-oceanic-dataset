@@ -23,6 +23,29 @@
       </ControllerInfo>
     </Position>
 
+    <Position Name="Auckland Radio (East)" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
+      <Sectors>
+        <Sector Name="NZZO" />
+      </Sectors>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="CTA" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="31000" />
+      <ArrivalLists />
+      <ControllerInfo>
+        <Line>Auckland Radio (East) | CPDLC available through text</Line>
+        <Line>Controls East of the International Date Line</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
     <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
         <Sector Name="NZCM" />
