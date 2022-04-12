@@ -40,13 +40,21 @@
   <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
   <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="DummyName" />
+
   <Sector FullName="NTAA_TWR" Frequency="118.100" Callsign="NTAA_TWR" Name="NTAATWR">
-    <Volumes>NTAA</Volumes>
+    <Volumes>NTAATWR</Volumes>
     <ReponsibleSectors>NTTM</ReponsibleSectors>
   </Sector>
-  <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="DummyName" />
-  <Sector FullName="NTTM_TWR" Frequency="118.700" Callsign="NTTM_TWR" Name="NTTMTWR">
-    <Volumes>NTTM</Volumes>
+
+  <Sector FullName="NTTB_TWR" Frequency="118.900" Callsign="NTTB_TWR" Name="NTTBTWR">
+    <Volumes>NTTBTWR_Main,NTTBTWR_Mount</Volumes>
   </Sector>
-  <Sector FullName="NTTR_TWR" Frequency="118.500" Callsign="NTTR_TWR" Name="DummyName" />
+
+  <Sector FullName="NTTM_TWR" Frequency="118.700" Callsign="NTTM_TWR" Name="NTTMTWR">
+    <Volumes>NTTMTWR</Volumes>
+  </Sector>
+
+  <Sector FullName="NTTR_TWR" Frequency="118.500" Callsign="NTTR_TWR" Name="NTTRTWR">
+    <Volumes>NTTRTWR</Volumes>
+  </Sector>
 </Sectors>
