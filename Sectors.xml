@@ -27,7 +27,9 @@
     <Volumes>NTTT</Volumes>
   </Sector>
 
-  <Sector FullName="Macmurdo Oceanic" Frequency="128.700" Callsign="NZCM_FSS" Name="NZCMFSS" />
+  <Sector FullName="Macmurdo Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="NZCM">
+    <Volumes>NZCM</Volumes>
+  </Sector>
 
   <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO">
     <Volumes>NZZO</Volumes>

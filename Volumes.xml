@@ -17,6 +17,14 @@
     -30.000000-131.000000
   </Boundary>
 
+  <Boundary Name="NZCM">
+    -73.500000-131.000000/
+    -90.000000-131.000000/
+    -60.000000+163.000000/
+    -60.000000+174.000000/
+    -73.500000-131.000000
+  </Boundary>
+
 
   <!-- Tahiti -->
 
@@ -329,6 +337,10 @@
 
   <Volume Name="NZZO" LowerLimt="24500" UpperLimit="60000">
     <Boundaries>NZZO</Boundaries>
+  </Volume>
+
+  <Volume Name="NZCM" LowerLimit="24500" UpperLimit="60000">
+    <Boundaries>NZCM</Boundaries>
   </Volume>
 
   <Volume Name="NTTT" LowerLimit="4500" UpperLimit="60000">
