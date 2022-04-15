@@ -72,7 +72,7 @@
   <Group Name="French Poly.">
     <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
       <Sectors>
-        <Sector Name="NTTTFSS" />
+        <Sector Name="NTTT" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
@@ -125,7 +125,8 @@
         <Sector Name="NTAAAPP" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
         <Map Name="Coast" />
@@ -150,6 +151,7 @@
     <Position Name="Faaa Tower (NTAA)" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="120">
       <Sectors>
         <Sector Name="NTAATWR" />
+        <Sector Name="NTTMTWR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -201,7 +203,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Bora Bora Tower (NTTB)" Type="ASD" DefaultCenter="-162637.000-1514509.000" DefaultRange="60">
+    <Position Name="Bora Bora Tower (NTTB)" Type="ASD" DefaultCenter="-162637.000-1514509.000" DefaultRange="70">
       <Sectors>
         <Sector Name="NTTBTWR" />
       </Sectors>
@@ -227,29 +229,31 @@
       </ControllerInfo>
     </Position>
   
-    <Position Name="Raiatea Tower" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
-      <Sectors Name="NTTR_TWR" />
+    <Position Name="Raiatea Tower (NTTR)" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
+      <Sectors>
+        <Sector Name="NTTRTWR" />
+      </Sectors>
+      <Maps>
+        <Map Name="CTA" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="19500" />
+      <ArrivalLists>
+        <Airport Name="NTTR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Raiatea Tower</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
     </Position>
-    <Maps>
-      <Map Name="CTA" />
-      <Map Name="Navaids/NDB" />
-      <Map Name="Navaids/VOR" />
-      <Map Name="Coast" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="19500" />
-    <ArrivalLists>
-      <Airport Name="NTTR" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Raiatea Tower</Line>
-      <Line>Need local charts? - vats.im/nz/charts</Line>
-      <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
-    </ControllerInfo>
   </Group>
 
   <Group Name="Minor Pacific">
@@ -332,7 +336,8 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Faleolo Tower" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="250">
+    
+    <Position Name="Faleolo Tower" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="400">
       <Sectors>
         <Sector Name="NSFATWR" />
       </Sectors>
@@ -354,7 +359,7 @@
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ControllerInfo>
-        <Line>Faleolo Tower </Line>
+        <Line>Faleolo Tower</Line>
         <Line>Procedural service to 7,500ft</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
@@ -383,6 +388,71 @@
       </Strips>
       <ControllerInfo>
         <Line>Pago Pago Tower | ATIS 127.900</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+
+  <Group Name="Cook Islands">
+    <Position Name="Rarotonga Control" Type="ASD" DefaultCenter="-195833.000-1592047.000" DefaultRange="1200">
+      <Sectors>
+        <Sector Name="NCRGCTR" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-19.975833-159.346389</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <CFL QuickLevel="24500" />
+      <ArrivalLists>
+        <Airport Name="NCRG" />
+      </ArrivalLists>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <ControllerInfo>
+        <Line>Rarotonga Control</Line>
+        <Line>SVC to the entire Cook Is. from 5,500ft</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Rarotonga Approach" Type="ASD" DefaultCenter="-211204.522-1594756.558" DefaultRange="400">
+      <Sectors>
+        <Sector Name="NCRGAPP" />
+      </Sectors>
+      <Maps>
+        <Map Name="CTA" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Coast" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="14500" />
+      <ArrivalLists>
+        <Airport Name="NCRG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Rarotonga Approach</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NCRG_DEL">
+        <Line>Rarotonga Delivery</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>

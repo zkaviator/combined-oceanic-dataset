@@ -51,10 +51,10 @@
 	</Colour>
   <Colour id="HighlightedText">
 		<Use>Highlighted Text</Use>
-		<Name>CyanBlue</Name>
+		<Name>Greenish Blue</Name>
 		<R>0</R>
-		<G>255</G>
-		<B>255</B>
+		<G>150</G>
+		<B>150</B>
 	</Colour>
   <Colour id="CPDLCMessageBackground">
 		<Use>CPDLC Background</Use>
