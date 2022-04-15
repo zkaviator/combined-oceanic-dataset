@@ -179,8 +179,6 @@
       <Point>PY405</Point>
       <Point>RG401</Point>
       <Point>RG407</Point>
-      <Point>ADLIS</Point>
-      <Point>PEXIS</Point>
       <Point>TF762</Point>
       <Point>TF982</Point>
       <Point>TL546</Point>
@@ -513,8 +511,6 @@
       <Point>PY405</Point>
       <Point>RG401</Point>
       <Point>RG407</Point>
-      <Point>ADLIS</Point>
-      <Point>PEXIS</Point>
       <Point>TF762</Point>
       <Point>TF982</Point>
       <Point>TL546</Point>
@@ -683,8 +679,6 @@
     <Line Pattern="Solid">ANGAI/RG407/-211209.310-1594743.609</Line>
     <Line Pattern="Solid">MOAKE/ANGAI</Line>
     <Line Pattern="Solid">MURIA/ANGAI</Line>
-    <Line Pattern="Solid">OPUNA/ADLIS/-211209.299-1594856.549</Line>
-    <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
     <Line Pattern="Solid">LURGA/TF762/-211404.049-1750939.251</Line>
     <Line Pattern="Solid">KILEK/LURGA</Line>
     <Line Pattern="Solid">LEMAS/LURGA</Line>

@@ -223,7 +223,6 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>RG401</Point>
-      <Point>ADLIS</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
@@ -233,14 +232,12 @@
     <Line Pattern="Solid">RAKIA/OPUNA</Line>
     <Line Pattern="Solid">TOKEA/OPUNA</Line>
     <Line Pattern="Solid">RG401/-211209.299-1594856.549</Line>
-    <Line Pattern="Solid">OPUNA/ADLIS/-211209.299-1594856.549</Line>
   </Map>
   <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-21.202583-159.815708" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>RAKIA</Point>
       <Point>TOKEA</Point>
       <Point>RG401</Point>
-      <Point>ADLIS</Point>
       <Point>OPUNA</Point>
     </Label>
   </Map>
@@ -261,7 +258,7 @@
       <Point>OPUNA</Point>
     </Symbol>
     <Line Pattern="Solid">OPUNA/ADLIS/-211209.299-1594856.549</Line>
-    <Line Pattern="Solid">RAKIA/OPUNA/OPUNA</Line>
+    <Line Pattern="Solid">RAKIA/OPUNA</Line>
     <Line Pattern="Solid">TOKEA/OPUNA</Line>
   </Map>
   <Map Type="System2" Name="08 RNP-AR Labels" Priority="1" Center="-21.202583-159.815708" CustomColourName="ProcArr">
@@ -475,7 +472,6 @@
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
       <Point>RG407</Point>
-      <Point>PEXIS</Point>
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle">
@@ -484,14 +480,12 @@
     <Line Pattern="Solid">ANGAI/RG407/-211209.310-1594743.609</Line>
     <Line Pattern="Solid">MOAKE/ANGAI</Line>
     <Line Pattern="Solid">MURIA/ANGAI</Line>
-    <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
   </Map>
   <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-21.202586-159.795447" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MOAKE</Point>
       <Point>MURIA</Point>
       <Point>RG407</Point>
-      <Point>PEXIS</Point>
       <Point>ANGAI</Point>
     </Label>
   </Map>
@@ -512,7 +506,7 @@
       <Point>ANGAI</Point>
     </Symbol>
     <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
-    <Line Pattern="Solid">MOAKE/ANGAI/ANGAI</Line>
+    <Line Pattern="Solid">MOAKE/ANGAI</Line>
     <Line Pattern="Solid">MURIA/ANGAI</Line>
   </Map>
   <Map Type="System2" Name="26 RNP-AR Labels" Priority="1" Center="-21.202586-159.795447" CustomColourName="ProcArr">
