@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Faleolo Control" Frequency="123.800" Callsign="NSFA_CTR" Name="NSFACTR" />
+  <Sector FullName="Faleolo Control" Frequency="126.900" Callsign="NSFA_CTR" Name="NSFACTR">
+    <Volumes>NSFA-W,NSFA-E</Volumes>
+  </Sector>
 
   <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTT_CTR" Name="NTTTCTR">
     <Volumes>NTTTISLV,NTTTClassE</Volumes>
@@ -41,11 +43,15 @@
 
   <Sector FullName="Rarotonga Approach" Frequency="118.100" Callsign="NCRG_APP" Name="NCRGAPP" />
 
-  <Sector FullName="Faleolo Tower" Frequency="118.500" Callsign="NFTF_APP" Name="NFTFAPP">
+  <Sector FullName="Fuaamotu Tower" Frequency="118.500" Callsign="NFTF_APP" Name="NFTFAPP">
     <Volumes>NFTFAPP</Volumes>
   </Sector>
 
-  <Sector FullName="Pago Pago Approach" Frequency="126.900" Callsign="NSFA_APP" Name="NSFAAPP" />
+  <Sector FullName="Faleolo Tower" Frequency="126.900" Callsign="NSFA_TWR" Name="NSFATWR">
+    <Volumes>NSFATWR</Volumes>
+  </Sector>
+  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
+
 
   <Sector FullName="Tahiti (Faaa) Approach" Frequency="121.300" Callsign="NTAA_APP" Name="NTAAAPP">
     <Volumes>NTAAAPP</Volumes>
@@ -60,9 +66,10 @@
     <Volumes>NIUETWR</Volumes>
   </Sector>
 
-  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="DummyName" />
-  <Sector FullName="NSFA_TWR" Frequency="118.100" Callsign="NSFA_TWR" Name="DummyName" />
-  <Sector FullName="NSTU_TWR" Frequency="118.600" Callsign="NSTU_TWR" Name="DummyName" />
+  <Sector FullName="NSTU_TWR" Frequency="122.900" Callsign="NSTU_TWR" Name="NSTUTWR">
+    <Volumes>NSTUTWR</Volumes>
+  </Sector>
+
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="NTAAGND" />
 
   <Sector FullName="Tahiti (Faaa) Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="NTAATWR">
