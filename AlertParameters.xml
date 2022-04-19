@@ -5,28 +5,28 @@
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes></Volumes>
+      <Volumes>NTAA_APP,NCRG_APP,NFTF_APP,NSFA_TWR,NSTU_TWR,NIUE_TWR</Volumes>
     </STCA>
-    <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1"> <!-- Enroute -->
-      <Vertical LowerLevel="0" UpperLevel="24500" Height="600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="24501" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
-      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes></Volumes>
-    </STCA>
-    <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3"> <!-- OCE -->
-      <Vertical LowerLevel="24500" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+    <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
+      <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-     <Volumes></Volumes>
+      <Volumes>NZZO,NZCM,NTTT,NTTT-A,NTTT-E,NCRG,NSFA-W,NSFA-E</Volumes>
+    </STCA>
+    <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
+      <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+      <Volumes>NZZO,NZCM,NTTT,NTTT-A,NTTT-E,NCRG,NSFA-W,NSFA-E</Volumes>
     </MTCA>
   </ConflictAlerts>
 
-  <EMG SSRCode="7700" AlertPriority="2"/>
-  <RAD SSRCode="7600" AlertPriority="2"/>
-  <RAM WaypointNodeRadius="14" CorridorWidth="14" AirportRadius="20" AlertPriority="3"/>
-  <MPR SecondsAfterETO="180" AlertPriority="4"/>
-  <ETO SecondsDifferentFromSystem="180" AlertPriority="4"/>
-  <DAIW SecondsLookahead="60" AlertPriority="1"/>
-  <CLAM AltitudeDeviation="200" MinutesMaintaining="15" AlertPriority="3"/>
-  <MSAW Height="600" SecondsLookahead="60" AlertPriority="1"/>
+  <EMG SSRCode="7700" AlertPriority="2" />
+  <EMG SSRCode="7600" AlertPriority="2" />
+  <RAM WaypointNodeRadius="14" CorridorWidth="14" AirportRadius="20" AlertPriority="3" />
+  <MPR SecondsAfterETO="180" AlertPriority="4" />
+  <ETO SecondsDifferentFromSystem="180" AlertPriority="4" />
+  <DAIW SecondsLookahead="60" AlertPriority="1" />
+  <CLAM AltitudeDeviation="200" MinutesMaintaining="15" AlertPriority="4" />
+  <MSAW Height="600" SecondsLookahead="60" AlertPriority="1" />
 </AlertParameters>
