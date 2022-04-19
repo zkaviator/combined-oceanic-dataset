@@ -666,15 +666,15 @@
     <Boundaries>NZCM</Boundaries>
   </Volume>
 
-  <Volume Name="NTTT" LowerLimit="4500" UpperLimit="60000">
+  <Volume Name="NTTT" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NTTT</Boundaries>
   </Volume>
 
-  <Volume Name="NTTTISLV" LowerLimit="1500" UpperLimit="19500">
+  <Volume Name="NTTTISLV" LowerLimit="0" UpperLimit="19500">
     <Boundaries>NTTT-A</Boundaries>
   </Volume>
 
-  <Volume Name="NTTTClassE" LowerLimit="4500" UpperLimit="19500">
+  <Volume Name="NTTTClassE" LowerLimit="0" UpperLimit="19500">
     <Boundaries>NTTT-E</Boundaries>
   </Volume>
 
@@ -694,7 +694,7 @@
     <Boundaries>NTTB_TWR</Boundaries>
   </Volume>
 
-  <Volume Name="NTTBTWR_Mount" LowerLimit="500" UpperLimit="1500">
+  <Volume Name="NTTBTWR_Mount" LowerLimit="0" UpperLimit="1500">
     <Boundaries>NTTB-A_TWR</Boundaries>
   </Volume>
 
@@ -714,7 +714,7 @@
     <Boundaries>NSFA-W</Boundaries>
   </Volume>
 
-  <Volume Name="NSFA-E" LowerLimit="3500" UpperLimit="24500">
+  <Volume Name="NSFA-E" LowerLimit="0" UpperLimit="24500">
     <Boundaries>NSFA-E</Boundaries>
   </Volume>
 
@@ -726,7 +726,7 @@
     <Boundaries>NSTU_TWR</Boundaries>
   </Volume>
 
-  <Volume Name="NCRGCTR" LowerLimit="5500" UpperLimit="24500">
+  <Volume Name="NCRGCTR" LowerLimit="0" UpperLimit="24500">
     <Boundaries>NCRG</Boundaries>
   </Volume>
 
