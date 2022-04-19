@@ -25,7 +25,7 @@
 
     <Position Name="Auckland Radio (East)" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name="NZZO-E" />
+        <Sector Name="NZZE" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -48,7 +48,7 @@
 
     <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name="NZCM" />
+        <Sector Name="MAC" />
       </Sectors>
       <Maps>
         <Map Name="Coast" />
@@ -95,7 +95,7 @@
     </Position>
     <Position Name="Tahiti Control" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="1000">
       <Sectors>
-        <Sector Name="NTTTCTR" />
+        <Sector Name="TAH" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -126,7 +126,7 @@
 
     <Position Name="Tahiti (Faaa) Approach" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="300">
       <Sectors>
-        <Sector Name="NTAAAPP" />
+        <Sector Name="A-TAH" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/ENR Sectors" />
@@ -154,8 +154,8 @@
 
     <Position Name="Faaa Tower (NTAA)" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="120">
       <Sectors>
-        <Sector Name="NTAATWR" />
-        <Sector Name="NTTMTWR" />
+        <Sector Name="T-TAH" />
+        <Sector Name="TNTTM" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -182,7 +182,7 @@
 
     <Position Name="Moorea Tower (NTTM)" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="60">
       <Sectors>
-        <Sector Name="NTTMTWR" />
+        <Sector Name="TNTTM" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -209,7 +209,7 @@
 
     <Position Name="Bora Bora Tower (NTTB)" Type="ASD" DefaultCenter="-162637.000-1514509.000" DefaultRange="70">
       <Sectors>
-        <Sector Name="NTTBTWR" />
+        <Sector Name="TNTTB" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -235,7 +235,7 @@
   
     <Position Name="Raiatea Tower (NTTR)" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
       <Sectors>
-        <Sector Name="NTTRTWR" />
+        <Sector Name="TNTTR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
@@ -263,7 +263,7 @@
   <Group Name="Minor Pacific">
     <Position Name="Fuaamotu Tower" Type="ASD" DefaultCenter="-211430.700-1750825.591" DefaultRange="150">
       <Sectors>
-        <Sector Name="NFTFAPP" />
+        <Sector Name="A-FAL" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
@@ -289,7 +289,7 @@
 
     <Position Name="Niue FIS" Type="ASD" DefaultCenter="-190441.000-1695536.000" DefaultRange="90">
       <Sectors>
-        <Sector Name="NIUETWR" />
+        <Sector Name="TNIUE" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
@@ -317,7 +317,7 @@
   <Group Name="Samoa">
     <Position Name="Faleolo Control" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="1200">
       <Sectors>
-        <Sector Name="NSFACTR" />
+        <Sector Name="SAM" />
       </Sectors>
       <ManualVisibility>
         <Point>-13.831839-171.998014</Point>
@@ -349,7 +349,7 @@
     
     <Position Name="Faleolo Tower" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="400">
       <Sectors>
-        <Sector Name="NSFATWR" />
+        <Sector Name="TNSFA" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/ENR Sectors" />
@@ -378,7 +378,7 @@
 
     <Position Name="Pago Pago Tower" Type="ASD" DefaultCenter="-141953.980-1704241.411" DefaultRange="50">
       <Sectors>
-        <Sector Name="NSTUTWR" />
+        <Sector Name="T-PAG" />
       </Sectors>
       <Maps>
         <Map Name="Airspace/ENR Sectors" />
@@ -407,7 +407,7 @@
   <Group Name="Cook Islands">
     <Position Name="Rarotonga Control" Type="ASD" DefaultCenter="-195833.000-1592047.000" DefaultRange="1200">
       <Sectors>
-        <Sector Name="NCRGCTR" />
+        <Sector Name="RAR" />
       </Sectors>
       <ManualVisibility>
         <Point>-19.975833-159.346389</Point>
@@ -439,7 +439,7 @@
 
     <Position Name="Rarotonga Approach" Type="ASD" DefaultCenter="-211204.522-1594756.558" DefaultRange="400">
       <Sectors>
-        <Sector Name="NCRGAPP" />
+        <Sector Name="A-RAR" />
       </Sectors>
       <Maps>
         <Map Name="CTA" />
