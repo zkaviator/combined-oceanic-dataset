@@ -14,7 +14,7 @@
   <Sector FullName="Rarotonga Control" Frequency="118.900" Callsign="NCRG_CTR" Name="NCRGCTR">
     <Volumes>NCRGCTR</Volumes>
   </Sector>
-  <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTT_CTR" Name="NTTTCTR">
+  <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTC_CTR" Name="NTTTCTR">
     <Volumes>NTTTISLV,NTTTClassE</Volumes>
   </Sector>
   <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO">
