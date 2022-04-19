@@ -103,6 +103,10 @@
         <Map Name="Navaids/VOR" />
         <Map Name="Coast" />
       </Maps>
+      <ArrivalLists>
+        <Airport Name="NTAA" />
+        <Airport Name="NTTB" />
+      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
@@ -272,6 +276,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <ArrivalLists>
+        <Airport Name="NFTF" />
+      </ArrivalLists>
       <CFL QuickLevel="19500" />
       <ControllerInfo>
         <Line>Fuaamotu Tower | Combined TWR/APP SVC</Line>
@@ -295,6 +302,9 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <ArrivalLists>
+        <Airport Name="NIUE" />
+      </ArrivalLists>
       <CFL QuickLevel="19500" />
       <ControllerInfo>
         <Line>Niue Flight Information Service</Line>
