@@ -5,6 +5,12 @@
       <Sectors>
         <Sector Name="NZZO" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-17.485000-174.508889</Point>
+        <Point>-63.483056+179.390556</Point>
+        <Point>-38.457500-124.348056</Point>
+        <Point>-07.425556-133.010278</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
         <Map Name="CTA" />
@@ -27,6 +33,12 @@
       <Sectors>
         <Sector Name="NZZE" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-17.485000-174.508889</Point>
+        <Point>-63.483056+179.390556</Point>
+        <Point>-38.457500-124.348056</Point>
+        <Point>-07.425556-133.010278</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
         <Map Name="CTA" />
@@ -50,6 +62,9 @@
       <Sectors>
         <Sector Name="MAC" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-73.732500-178.038333</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
         <Map Name="CTA" />
@@ -113,9 +128,6 @@
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <CFL QuickLevel="19500" />
-      <ArrivalLists>
-        <Airport Name="NTAA" />
-      </ArrivalLists>
       <ControllerInfo>
         <Line>Tahiti Control (Enroute) | Class D SVC - Iles Sous Le Vent</Line>
         <Line>Class E SCV 200nm TAF VOR from FL045 - FL195</Line>
@@ -265,6 +277,9 @@
       <Sectors>
         <Sector Name="A-FAL" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-21.241944-175.145278</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
         <Map Name="Navaids/NDB" />
@@ -291,6 +306,9 @@
       <Sectors>
         <Sector Name="TNIUE" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-19.076111-169.926667</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Airspace/FIR Boundaries" />
         <Map Name="Navaids/NDB" />
@@ -351,6 +369,11 @@
       <Sectors>
         <Sector Name="TNSFA" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-13.829444-171.998056</Point>
+        <Point>-13.616389-171.157500</Point>
+        <Point>-14.520556-171.613333</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
@@ -380,6 +403,9 @@
       <Sectors>
         <Sector Name="T-PAG" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-14.331111-170.711389</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
@@ -441,6 +467,11 @@
       <Sectors>
         <Sector Name="A-RAR" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-18.799722-159.799167</Point>
+        <Point>-21.193333-159.816111</Point>
+        <Point>-20.404167-158.241111</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="CTA" />
         <Map Name="Navaids/NDB" />

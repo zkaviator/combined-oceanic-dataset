@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TrackSymbols>
-	<TrackSymbol Type="Primary">
-		<PathGeometry>
-			<Figure Start="-6,0" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>6,0</Line>
-			</Figure>
-			<Figure Start="0,6" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>0,-6</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>
-	
-	<!-- Special Code 1 Ellipse -->
-	<TrackSymbol Type="ModeA" SpecialCode="0001">
-		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
-	</TrackSymbol>
-	<TrackSymbol Type="ModeS" SpecialCode="0001">
-		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
-	</TrackSymbol>
 	
 	<!-- Special Code 2 Pentagram -->
 	<TrackSymbol Type="ModeA" SpecialCode="2000">
@@ -45,25 +27,6 @@
 		</PathGeometry>
 	</TrackSymbol>
 	
-	<!-- Special Code 3 Open Square -->
-	<TrackSymbol Type="ModeA" SpecialCode="0100">
-		<PathGeometry>
-			<Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>-6,6</Line>
-				<Line>6,6</Line>
-				<Line>6,-6</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>
-	<TrackSymbol Type="ModeS" SpecialCode="0100">
-		<PathGeometry>
-			<Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>-6,6</Line>
-				<Line>6,6</Line>
-				<Line>6,-6</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>
 	
 	<!-- Special Code 4 Hourglass -->
 	<TrackSymbol Type="ModeA" SpecialCode="1200">
@@ -100,39 +63,54 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
+
+	<!-- Copy from NZ Domestic Dataset -->
+
+	<TrackSymbol Type="Primary">
+		<PathGeometry>
+		<Figure Start="0,-7" FigureBegin="Hollow" FigureEnd="Closed">
+			<Line>6, -3</Line>
+			<Line>4, 5</Line>
+			<Line>-4, 5</Line>
+			<Line>-6, -3</Line>
+			<Line>0, -7</Line>
+		</Figure>
+	</PathGeometry>
+	</TrackSymbol>
 	
-	<!-- SSR Circle -->
+	<!-- SSR -->
 	<TrackSymbol Type="ModeA">
-		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+		<PathGeometry>
+			<Figure Start="0,-7" FigureBegin="Hollow" FigureEnd="Closed">
+				<Line>6, -3</Line>
+				<Line>4, 5</Line>
+				<Line>-4, 5</Line>
+				<Line>-6, -3</Line>
+				<Line>0, -7</Line>
+			</Figure>
+		</PathGeometry>
 	</TrackSymbol>
 	<TrackSymbol Type="ModeS">
-		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
+		<PathGeometry>
+			<Figure Start="0,-7" FigureBegin="Hollow" FigureEnd="Closed">
+				<Line>6, -3</Line>
+				<Line>4, 5</Line>
+				<Line>-4, 5</Line>
+				<Line>-6, -3</Line>
+				<Line>0, -7</Line>
+			</Figure>
+		</PathGeometry>
 	</TrackSymbol>
 	
-	<!-- ADSB Prop -->
+	<!-- ADSB -->
 	<TrackSymbol Type="ADSB">
 		<PathGeometry>
-			<Figure Start="0,-4" FigureBegin="Hollow" FigureEnd="Closed">
-				<Bezier>
-					<Point1>0,-4</Point1>
-					<Point2>12,-12</Point2>
-					<Point3>4,0</Point3>
-				</Bezier>
-				<Bezier>
-					<Point1>4, 0</Point1>
-					<Point2>12, 12</Point2>
-					<Point3>0, 4</Point3>
-				</Bezier>
-				<Bezier>
-					<Point1>0, 4</Point1>
-					<Point2>-12, 12</Point2>
-					<Point3>-4, 0</Point3>
-				</Bezier>
-				<Bezier>
-					<Point1>-4, 0</Point1>
-					<Point2>-12, -12</Point2>
-					<Point3>0, -4</Point3>
-				</Bezier>
+			<Figure Start="0,-7" FigureBegin="Hollow" FigureEnd="Closed">
+				<Line>6, -3</Line>
+				<Line>4, 5</Line>
+				<Line>-4, 5</Line>
+				<Line>-6, -3</Line>
+				<Line>0, -7</Line>
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
@@ -165,41 +143,6 @@
 		</PathGeometry>
 	</TrackSymbol>
 
-	<!-- Radar Coast Crosshair-->	
-	<TrackSymbol Type="CoastRadar" StrokeWidth="3">
-		<PathGeometry>
-			<Figure Start="-3,0" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>-7, 0</Line>
-			</Figure>
-			<Figure Start="0,-3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>0, -7</Line>
-			</Figure>
-			<Figure Start="0,3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>7, 0</Line>
-			</Figure>
-			<Figure Start="0,3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>0, 7</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>		
-
-	<!-- ADSB Coast Cross-->	
-	<TrackSymbol Type="CoastADSB" StrokeWidth="3">
-		<PathGeometry>
-			<Figure Start="-3,-3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>-7, -7</Line>
-			</Figure>
-			<Figure Start="3,-3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>7, -7</Line>
-			</Figure>
-			<Figure Start="3,3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>7, 7</Line>
-			</Figure>
-			<Figure Start="-3,3" FigureBegin="Hollow" FigureEnd="Open">
-				<Line>-7, 7</Line>
-			</Figure>
-		</PathGeometry>
-	</TrackSymbol>		
 	
 	<!-- Selection Octagon -->
 	<TrackSymbol Type="Selection">
