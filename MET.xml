@@ -7,7 +7,12 @@
     <NOTAM url="http://api.vateud.net/notams/%ICAO.xml" xmlDataTag="raw" />
   </ProductTypes>
   <Browsers>
+    <SOPS url="https://vatnz-dev.github.io/sops/" />
     <AIPFrance url="https://www.sia.aviation-civile.gouv.fr/#" />
     <AIPNewZealand url="http://www.aip.net.nz/Home.aspx" />
+    <IFIS url="https://www.ifis.airways.co.nz/script/briefing/aerodrome_briefing.asp" />
+    <SkyVector url="https://skyvector.com/" />
+    <VATNZ url="https://www.vatnz.net/" />
+    <Feedback url="https://www.vatnz.net/feedback/" />
   </Browsers>
 </MET>
