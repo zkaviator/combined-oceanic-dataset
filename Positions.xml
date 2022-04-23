@@ -13,7 +13,11 @@
       </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="CTA" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -41,7 +45,11 @@
       </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="CTA" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -67,7 +75,11 @@
       </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
-        <Map Name="CTA" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -77,7 +89,7 @@
       <CFL QuickLevel="31000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>MacMurdo Centre (FSS) | CPDLC available through text</Line>
+        <Line>MacMurdo Centre (FSS) - "Mac" | CPDLC available through text</Line>
         <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
@@ -90,10 +102,12 @@
         <Sector Name="NTTT" />
       </Sectors>
       <Maps>
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Airspace/FIR Boundaries" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -113,10 +127,12 @@
         <Sector Name="TAH" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
       </Maps>
       <ArrivalLists>
         <Airport Name="NTAA" />
@@ -141,11 +157,14 @@
         <Sector Name="A-TAH" />
       </Sectors>
       <Maps>
+        <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -170,10 +189,14 @@
         <Sector Name="TNTTM" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -197,10 +220,14 @@
         <Sector Name="TNTTM" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -224,10 +251,14 @@
         <Sector Name="TNTTB" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -250,10 +281,14 @@
         <Sector Name="TNTTR" />
       </Sectors>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
+        <Map Name="CTA" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -273,7 +308,7 @@
   </Group>
 
   <Group Name="Minor Pacific">
-    <Position Name="Fuaamotu Tower" Type="ASD" DefaultCenter="-211430.700-1750825.591" DefaultRange="150">
+    <Position Name="Fuaamotu Tower" Type="ASD" DefaultCenter="-211430.700-1750825.591" DefaultRange="500">
       <Sectors>
         <Sector Name="A-FAL" />
       </Sectors>
@@ -281,10 +316,13 @@
         <Point>-21.241944-175.145278</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -302,7 +340,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Niue FIS" Type="ASD" DefaultCenter="-190441.000-1695536.000" DefaultRange="90">
+    <Position Name="Niue FIS" Type="ASD" DefaultCenter="-190441.000-1695536.000" DefaultRange="200">
       <Sectors>
         <Sector Name="TNIUE" />
       </Sectors>
@@ -310,10 +348,13 @@
         <Point>-19.076111-169.926667</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -341,12 +382,12 @@
         <Point>-13.831839-171.998014</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
       </Maps>
       <CFL QuickLevel="24500" />
       <ArrivalLists>
@@ -375,11 +416,13 @@
         <Point>-14.520556-171.613333</Point>
       </ManualVisibility>
       <Maps>
+        <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
       </Maps>
       <CFL QuickLevel="24500" />
       <ArrivalLists>
@@ -407,11 +450,13 @@
         <Point>-14.331111-170.711389</Point>
       </ManualVisibility>
       <Maps>
+        <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
       </Maps>
       <CFL QuickLevel="10000" />
       <ArrivalLists>
@@ -439,12 +484,12 @@
         <Point>-19.975833-159.346389</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
         <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
       </Maps>
       <CFL QuickLevel="24500" />
       <ArrivalLists>
@@ -473,10 +518,13 @@
         <Point>-20.404167-158.241111</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="CTA" />
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
         <Map Name="Navaids/NDB" />
         <Map Name="Navaids/VOR" />
-        <Map Name="Coast" />
+        <Map Name="Airspace/Aerodromes" />
+        <Map Name="Runways" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
