@@ -5,19 +5,19 @@
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>NTAA_APP,NCRG_APP,NFTF_APP,NSFA_TWR,NSTU_TWR,NIUE_TWR</Volumes>
+      <Volumes>NTAAAPP,NCRGAPP,NFTFAPP,NSFATWR,NSTUTWR,NIUETWR</Volumes>
     </STCA>
     <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>NZZO,NZCM,NTTT,NTTT-A,NTTT-E,NCRG,NSFA-W,NSFA-E</Volumes>
+      <Volumes>NZZO,NZCM,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
     </STCA>
     <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
       <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>NZZO,NZCM,NTTT,NTTT-A,NTTT-E,NCRG,NSFA-W,NSFA-E</Volumes>
+      <Volumes>NZZO,NZCM,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
     </MTCA>
   </ConflictAlerts>
 
