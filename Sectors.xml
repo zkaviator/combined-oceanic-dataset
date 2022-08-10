@@ -74,7 +74,6 @@
   <Sector FullName="Niue FIS" Frequency="118.100" Callsign="NIUE_TWR" Name="TNIUE">
     <Volumes>NIUETWR</Volumes>
   </Sector>
-  <Sector FullName="NSFA_GND" Frequency="121.900" Callsign="NSFA_GND" Name="G-SAM" />
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" />
   <Sector FullName="NZAA_DEL" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" />
   <Sector FullName="NZAA_GND" Frequency="121.900" Callsign="NZAA_GND" Name="GAA" />
