@@ -213,6 +213,11 @@
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="NTAA_GND">
+        <Line>Faaa Ground (Tahiti)</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
     </Position>
 
     <Position Name="Moorea Tower (NTTM)" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="60">
@@ -275,7 +280,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-  
+
     <Position Name="Raiatea Tower (NTTR)" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
       <Sectors>
         <Sector Name="TNTTR" />
@@ -336,6 +341,11 @@
       <ControllerInfo>
         <Line>Fuaamotu Tower | Combined TWR/APP SVC</Line>
         <Line>SVC W/I 100NM TBU VOR - SFC to 19,500ft</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NFTF_GND">
+        <Line>Fuaamotu Ground</Line>
+        <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
@@ -405,7 +415,7 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-    
+
     <Position Name="Faleolo Tower" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="400">
       <Sectors>
         <Sector Name="TNSFA" />
@@ -508,7 +518,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Rarotonga Approach" Type="ASD" DefaultCenter="-211204.522-1594756.558" DefaultRange="400">
+    <Position Name="Rarotonga Tower" Type="ASD" DefaultCenter="-211204.522-1594756.558" DefaultRange="400">
       <Sectors>
         <Sector Name="A-RAR" />
       </Sectors>
@@ -536,7 +546,7 @@
         <Airport Name="NCRG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Rarotonga Approach</Line>
+        <Line>Rarotonga Tower</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>

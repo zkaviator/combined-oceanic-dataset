@@ -52,7 +52,7 @@
   <Sector FullName="NZQN_APP" Frequency="125.750" Callsign="NZQN_APP" Name="QTMA" />
   <Sector FullName="NZWN_APP" Frequency="119.300" Callsign="NZWN_APP" Name="WTMA" />
   <Sector FullName="NZWN_DEP" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP" />
-  <Sector FullName="Rarotonga Approach" Frequency="118.100" Callsign="NCRG_APP" Name="A-RAR">
+  <Sector FullName="Rarotonga Tower" Frequency="118.100" Callsign="NCRG_APP" Name="A-RAR">
     <Volumes>NCRGAPP</Volumes>
   </Sector>
   <Sector FullName="Tahiti (Faaa) Approach" Frequency="121.300" Callsign="NTAA_APP" Name="A-TAH">
