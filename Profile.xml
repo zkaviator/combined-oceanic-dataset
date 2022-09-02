@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Profile Name="VATNZ Combined Oceanic Dataset" FullName="VATNZ Combined Oceanic (NZZO/NZCM/NTTT)">
-  <Version AIRAC="2202" Revision="a" PublishDate="20220224" UpdateURL="https://vatsys.sawbe.com/downloads/data/xxx"/> <!-- TODO: Get UpdateURL -->
+  <Version AIRAC="2209" Revision="a" PublishDate="20220908" UpdateURL="https://vatsys.sawbe.com/downloads/data/xxx" /> <!-- TODO: Get UpdateURL -->
   <Servers>
-    <VATSIMStatus url="https://status.vatsim.net/"/>
-    <GRIB url="https://sawbe.com/GRIB/"/>
-    <G2G url="antifaff.vatsys.sawbe.com" port="64738"/>
+    <VATSIMStatus url="https://status.vatsim.net/" />
+    <GRIB url="https://sawbe.com/GRIB/" />
+    <G2G url="antifaff.vatsys.sawbe.com" port="64738" />
   </Servers>
 </Profile>
