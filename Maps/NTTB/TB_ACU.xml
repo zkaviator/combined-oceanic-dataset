@@ -6,10 +6,6 @@
       -16.448192-151.745475/-16.459590-151.728640/HHN VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy11 MA3A-->
-      -16.459590-151.728640/-16.439370-151.808110/MA NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy11 MEKE1A-->
       -16.459590-151.728640/TB501/TB503/TB504/MEKES
     </Line>
@@ -35,12 +31,10 @@
     </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>-16.459590-151.728640</Point>
-      <Point>-16.439370-151.808110</Point>
       <Point>TB501</Point>
       <Point>TB503</Point>
       <Point>TB504</Point>
@@ -54,7 +48,6 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>MEKES</Point>
       <Point>ROBNA</Point>
       <Point>RU NDB</Point>
@@ -69,10 +62,6 @@
       HHN VOR/ATALA/BB NDB
     </Line>
     <Line>
-      <!--Rwy11 MAUP1B-->
-      MA NDB/MALBO/BB NDB
-    </Line>
-    <Line>
       <!--Rwy11 RAIA1B-->
       HHN VOR/OSPOD/RU NDB/BB NDB
     </Line>
@@ -83,19 +72,16 @@
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
-      <Point>MA NDB</Point>
       <Point>RU NDB</Point>
       <Point>RAN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>ATALA</Point>
-      <Point>MALBO</Point>
       <Point>OSPOD</Point>
       <Point>BIBUS</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>RAN VOR</Point>
     </Label>
   </Map>
@@ -134,10 +120,6 @@
       -16.440489-151.757092/-16.429050-151.774000/-16.421890-151.769610/-16.461900-151.684220/HHN VOR
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 MA3B-->
-      -16.429050-151.774000/MA NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy29 MANA1B-->
       -16.429050-151.774000/MANAX
     </Line>
@@ -163,7 +145,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>BB NDB</Point>
       <Point>RU NDB</Point>
       <Point>RULOM</Point>
@@ -182,7 +163,6 @@
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>MANAX</Point>
       <Point>RELAK</Point>
       <Point>RU NDB</Point>
@@ -197,10 +177,6 @@
       HHN VOR/ATALA/BB NDB
     </Line>
     <Line>
-      <!--Rwy29 MAUP1B-->
-      MA NDB/MALBO/BB NDB
-    </Line>
-    <Line>
       <!--Rwy29 RAIA1B-->
       HHN VOR/OSPOD/RU NDB/BB NDB
     </Line>
@@ -211,19 +187,16 @@
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
-      <Point>MA NDB</Point>
       <Point>RU NDB</Point>
       <Point>RAN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>ATALA</Point>
-      <Point>MALBO</Point>
       <Point>OSPOD</Point>
       <Point>BIBUS</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>MA NDB</Point>
       <Point>RAN VOR</Point>
     </Label>
   </Map>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="Runways" Priority="1" Center="-20.000-167.000">
+    <!--NCAI-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-18.829642-159.764772" ExtendedCentrelineTrack="334.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="32" Position="-18.844458-159.757200" ExtendedCentrelineTrack="154.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NCRG-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-21.202583-159.815708" ExtendedCentrelineTrack="270.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="-21.202586-159.795447" ExtendedCentrelineTrack="90.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NFTE-->
+    <Runway Name="16/34">
+      <Threshold Name="16" Position="-21.373953-174.958311" ExtendedCentrelineTrack="351" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="34" Position="-21.381083-174.957083" ExtendedCentrelineTrack="171" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NFTF-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-21.234458-175.160903" ExtendedCentrelineTrack="301.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-21.247208-175.139058" ExtendedCentrelineTrack="121.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NFTL-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-19.774231-174.346206" ExtendedCentrelineTrack="300.5" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="29" Position="-19.779708-174.336322" ExtendedCentrelineTrack="120.5" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NFTP-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-15.973772-173.795992" ExtendedCentrelineTrack="306.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-15.979089-173.788450" ExtendedCentrelineTrack="126.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NFTV-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-18.585167-173.966119" ExtendedCentrelineTrack="276.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-18.586042-173.957678" ExtendedCentrelineTrack="96.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NIUE-->
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="-19.075392-169.936181" ExtendedCentrelineTrack="290.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="28" Position="-19.082547-169.915303" ExtendedCentrelineTrack="110.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NSAU-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-13.505292-172.630844" ExtendedCentrelineTrack="271.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-13.505097-172.624925" ExtendedCentrelineTrack="91.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NSFA-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-13.830214-172.022278" ExtendedCentrelineTrack="268.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="26" Position="-13.829886-171.994481" ExtendedCentrelineTrack="88.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NSMA-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-13.742261-172.261167" ExtendedCentrelineTrack="271.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-13.742319-172.254686" ExtendedCentrelineTrack="91.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NSTU-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-14.339136-170.722778" ExtendedCentrelineTrack="240" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="23" Position="-14.327881-170.702661" ExtendedCentrelineTrack="60" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NSTU-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-14.326425-170.712989" ExtendedCentrelineTrack="270" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-14.326419-170.702250" ExtendedCentrelineTrack="90" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTAA-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-17.561050-149.617825" ExtendedCentrelineTrack="234" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="22" Position="-17.545564-149.595386" ExtendedCentrelineTrack="54" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NTAR-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-22.431653-151.367069" ExtendedCentrelineTrack="287.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="27" Position="-22.435608-151.353897" ExtendedCentrelineTrack="107.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTAT-->
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-23.369842-149.529717" ExtendedCentrelineTrack="228" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="21" Position="-23.360814-149.518775" ExtendedCentrelineTrack="48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTAV-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-23.887178-147.668439" ExtendedCentrelineTrack="253.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="24" Position="-23.883411-147.655314" ExtendedCentrelineTrack="73.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGF-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-16.057344-145.663853" ExtendedCentrelineTrack="244.5" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="23" Position="-16.051914-145.652022" ExtendedCentrelineTrack="64.5" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGI-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-14.438589-146.073367" ExtendedCentrelineTrack="236" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="22" Position="-14.432036-146.063303" ExtendedCentrelineTrack="56" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGJ-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-23.074811-134.895419" ExtendedCentrelineTrack="316.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="30" Position="-23.086222-134.883739" ExtendedCentrelineTrack="136.4" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGM-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-16.580081-143.664236" ExtendedCentrelineTrack="303.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="29" Position="-16.587039-143.653278" ExtendedCentrelineTrack="123.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGT-->
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-14.710222-145.250061" ExtendedCentrelineTrack="260.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="25" Position="-14.708817-145.241622" ExtendedCentrelineTrack="80.1" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTGV-->
+    <Runway Name="01/19">
+      <Threshold Name="01" Position="-14.877542-148.715486" ExtendedCentrelineTrack="197.2" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="19" Position="-14.867197-148.712133" ExtendedCentrelineTrack="17.2" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTMD-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-08.798456-140.235931" ExtendedCentrelineTrack="248.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="24" Position="-08.792792-140.221686" ExtendedCentrelineTrack="68.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTMN-->
+    <Runway Name="02/20">
+      <Threshold Name="02" Position="-09.770814-139.012481" ExtendedCentrelineTrack="208.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="20" Position="-09.759469-139.006044" ExtendedCentrelineTrack="28.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTTB-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-16.440489-151.757092" ExtendedCentrelineTrack="304.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-16.448192-151.745475" ExtendedCentrelineTrack="124.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NTTG-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-14.951606-147.670236" ExtendedCentrelineTrack="286.2" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="-14.955550-147.656539" ExtendedCentrelineTrack="106.2" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NTTH-->
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-16.688214-151.028114" ExtendedCentrelineTrack="259.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="25" Position="-16.685842-151.014733" ExtendedCentrelineTrack="79.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NTTM-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-17.485822-149.765806" ExtendedCentrelineTrack="315" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-17.493717-149.757664" ExtendedCentrelineTrack="135" ExtendedCentrelineLength="4" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NTTO-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-18.064242-140.957097" ExtendedCentrelineTrack="315" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="30" Position="-18.085517-140.934678" ExtendedCentrelineTrack="135" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTTP-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-16.426597-152.247950" ExtendedCentrelineTrack="268.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-16.426392-152.239206" ExtendedCentrelineTrack="88.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--NTTR-->
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-16.723606-151.472372" ExtendedCentrelineTrack="263.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="25" Position="-16.722253-151.459331" ExtendedCentrelineTrack="83.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--NZCI-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-43.813831-176.473417" ExtendedCentrelineTrack="253.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="23" Position="-43.810042-176.457308" ExtendedCentrelineTrack="73.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--YSNF-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-29.046572+167.933194" ExtendedCentrelineTrack="230.2" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="22" Position="-29.038225+167.944497" ExtendedCentrelineTrack="50.2" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--YSNF-->
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-29.036578+167.929997" ExtendedCentrelineTrack="302.2" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-29.045683+167.946419" ExtendedCentrelineTrack="122.2" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+</Maps>
