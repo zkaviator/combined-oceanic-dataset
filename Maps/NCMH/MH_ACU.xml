@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>BUNTU</Point>
       <Point>GUMBI</Point>
       <Point>LIMSA</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>MH401</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BUNTU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">BUNTU/MH401/-102232.401-1610008.989</Line>
     <Line Pattern="Solid">GUMBI/BUNTU</Line>
     <Line Pattern="Solid">LIMSA/BUNTU</Line>
   </Map>
   <Map Type="System2" Name="14 RNP Labels" Priority="1" Center="-10.375667-161.002497" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BUNTU</Point>
       <Point>GUMBI</Point>
       <Point>LIMSA</Point>
       <Point>MH401</Point>
-      <Point>BUNTU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="32 RNP" Priority="1" Center="-10.386472-160.996014" CustomColourName="ProcArr">
@@ -33,6 +32,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>LEBEN</Point>
       <Point>MATSO</Point>
       <Point>SUKEL</Point>
     </Symbol>
@@ -41,19 +41,17 @@
       <Point>MH501</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>LEBEN</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">LEBEN/MH501/-102311.299-1605945.650</Line>
     <Line Pattern="Solid">MATSO/LEBEN</Line>
     <Line Pattern="Solid">SUKEL/LEBEN</Line>
   </Map>
   <Map Type="System2" Name="32 RNP Labels" Priority="1" Center="-10.386472-160.996014" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>LEBEN</Point>
       <Point>MATSO</Point>
       <Point>SUKEL</Point>
       <Point>MH501</Point>
-      <Point>LEBEN</Point>
     </Label>
   </Map>
 </Maps>

@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MEKUX</Point>
       <Point>ASAMO</Point>
       <Point>ENDAK</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>MK934</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MEKUX</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">MEKUX/MK934/-200801.219-1572106.829</Line>
     <Line Pattern="Solid">ASAMO/MEKUX</Line>
     <Line Pattern="Solid">ENDAK/MEKUX</Line>
   </Map>
   <Map Type="System2" Name="10 RNP Labels" Priority="1" Center="-20.133672-157.351897" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>MEKUX</Point>
       <Point>ASAMO</Point>
       <Point>ENDAK</Point>
       <Point>MK934</Point>
-      <Point>MEKUX</Point>
     </Label>
   </Map>
 </Maps>

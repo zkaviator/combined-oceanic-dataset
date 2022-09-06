@@ -92,6 +92,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>BOKAL</Point>
       <Point>BAMBI</Point>
       <Point>NOMIS</Point>
     </Symbol>
@@ -100,18 +101,16 @@
       <Point>FTB11</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BOKAL</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">BOKAL/FTB11/-162625.760-1514525.531</Line>
     <Line Pattern="Solid">BAMBI/BIDOP/NOMIS/BOKAL</Line>
   </Map>
   <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-16.440489-151.757092" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BOKAL</Point>
       <Point>BAMBI</Point>
       <Point>NOMIS</Point>
       <Point>FTB11</Point>
-      <Point>BOKAL</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.440489-151.757092">
@@ -207,6 +206,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>BELBO</Point>
       <Point>BAMBI</Point>
       <Point>BATOP</Point>
     </Symbol>
@@ -215,18 +215,16 @@
       <Point>FTB29</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>BELBO</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">BELBO/FTB29/-162653.491-1514443.710</Line>
     <Line Pattern="Solid">BAMBI/BELTI/BATOP/BELBO</Line>
   </Map>
   <Map Type="System2" Name="29 RNP Labels" Priority="1" Center="-16.448192-151.745475" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>BELBO</Point>
       <Point>BAMBI</Point>
       <Point>BATOP</Point>
       <Point>FTB29</Point>
-      <Point>BELBO</Point>
     </Label>
   </Map>
 </Maps>

@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>RUKDU</Point>
       <Point>BENRA</Point>
       <Point>UPSIT</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>CI452</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>RUKDU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">RUKDU/CI452/-434849.792-1762824.301</Line>
     <Line Pattern="Solid">BENRA/RUKDU/RUKDU</Line>
     <Line Pattern="Solid">UPSIT/RUKDU</Line>
   </Map>
   <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-43.813831-176.473417" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>RUKDU</Point>
       <Point>BENRA</Point>
       <Point>UPSIT</Point>
       <Point>CI452</Point>
-      <Point>RUKDU</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 RNP" Priority="1" Center="-43.810042-176.457308" CustomColourName="ProcArr">
@@ -33,6 +32,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MAVGI</Point>
       <Point>ESDUN</Point>
       <Point>IDPUB</Point>
     </Symbol>
@@ -41,19 +41,17 @@
       <Point>CI704</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MAVGI</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">MAVGI/CI704/-434836.151-1762726.309</Line>
     <Line Pattern="Solid">ESDUN/MAVGI/MAVGI</Line>
     <Line Pattern="Solid">IDPUB/MAVGI</Line>
   </Map>
   <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-43.810042-176.457308" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>MAVGI</Point>
       <Point>ESDUN</Point>
       <Point>IDPUB</Point>
       <Point>CI704</Point>
-      <Point>MAVGI</Point>
     </Label>
   </Map>
 </Maps>

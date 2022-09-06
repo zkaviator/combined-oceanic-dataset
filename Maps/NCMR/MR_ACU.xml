@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>TANOU</Point>
       <Point>AKENI</Point>
       <Point>LEKOM</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>MR934</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TANOU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">TANOU/MR934/-195027.532-1574231.381</Line>
     <Line Pattern="Solid">AKENI/TANOU</Line>
     <Line Pattern="Solid">LEKOM/TANOU</Line>
   </Map>
   <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-19.840981-157.708717" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>TANOU</Point>
       <Point>AKENI</Point>
       <Point>LEKOM</Point>
       <Point>MR934</Point>
-      <Point>TANOU</Point>
     </Label>
   </Map>
 </Maps>

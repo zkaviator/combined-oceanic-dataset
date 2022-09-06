@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>SAPAS</Point>
       <Point>OSEKA</Point>
       <Point>POLOD</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>PK401</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>SAPAS</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">SAPAS/PK401/-105449.619-1654959.149</Line>
     <Line Pattern="Solid">OSEKA/SAPAS</Line>
     <Line Pattern="Solid">POLOD/SAPAS</Line>
   </Map>
   <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-10.913783-165.833097" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>SAPAS</Point>
       <Point>OSEKA</Point>
       <Point>POLOD</Point>
       <Point>PK401</Point>
-      <Point>SAPAS</Point>
     </Label>
   </Map>
 </Maps>

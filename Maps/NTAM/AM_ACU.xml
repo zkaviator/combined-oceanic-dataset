@@ -8,6 +8,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>ADKUP</Point>
       <Point>TARIR</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -15,17 +16,15 @@
       <Point>FAM07</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ADKUP</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">ADKUP/FAM07/-223814.669-1524846.069</Line>
     <Line Pattern="Solid">TARIR/AM410/AM412/ADKUP</Line>
   </Map>
   <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-22.637408-152.812797" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>ADKUP</Point>
       <Point>TARIR</Point>
       <Point>FAM07</Point>
-      <Point>ADKUP</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="25 RNP" Priority="1" Center="-22.637094-152.799181" CustomColourName="ProcArr">
@@ -36,6 +35,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MALYC</Point>
       <Point>TARIR</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -43,17 +43,15 @@
       <Point>FAM25</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MALYC</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">MALYC/FAM25/-223813.538-1524757.052</Line>
     <Line Pattern="Solid">TARIR/AM420/AM422/MALYC</Line>
   </Map>
   <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-22.637094-152.799181" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>MALYC</Point>
       <Point>TARIR</Point>
       <Point>FAM25</Point>
-      <Point>MALYC</Point>
     </Label>
   </Map>
 </Maps>
