@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>POSUS</Point>
       <Point>GUVOS</Point>
       <Point>SUNBA</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>TP689</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>POSUS</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">POSUS/TP689/-155825.579-1734745.571</Line>
     <Line Pattern="Solid">GUVOS/POSUS</Line>
     <Line Pattern="Solid">SUNBA/POSUS</Line>
   </Map>
   <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-15.973772-173.795992" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>POSUS</Point>
       <Point>GUVOS</Point>
       <Point>SUNBA</Point>
       <Point>TP689</Point>
-      <Point>POSUS</Point>
     </Label>
   </Map>
 </Maps>

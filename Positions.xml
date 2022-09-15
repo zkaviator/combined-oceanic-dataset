@@ -6,7 +6,7 @@
         <Sector Name="NZZO" />
       </Sectors>
       <ManualVisibility>
-        <Point>-17.485000-174.508889</Point>
+        <Point>-24.041111+175.053056</Point>
         <Point>-63.483056+179.390556</Point>
         <Point>-38.457500-124.348056</Point>
         <Point>-07.425556-133.010278</Point>
@@ -38,7 +38,7 @@
         <Sector Name="NZZE" />
       </Sectors>
       <ManualVisibility>
-        <Point>-17.485000-174.508889</Point>
+        <Point>-24.041111+175.053056</Point>
         <Point>-63.483056+179.390556</Point>
         <Point>-38.457500-124.348056</Point>
         <Point>-07.425556-133.010278</Point>
@@ -66,12 +66,12 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
+    <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
       <Sectors>
         <Sector Name="MAC" />
       </Sectors>
       <ManualVisibility>
-        <Point>-73.732500-178.038333</Point>
+        <Point>-68.643611+166.451944</Point>
       </ManualVisibility>
       <Maps>
         <Map Name="Coast" />

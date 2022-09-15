@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>TUMPI</Point>
       <Point>MANOM</Point>
       <Point>ORASU</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>MG934</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>TUMPI</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">TUMPI/MG934/-215331.740-1575433.660</Line>
     <Line Pattern="Solid">MANOM/TUMPI</Line>
     <Line Pattern="Solid">ORASU/TUMPI</Line>
   </Map>
   <Map Type="System2" Name="13 RNP Labels" Priority="1" Center="-21.892150-157.909350" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>TUMPI</Point>
       <Point>MANOM</Point>
       <Point>ORASU</Point>
       <Point>MG934</Point>
-      <Point>TUMPI</Point>
     </Label>
   </Map>
 </Maps>

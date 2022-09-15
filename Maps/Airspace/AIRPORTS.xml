@@ -47,7 +47,6 @@
       <Point>NFFO</Point>
       <Point>NFKB</Point>
       <Point>NFKD</Point>
-      <Point>NFMA</Point>
       <Point>NFMO</Point>
       <Point>NFNA</Point>
       <Point>NFNB</Point>
@@ -222,7 +221,6 @@
       <Point Name="FO">NFFO</Point>
       <Point Name="KB">NFKB</Point>
       <Point Name="KD">NFKD</Point>
-      <Point Name="MA">NFMA</Point>
       <Point Name="MO">NFMO</Point>
       <Point Name="NA">NFNA</Point>
       <Point Name="NB">NFNB</Point>
