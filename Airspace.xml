@@ -7544,7 +7544,6 @@ CH VOR
     <Point Name="XI" Type="Navaid" NavaidType="NDB" Frequency="333">+015900.301-1572117.280</Point>
     <Point Name="AA" Type="Navaid" NavaidType="VOR" Frequency="114.8">-370016.700+1744849.100</Point>
     <Point Name="AP" Type="Navaid" NavaidType="VOR" Frequency="116.7">-384435.570+1760427.430</Point>
-    <Point Name="BM" Type="Navaid" NavaidType="VOR" Frequency="117.9">-413019.000+1740155.000</Point>
     <Point Name="CH" Type="Navaid" NavaidType="VOR" Frequency="115.3">-433014.800+1723052.700</Point>
     <Point Name="CI" Type="Navaid" NavaidType="VOR" Frequency="116.2">-435725.279-1763358.831</Point>
     <Point Name="FA" Type="Navaid" NavaidType="VOR" Frequency="113.9">-134943.500-1715934.591</Point>
@@ -8388,10 +8387,6 @@ CH VOR
     <Airport ICAO="NFKD" FullName="Kadavu" Position="-190329.000+1780926.000" Elevation="6">
       <Runway Name="16" Position="-190314.710+1780922.831" />
       <Runway Name="34" Position="-190342.142+1780927.770" />
-    </Airport>
-    <Airport ICAO="NFMA" FullName="Mana" Position="-174022.000+1770554.000" Elevation="16">
-      <Runway Name="13" Position="-174014.408+1770547.609" />
-      <Runway Name="31" Position="-174029.752+1770601.721" />
     </Airport>
     <Airport ICAO="NFMO" FullName="Moala" Position="-183402.000+1795704.000" Elevation="13">
       <Runway Name="15" Position="-183348.341+1795700.040" />
