@@ -6,7 +6,7 @@
         <Sector Name="NZZO" />
       </Sectors>
       <ManualVisibility>
-        <Point>-17.485000-174.508889</Point>
+        <Point>-24.041111+175.053056</Point>
         <Point>-63.483056+179.390556</Point>
         <Point>-38.457500-124.348056</Point>
         <Point>-07.425556-133.010278</Point>
@@ -38,7 +38,7 @@
         <Sector Name="NZZE" />
       </Sectors>
       <ManualVisibility>
-        <Point>-17.485000-174.508889</Point>
+        <Point>-24.041111+175.053056</Point>
         <Point>-63.483056+179.390556</Point>
         <Point>-38.457500-124.348056</Point>
         <Point>-07.425556-133.010278</Point>
