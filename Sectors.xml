@@ -7,7 +7,7 @@
   <Sector FullName="Christchurch Control (Nak)" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK" />
   <Sector FullName="Christchurch Control (Sth)" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH" />
   <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="DIR" />
-  <Sector FullName="Faleolo Control" Frequency="123.800" Callsign="NSFA_CTR" Name="SAM">
+  <Sector FullName="Faleolo Control" Frequency="126.900" Callsign="NSFA_CTR" Name="SAM">
     <Volumes>NSFA-W,NSFA-E</Volumes>
   </Sector>
   <Sector FullName="Ohakea Control" Frequency="126.200" Callsign="NZOH_CTR" Name="NAK" />
