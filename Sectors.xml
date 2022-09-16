@@ -106,7 +106,7 @@
   <Sector FullName="NZWN_GND" Frequency="121.900" Callsign="NZWN_GND" Name="GWN" />
   <Sector FullName="NZWN_TWR" Frequency="118.800" Callsign="NZWN_TWR" Name="TWN" />
   <Sector FullName="NZWP_TWR" Frequency="134.500" Callsign="NZWP_TWR" Name="TWP" />
-  <Sector FullName="Pago Pago Tower" Frequency="118.600" Callsign="NSTU_TWR" Name="T-PAG">
+  <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG">
     <Volumes>NSTUTWR</Volumes>
   </Sector>
   <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TNTTR">
