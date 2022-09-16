@@ -41,7 +41,6 @@
   <Sector FullName="Fuaamotu Tower" Frequency="118.500" Callsign="NFTF_APP" Name="A-FAL">
     <Volumes>NFTFAPP</Volumes>
   </Sector>
-  <Sector FullName="NSFA_APP" Frequency="126.900" Callsign="NSFA_APP" Name="A-NSFA" />
   <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA" />
   <Sector FullName="NZAA_DEP" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP" />
   <Sector FullName="NZAA-F_APP" Frequency="129.600" Callsign="NZAA-F_APP" Name="AARR" />
