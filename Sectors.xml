@@ -17,7 +17,7 @@
   <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTC_CTR" Name="TAH">
     <Volumes>NTTTISLV,NTTTClassE</Volumes>
   </Sector>
-  <Sector FullName="Auckland Radio" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO">
+  <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO">
     <Volumes>NZZO</Volumes>
   </Sector>
   <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="NZZE">
