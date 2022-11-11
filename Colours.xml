@@ -498,9 +498,9 @@
   <Colour id="Custom">
     <Use>ASMGCS Temp BG</Use>
     <Name>SpecGround</Name>
-    <R>208</R>
-    <G>214</G>
-    <B>226</B>
+    <R>0</R>
+    <G>50</G>
+    <B>34</B>
   </Colour>
 
 </Colours>
