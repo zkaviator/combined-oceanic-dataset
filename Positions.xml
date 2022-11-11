@@ -557,4 +557,26 @@
       </ControllerInfo>
     </Position>
   </Group>
+
+  <Position Name="NTAA FAAA" ASMGCSAirport="NTAA" DefaultRange="3" Rotation="0" MagneticVariation="-13.1133451" Type="ASMGCS" DefaultCenter="-173324.0-1493641.0">
+    <Maps>
+      <Map Name="NTAA/NTAA_BAK" />
+      <Map Name="NTAA/NTAA_BLDS" />
+      <Map Name="NTAA/NTAA_APRS" />
+      <Map Name="NTAA/NTAA_TWYS" />
+      <Map Name="NTAA/NTAA_RWYS" />
+    </Maps>
+    <Sectors />
+  </Position>
+
+  <Position Name="NCRG RARO" ASMGCSAirport="NCRG" DefaultRange="3" Rotation="0" MagneticVariation="-14" Type="ASMGCS" DefaultCenter="-211204.5-1594756.5">
+    <Maps>
+      <Map Name="NCRG/NCRG_BAK" />
+      <Map Name="NCRG/NCRG_BLDS" />
+      <Map Name="NCRG/NCRG_APRS" />
+      <Map Name="NCRG/NCRG_TWYS" />
+      <Map Name="NCRG/NCRG_RWYS" />
+    </Maps>
+    <Sectors />
+  </Position>
 </Positions>
