@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
   <RuleSets>
-    <!-- Not really needed for Oceanic positions -->
+    <Rules>
+      <Departure Values="NTAA">
+        <Rules>
+          <Default>
+            <AssignSector>
+              <AssignSector Order="A-TAH, TAH, NTTT" />
+            </AssignSector>
+          </Default>
+        </Rules>
+      </Departure>
+    </Rules>
   </RuleSets>
 </DefaultJurisdiction>
