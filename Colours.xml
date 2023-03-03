@@ -3,9 +3,9 @@
   <Colour id="GenericText">
     <Use>Window Text</Use>
     <Name>Black</Name>
-    <R>60</R>
-    <G>60</G>
-    <B>60</B>
+    <R>25</R>
+    <G>25</G>
+    <B>25</B>
   </Colour>
   <Colour id="InteractiveText">
     <Use>InteractiveText</Use>
@@ -37,10 +37,10 @@
   </Colour>
   <Colour id="WindowBackgound">
     <Use>Window Backgrounds</Use>
-    <Name>LightGrey</Name>
-    <R>232</R>
-    <G>232</G>
-    <B>232</B>
+    <Name>MidGrey</Name>
+    <R>130</R>
+    <G>150</G>
+    <B>150</B>
   </Colour>
   <Colour id="Preactive">
     <Use>Preactive Tracks and Strips</Use>
@@ -174,9 +174,9 @@
   <Colour id="NonInteractiveText">
     <Use>Non-Interactive Text</Use>
     <Name>DarkGrey</Name>
-    <R>90</R>
-    <G>90</G>
-    <B>90</B>
+    <R>60</R>
+    <G>60</G>
+    <B>60</B>
   </Colour>
   <Colour id="ASDBackground">
     <Use>ASD Backgrounds</Use>
