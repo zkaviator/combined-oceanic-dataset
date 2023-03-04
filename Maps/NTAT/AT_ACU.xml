@@ -5,27 +5,26 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>IKOVA</Point>
       <Point>IBELI</Point>
       <Point>IGAMA</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>AT401</Point>
+      <Point>FAT03</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IKOVA</Point>
-    </Symbol>
-    <Line Pattern="Solid">IKOVA/AT401/-232211.431-1493146.981</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">IKOVA/FAT03/-232211.431-1493146.981</Line>
     <Line Pattern="Solid">IBELI/IKOVA</Line>
     <Line Pattern="Solid">IGAMA/IKOVA</Line>
   </Map>
   <Map Type="System2" Name="03 RNP Labels" Priority="1" Center="-23.369842-149.529717" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>IKOVA</Point>
       <Point>IBELI</Point>
       <Point>IGAMA</Point>
-      <Point>AT401</Point>
-      <Point>IKOVA</Point>
+      <Point>FAT03</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="21 RNP" Priority="1" Center="-23.360814-149.518775" CustomColourName="ProcArr">
@@ -33,27 +32,26 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>IDOPI</Point>
       <Point>IBAKO</Point>
       <Point>IGENO</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
-      <Point>AT402</Point>
+      <Point>FAT21</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>IDOPI</Point>
-    </Symbol>
-    <Line Pattern="Solid">IDOPI/AT402/-232138.930-1493107.590</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">IDOPI/FAT21/-232138.930-1493107.590</Line>
     <Line Pattern="Solid">IBAKO/IDOPI</Line>
     <Line Pattern="Solid">IGENO/IDOPI</Line>
   </Map>
   <Map Type="System2" Name="21 RNP Labels" Priority="1" Center="-23.360814-149.518775" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>IDOPI</Point>
       <Point>IBAKO</Point>
       <Point>IGENO</Point>
-      <Point>AT402</Point>
-      <Point>IDOPI</Point>
+      <Point>FAT21</Point>
     </Label>
   </Map>
 </Maps>

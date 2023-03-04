@@ -128,7 +128,7 @@
     </Runway>
     <!--NTTB-->
     <Runway Name="11/29">
-      <Threshold Name="11" Position="-16.440489-151.757092" ExtendedCentrelineTrack="304.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="11" Position="-16.440508-151.757061" ExtendedCentrelineTrack="304.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="29" Position="-16.448192-151.745475" ExtendedCentrelineTrack="124.7" ExtendedCentrelineLength="6" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--NTTG-->
@@ -163,8 +163,8 @@
     </Runway>
     <!--NZCI-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-43.813831-176.473417" ExtendedCentrelineTrack="253.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="23" Position="-43.810042-176.457308" ExtendedCentrelineTrack="73.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="05" Position="-43.815189-176.479217" ExtendedCentrelineTrack="251.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="23" Position="-43.810053-176.457344" ExtendedCentrelineTrack="71.6" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--YSNF-->
     <Runway Name="04/22">

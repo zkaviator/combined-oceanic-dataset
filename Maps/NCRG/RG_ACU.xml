@@ -217,6 +217,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>OPUNA</Point>
       <Point>RAKIA</Point>
       <Point>TOKEA</Point>
     </Symbol>
@@ -225,9 +226,7 @@
       <Point>RG401</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>OPUNA</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">OPUNA/RG401/RG403/-211209.299-1594856.549</Line>
     <Line Pattern="Solid">RAKIA/OPUNA</Line>
     <Line Pattern="Solid">TOKEA/OPUNA</Line>
@@ -235,10 +234,10 @@
   </Map>
   <Map Type="System2" Name="08 RNP Labels" Priority="1" Center="-21.202583-159.815708" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>OPUNA</Point>
       <Point>RAKIA</Point>
       <Point>TOKEA</Point>
       <Point>RG401</Point>
-      <Point>OPUNA</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="08 RNP-AR" Priority="1" Center="-21.202583-159.815708" CustomColourName="ProcArr">
@@ -466,27 +465,29 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>ANGAI</Point>
       <Point>MOAKE</Point>
       <Point>MURIA</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross">
+      <Point>PEXIS</Point>
       <Point>RG407</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>ANGAI</Point>
-    </Symbol>
-    <Line Pattern="Solid">ANGAI/RG407/-211209.310-1594743.609</Line>
+    <Symbol Type="SolidTriangle" />
+    <Line Pattern="Solid">ANGAI/PEXIS/-211209.310-1594743.609</Line>
     <Line Pattern="Solid">MOAKE/ANGAI</Line>
     <Line Pattern="Solid">MURIA/ANGAI</Line>
+    <Line Pattern="Solid">ANGAI/RG407/-211209.310-1594743.609</Line>
   </Map>
   <Map Type="System2" Name="26 RNP Labels" Priority="1" Center="-21.202586-159.795447" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>ANGAI</Point>
       <Point>MOAKE</Point>
       <Point>MURIA</Point>
+      <Point>PEXIS</Point>
       <Point>RG407</Point>
-      <Point>ANGAI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="26 RNP-AR" Priority="1" Center="-21.202586-159.795447" CustomColourName="ProcArr">

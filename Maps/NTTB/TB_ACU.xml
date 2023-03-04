@@ -56,7 +56,7 @@
       <Point>UDINI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.440489-151.757092">
+  <Map Type="System2" Name="11 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.440508-151.757061">
     <Line>
       <!--Rwy11 HHN1B-->
       HHN VOR/ATALA/BB NDB
@@ -85,7 +85,7 @@
       <Point>RAN VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="11 RNP" Priority="1" Center="-16.440489-151.757092" CustomColourName="ProcArr">
+  <Map Type="System2" Name="11 RNP" Priority="1" Center="-16.440508-151.757061" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>BIDOP</Point>
@@ -102,10 +102,10 @@
     </Symbol>
     <!--IF Symbols-->
     <Symbol Type="SolidTriangle" />
-    <Line Pattern="Solid">BOKAL/FTB11/-162625.760-1514525.531</Line>
+    <Line Pattern="Solid">BOKAL/FTB11/-162625.829-1514525.420</Line>
     <Line Pattern="Solid">BAMBI/BIDOP/NOMIS/BOKAL</Line>
   </Map>
-  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-16.440489-151.757092" CustomColourName="ProcArr">
+  <Map Type="System2" Name="11 RNP Labels" Priority="1" Center="-16.440508-151.757061" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>BOKAL</Point>
       <Point>BAMBI</Point>
@@ -113,10 +113,10 @@
       <Point>FTB11</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.440489-151.757092">
+  <Map Type="System2" Name="29 SIDs" Priority="1" CustomColourName="ProcDep" Center="-16.440508-151.757061">
     <Line Pattern="Dashed">
       <!--Rwy29 HHN3B-->
-      -16.440489-151.757092/-16.429050-151.774000/-16.421890-151.769610/-16.461900-151.684220/HHN VOR
+      -16.440508-151.757061/-16.429050-151.774000/-16.421890-151.769610/-16.461900-151.684220/HHN VOR
     </Line>
     <Line Pattern="Dashed">
       <!--Rwy29 MANA1B-->

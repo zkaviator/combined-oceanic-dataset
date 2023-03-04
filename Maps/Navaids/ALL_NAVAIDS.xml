@@ -11,7 +11,7 @@
       <Point Name="BB">-162639.502-1514516.700</Point>
       <Point Name="BL">-194319.700+1633948.100</Point>
       <Point Name="BO">+012247.000+1730845.000</Point>
-      <Point Name="CI">-435725.279-1763358.831</Point>
+      <Point Name="CI">-435725.301-1763358.799</Point>
       <Point Name="FA">-173310.760-1493649.702</Point>
       <Point Name="FA">-134934.522-1720103.421</Point>
       <Point Name="FK">-160314.198-1453915.401</Point>
@@ -50,8 +50,8 @@
       <Point Name="NO">-180053.000+1782804.000</Point>
       <Point Name="NP">-141032.599-1411555.300</Point>
       <Point Name="NW">-215615.900+1660432.300</Point>
-      <Point Name="OA">-203831.700+1663419.402</Point>
       <Point Name="OA">-145721.301-1473937.598</Point>
+      <Point Name="OA">-203831.700+1663419.402</Point>
       <Point Name="OI">-203912.000-1784430.000</Point>
       <Point Name="PY">-085938.990-1580237.831</Point>
       <Point Name="RE">-182749.399-1362639.098</Point>
@@ -62,7 +62,6 @@
       <Point Name="SON">-153022.291+1671259.620</Point>
       <Point Name="TB">-232213.000-1493141.902</Point>
       <Point Name="TH">-204725.000+1651520.200</Point>
-      <Point Name="TP">-144231.298-1451449.700</Point>
       <Point Name="TUT">-141955.700-1704310.200</Point>
       <Point Name="TV">-183508.000-1735811.000</Point>
       <Point Name="UKS">+052111.048+1625724.869</Point>
@@ -99,8 +98,8 @@
       <Point Name="TUT">-141957.331-1704229.801</Point>
       <Point Name="UKS">+052111.480+1625724.300</Point>
       <Point Name="VLI">-173943.700+1681438.159</Point>
-      <Point Name="ZFX">-775649.762+1664434.289</Point>
-      <Point Name="ZWD">-775323.050+1670518.841</Point>
+      <Point Name="ZFX">-775649.988+1664426.588</Point>
+      <Point Name="ZWD">-775323.600+1670501.169</Point>
     </Label>
   </Map>
   <Map Type="System" Name="NDB" Priority="1" Center="-20.000-167.000" CustomColourName="NDB">
@@ -114,7 +113,7 @@
       <Point>-162639.502-1514516.700</Point>
       <Point>-194319.700+1633948.100</Point>
       <Point>+012247.000+1730845.000</Point>
-      <Point>-435725.279-1763358.831</Point>
+      <Point>-435725.301-1763358.799</Point>
       <Point>-173310.760-1493649.702</Point>
       <Point>-134934.522-1720103.421</Point>
       <Point>-160314.198-1453915.401</Point>
@@ -153,8 +152,8 @@
       <Point>-180053.000+1782804.000</Point>
       <Point>-141032.599-1411555.300</Point>
       <Point>-215615.900+1660432.300</Point>
-      <Point>-203831.700+1663419.402</Point>
       <Point>-145721.301-1473937.598</Point>
+      <Point>-203831.700+1663419.402</Point>
       <Point>-203912.000-1784430.000</Point>
       <Point>-085938.990-1580237.831</Point>
       <Point>-182749.399-1362639.098</Point>
@@ -165,7 +164,6 @@
       <Point>-153022.291+1671259.620</Point>
       <Point>-232213.000-1493141.902</Point>
       <Point>-204725.000+1651520.200</Point>
-      <Point>-144231.298-1451449.700</Point>
       <Point>-141955.700-1704310.200</Point>
       <Point>-183508.000-1735811.000</Point>
       <Point>+052111.048+1625724.869</Point>
@@ -202,8 +200,8 @@
       <Point>-141957.331-1704229.801</Point>
       <Point>+052111.480+1625724.300</Point>
       <Point>-173943.700+1681438.159</Point>
-      <Point>-775649.762+1664434.289</Point>
-      <Point>-775323.050+1670518.841</Point>
+      <Point>-775649.988+1664426.588</Point>
+      <Point>-775323.600+1670501.169</Point>
     </Symbol>
   </Map>
 </Maps>
