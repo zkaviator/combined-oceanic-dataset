@@ -42,8 +42,7 @@
     <Volumes>NFTFAPP</Volumes>
   </Sector>
   <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA" />
-  <Sector FullName="NZAA_DEP" Frequency="118.000" Callsign="NZAA_DEP" Name="ADEP" />
-  <Sector FullName="NZAA-F_APP" Frequency="129.600" Callsign="NZAA-F_APP" Name="AARR" />
+  <Sector FullName="NZAA_DEP" Frequency="129.600" Callsign="NZAA_DEP" Name="ADEP" />
   <Sector FullName="NZCH_APP" Frequency="126.100" Callsign="NZCH_APP" Name="CTMA" />
   <Sector FullName="NZCH_DEP" Frequency="120.900" Callsign="NZCH_DEP" Name="CDEP" />
   <Sector FullName="NZHN_APP" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA" />

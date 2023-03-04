@@ -8,6 +8,8 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GRUPY</Point>
+      <Point>DRAWN</Point>
       <Point>SETTS</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -15,17 +17,17 @@
       <Point>BLUJA</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>GRUPY</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">GRUPY/BLUJA/CAXEB/HOPID/-142020.890-1704322.000</Line>
+    <Line Pattern="Solid">DRAWN/GRUPY</Line>
     <Line Pattern="Solid">SETTS/GRUPY</Line>
   </Map>
   <Map Type="System2" Name="05 RNP Labels" Priority="1" Center="-14.339136-170.722778" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GRUPY</Point>
+      <Point>DRAWN</Point>
       <Point>SETTS</Point>
       <Point>BLUJA</Point>
-      <Point>GRUPY</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="23 RNP" Priority="1" Center="-14.327881-170.702661" CustomColourName="ProcArr">
@@ -35,6 +37,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>HUMTU</Point>
       <Point>SUMLE</Point>
     </Symbol>
     <!--FAF Symbols-->
@@ -42,17 +45,15 @@
       <Point>NOTSE</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>HUMTU</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">HUMTU/NOTSE/WUTEB/-141940.372-1704209.580</Line>
     <Line Pattern="Solid">SUMLE/HUMTU</Line>
   </Map>
   <Map Type="System2" Name="23 RNP Labels" Priority="1" Center="-14.327881-170.702661" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>HUMTU</Point>
       <Point>SUMLE</Point>
       <Point>NOTSE</Point>
-      <Point>HUMTU</Point>
     </Label>
   </Map>
 </Maps>

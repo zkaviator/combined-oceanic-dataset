@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>MEGUD</Point>
       <Point>APABU</Point>
       <Point>IBVON</Point>
     </Symbol>
@@ -13,19 +14,17 @@
       <Point>UE901</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>MEGUD</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">MEGUD/UE901/-190431.411-1695610.252</Line>
     <Line Pattern="Solid">APABU/MEGUD</Line>
     <Line Pattern="Solid">IBVON/MEGUD</Line>
   </Map>
   <Map Type="System2" Name="10 RNP Labels" Priority="1" Center="-19.075392-169.936181" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>MEGUD</Point>
       <Point>APABU</Point>
       <Point>IBVON</Point>
       <Point>UE901</Point>
-      <Point>MEGUD</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="28 RNP" Priority="1" Center="-19.082547-169.915303" CustomColourName="ProcArr">
@@ -33,6 +32,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GUGAG</Point>
       <Point>EXOPU</Point>
       <Point>IBADO</Point>
     </Symbol>
@@ -41,19 +41,17 @@
       <Point>UE928</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle">
-      <Point>GUGAG</Point>
-    </Symbol>
+    <Symbol Type="SolidTriangle" />
     <Line Pattern="Solid">GUGAG/UE928/-190457.169-1695455.091</Line>
     <Line Pattern="Solid">EXOPU/GUGAG</Line>
     <Line Pattern="Solid">IBADO/GUGAG</Line>
   </Map>
   <Map Type="System2" Name="28 RNP Labels" Priority="1" Center="-19.082547-169.915303" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GUGAG</Point>
       <Point>EXOPU</Point>
       <Point>IBADO</Point>
       <Point>UE928</Point>
-      <Point>GUGAG</Point>
     </Label>
   </Map>
 </Maps>

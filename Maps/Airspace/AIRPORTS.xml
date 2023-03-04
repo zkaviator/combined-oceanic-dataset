@@ -10,8 +10,6 @@
       <Point>AGGE</Point>
       <Point>AGGF</Point>
       <Point>AGGH</Point>
-      <Point>AGGI</Point>
-      <Point>AGGJ</Point>
       <Point>AGGK</Point>
       <Point>AGGL</Point>
       <Point>AGGM</Point>
@@ -27,7 +25,6 @@
       <Point>AGKG</Point>
       <Point>AGLM</Point>
       <Point>AGOB</Point>
-      <Point>AGRC</Point>
       <Point>ANYN</Point>
       <Point>AYBK</Point>
       <Point>AYGN</Point>
@@ -184,8 +181,6 @@
       <Point Name="GE">AGGE</Point>
       <Point Name="GF">AGGF</Point>
       <Point Name="GH">AGGH</Point>
-      <Point Name="GI">AGGI</Point>
-      <Point Name="GJ">AGGJ</Point>
       <Point Name="GK">AGGK</Point>
       <Point Name="GL">AGGL</Point>
       <Point Name="GM">AGGM</Point>
@@ -201,7 +196,6 @@
       <Point Name="KG">AGKG</Point>
       <Point Name="LM">AGLM</Point>
       <Point Name="OB">AGOB</Point>
-      <Point Name="RC">AGRC</Point>
       <Point Name="YN">ANYN</Point>
       <Point Name="BK">AYBK</Point>
       <Point Name="GN">AYGN</Point>
