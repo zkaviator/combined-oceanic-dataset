@@ -17,11 +17,12 @@
   <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTC_CTR" Name="TAH">
     <Volumes>NTTTISLV,NTTTClassE</Volumes>
   </Sector>
-  <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO">
-    <Volumes>NZZO</Volumes>
+  <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="ARO">
+    <Volumes>ARO</Volumes>
+    <ResponsibleSectors>ARE,ART</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="NZZE">
-    <Volumes>NZZO-E</Volumes>
+  <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE">
+    <Volumes>ARE</Volumes>
   </Sector>
   <Sector FullName="Coral Oceanic" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL" />
   <Sector FullName="Flinders Oceanic" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD" />
@@ -29,9 +30,12 @@
   <Sector FullName="Indian South" Frequency="129.250" Callsign="BN-INS_FSS" Name="INS" />
   <Sector FullName="Lord Howe Oceanic" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE" />
   <Sector FullName="Macmurdo Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="MAC">
-    <Volumes>NZCM</Volumes>
+    <Volumes>MAC</Volumes>
   </Sector>
   <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" />
+  <Sector FullName="Auckland Radio (Tasman)" Frequency="129.500" Callsign="NZZO-TSN_FSS" Name="ART">
+    <Volumes>ART</Volumes>
+  </Sector>
   <Sector FullName="Oakland East Oceanic" Frequency="131.950" Callsign="ZAK-E_FSS" Name="ZAK-E" />
   <Sector FullName="Oakland West Oceanic" Frequency="122.500" Callsign="ZAK-W_FSS" Name="ZAK-W" />
   <Sector FullName="Tahiti Control (Oceanic)" Frequency="125.500" Callsign="NTTT_FSS" Name="NTTT">

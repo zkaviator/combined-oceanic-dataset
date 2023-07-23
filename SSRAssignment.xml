@@ -22,16 +22,20 @@
 
     <!-- Military Flights -->
   <Bin>
-    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|RNZN)\b"/>
-    <Codes Start="2501" End="2577"/>
-	<Codes Start="7301" End="7307"/>
-	<Codes Start="2001" End="2077"/>
-	<Codes Start="7310" End="7357"/>
+    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|ORI|STATE|HER|BOE|KIW|VSOA)\b"/>
+	  <Rule Callsign="(BOE|KIW|POS|ORI|HER|CDT|TEX|KAH|FAL)" />
+    <Codes Start="6300" End="6477"/>
   </Bin>
 
-  <!-- Domestic Flights -->
+	<!-- Ice Flights -->
+	<Bin>
+    <Rule Callsign="(RCH|USAF|ICE|ASY)" />
+    <Codes Start="6001" End="6077" />
+  </Bin>
+
+  <!-- Domestic Flights For Tahiti -->
   <Bin>
-    <Rule Departure="N\w{3}" Destination="N\w{3}"/>
+    <Rule Departure="NT\w{2}" Destination="NT\w{2}"/>
     <Codes Start="3601" End="3677"/>
 		<Codes Start="3701" End="3777"/>
 		<Codes Start="4001" End="4077"/>
@@ -47,7 +51,15 @@
 		<Codes Start="3201" End="3233"/>
   </Bin>
 	
-  <!-- Transit Flights -->
+  <!-- Oceanic Transit Flights -->
+
+	<!-- For aircraft departing FROM New Zealand -->
+
+	<Bin>
+		<Rule Departure="NZ\w{2}" />
+		<Codes Start="0300" End="0377" />
+	</Bin>
+
   <Bin>
 		<Codes Start="1001" End="1077"/>
 		<Codes Start="1101" End="1177"/>
