@@ -7593,6 +7593,7 @@ CH VOR
     <Point Name="HK" Type="Navaid" NavaidType="NDB" Frequency="310">-424345.620+1705722.388</Point>
     <Point Name="HL" Type="Navaid" NavaidType="NDB" Frequency="284">-211532.000+1653641.000</Point>
     <Point Name="HL" Type="Navaid" NavaidType="NDB" Frequency="378">-455645.179+1700942.952</Point>
+    <Point Name="HN VOR" Type="Navaid" NavaidType="VOR" Frequency="114">-375057.350+1752018.770</Point>
     <Point Name="HN" Type="Navaid" NavaidType="NDB" Frequency="348">-092526.720+1600316.740</Point>
     <Point Name="HO" Type="Navaid" NavaidType="NDB" Frequency="315">-131425.800-1761150.798</Point>
     <Point Name="HV" Type="Navaid" NavaidType="NDB" Frequency="383">-094614.801-1390049.601</Point>
@@ -7623,6 +7624,7 @@ CH VOR
     <Point Name="NI" Type="Navaid" NavaidType="NDB" Frequency="355">-003232.719+1665504.469</Point>
     <Point Name="NL" Type="Navaid" NavaidType="NDB" Frequency="358">-411343.630+1744941.491</Point>
     <Point Name="NO" Type="Navaid" NavaidType="NDB" Frequency="330">-180053.000+1782804.000</Point>
+    <Point Name="NP VOR" Type="Navaid" NavaidType="VOR" Frequency="114.4">-390026.070+1741102.160</Point>
     <Point Name="NP" Type="Navaid" NavaidType="NDB" Frequency="376">-141032.599-1411555.300</Point>
     <Point Name="NW" Type="Navaid" NavaidType="NDB" Frequency="325.5">-215615.900+1660432.300</Point>
     <Point Name="OA" Type="Navaid" NavaidType="NDB" Frequency="358">-145721.301-1473937.598</Point>

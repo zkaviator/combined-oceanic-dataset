@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Auckland Control" Frequency="123.900" Callsign="NZAA_CTR" Name="AKL" />
-  <Sector FullName="Auckland Control (Raglan)" Frequency="126.000" Callsign="NZAA-R_CTR" Name="RAG" />
-  <Sector FullName="Christchurch Control (Bay)" Frequency="119.500" Callsign="NZCH-B_CTR" Name="BAY" />
-  <Sector FullName="Christchurch Control (Kai)" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI" />
-  <Sector FullName="Christchurch Control (Nak)" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK" />
-  <Sector FullName="Christchurch Control (Sth)" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH" />
-  <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="DIR" />
+  <Sector FullName="Auckland Control" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR" DisplayInSectorsWindow="False" >
+    <Volumes>OCR</Volumes>
+    <ResponsibleSectors>RAN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Auckland Control (Raglan)" Frequency="126.000" Callsign="NZAA-R_CTR" Name="RAN" DisplayInSectorsWindow="False" >
+    <Volumes>RAN</Volumes>
+  </Sector>
+  <Sector FullName="Christchurch Control (Bays)" Frequency="119.500" Callsign="NZCH-B_CTR" Name="BAY" DisplayInSectorsWindow="False" >
+    <Volumes>BAY</Volumes>
+  </Sector>
+  <Sector FullName="Christchurch Control (Kai)" Frequency="129.400" Callsign="NZCH-K_CTR" Name="KAI" DisplayInSectorsWindow="False" >
+    <Volumes>KAI</Volumes>
+  </Sector>
+  <Sector FullName="Christchurch Control (Nak)" Frequency="123.700" Callsign="NZCH-T_CTR" Name="NAK" DisplayInSectorsWindow="False" >
+    <Volumes>NAK</Volumes>
+  </Sector>
+  <Sector FullName="Christchurch Control (Sth)" Frequency="129.300" Callsign="NZCH-S_CTR" Name="STH" DisplayInSectorsWindow="False" >
+    <Volumes>STH</Volumes>
+  </Sector>
+  <Sector FullName="Christchurch Director" Frequency="129.200" Callsign="NZCH-D_CTR" Name="DIR"  DisplayInSectorsWindow="False" />
   <Sector FullName="Faleolo Control" Frequency="126.900" Callsign="NSFA_CTR" Name="SAM">
     <Volumes>NSFA-W,NSFA-E</Volumes>
   </Sector>
-  <Sector FullName="Ohakea Control" Frequency="126.200" Callsign="NZOH_CTR" Name="NAK" />
+  <Sector FullName="Ohakea Control" Frequency="126.200" Callsign="NZOH_CTR" Name="OHA" DisplayInSectorsWindow="False" >
+    <Volumes>OHA</Volumes>
+  </Sector>
   <Sector FullName="Rarotonga Control" Frequency="118.900" Callsign="NCRG_CTR" Name="RAR">
     <Volumes>NCRGCTR</Volumes>
   </Sector>
@@ -24,98 +39,119 @@
   <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE">
     <Volumes>ARE</Volumes>
   </Sector>
-  <Sector FullName="Coral Oceanic" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL" />
-  <Sector FullName="Flinders Oceanic" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD" />
-  <Sector FullName="Indian Oceanic" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND" />
-  <Sector FullName="Indian South" Frequency="129.250" Callsign="BN-INS_FSS" Name="INS" />
-  <Sector FullName="Lord Howe Oceanic" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE" />
+  <Sector FullName="Coral Oceanic" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL"  DisplayInSectorsWindow="False" />
+  <Sector FullName="Flinders Oceanic" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD"  DisplayInSectorsWindow="False" />
+  <Sector FullName="Indian Oceanic" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND"  DisplayInSectorsWindow="False" />
+  <Sector FullName="Indian South" Frequency="129.250" Callsign="BN-INS_FSS" Name="INS"  DisplayInSectorsWindow="False" />
+  <Sector FullName="Lord Howe Oceanic" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE"  DisplayInSectorsWindow="False" />
   <Sector FullName="Macmurdo Centre" Frequency="128.700" Callsign="NZCM_FSS" Name="MAC">
     <Volumes>MAC</Volumes>
   </Sector>
-  <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" />
+  <Sector FullName="Nadi Radio" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" DisplayInSectorsWindow="False">
+    <Volumes>NFFF</Volumes>
+  </Sector>
   <Sector FullName="Auckland Radio (Tasman)" Frequency="129.500" Callsign="NZZO-TSN_FSS" Name="ART">
     <Volumes>ART</Volumes>
   </Sector>
-  <Sector FullName="Oakland East Oceanic" Frequency="131.950" Callsign="ZAK-E_FSS" Name="ZAK-E" />
-  <Sector FullName="Oakland West Oceanic" Frequency="122.500" Callsign="ZAK-W_FSS" Name="ZAK-W" />
+  <Sector FullName="San Fransico Radio" Frequency="129.400" Callsign="ZAK_FSS" Name="KZAK" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_E,KZAK_W</Volumes>
+  </Sector>
+  <Sector FullName="San Fransico Radio (East)" Frequency="131.175" Callsign="ZAK_E_FSS" Name="KZAKE" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_E</Volumes>
+  </Sector>
+  <Sector FullName="San Fransico Radio (East1)" Frequency="130.800" Callsign="ZAK_E1_FSS" Name="KZAKE1" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_E</Volumes>
+  </Sector>
+  <Sector FullName="San Fransico Radio (West)" Frequency="131.950" Callsign="ZAK_W_FSS" Name="KZAKW" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_W</Volumes>
+  </Sector>
+  <Sector FullName="San Fransico Radio (West1)" Frequency="130.700" Callsign="ZAK_W1_FSS" Name="KZAKW1" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_W</Volumes>
+  </Sector>
+  <Sector FullName="San Fransico Radio (West2)" Frequency="128.900" Callsign="ZAK_W2_FSS" Name="KZAKW2" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_W</Volumes>
+  </Sector>
   <Sector FullName="Tahiti Control (Oceanic)" Frequency="125.500" Callsign="NTTT_FSS" Name="NTTT">
     <Volumes>NTTT</Volumes>
   </Sector>
-  <Sector FullName="Tasman Oceanic" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN" />
-  <Sector FullName="Fuaamotu Tower" Frequency="118.500" Callsign="NFTF_APP" Name="A-FAL">
+  <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN" DisplayInSectorsWindow="False">
+    <Volume>TSN</Volume>
+    <ResponsibleSectors>COL,FLD,HWE</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Fuaamotu Tower" Frequency="118.500" Callsign="NFTF_APP" Name="A-FAL" >
     <Volumes>NFTFAPP</Volumes>
   </Sector>
-  <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA" />
-  <Sector FullName="NZAA_DEP" Frequency="129.600" Callsign="NZAA_DEP" Name="ADEP" />
-  <Sector FullName="NZCH_APP" Frequency="126.100" Callsign="NZCH_APP" Name="CTMA" />
-  <Sector FullName="NZCH_DEP" Frequency="120.900" Callsign="NZCH_DEP" Name="CDEP" />
-  <Sector FullName="NZHN_APP" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA" />
-  <Sector FullName="NZOH_APP" Frequency="125.100" Callsign="NZOH_APP" Name="OTMA" />
-  <Sector FullName="NZQN_APP" Frequency="125.750" Callsign="NZQN_APP" Name="QTMA" />
-  <Sector FullName="NZWN_APP" Frequency="119.300" Callsign="NZWN_APP" Name="WTMA" />
-  <Sector FullName="NZWN_DEP" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP" />
+  <Sector FullName="NZAA_APP" Frequency="124.300" Callsign="NZAA_APP" Name="ATMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZAA_DEP" Frequency="129.600" Callsign="NZAA_DEP" Name="ADEP" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZCH_APP" Frequency="126.100" Callsign="NZCH_APP" Name="CTMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZCH_DEP" Frequency="120.900" Callsign="NZCH_DEP" Name="CDEP" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZHN_APP" Frequency="125.300" Callsign="NZHN_APP" Name="HTMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZOH_APP" Frequency="125.100" Callsign="NZOH_APP" Name="OTMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZQN_APP" Frequency="125.750" Callsign="NZQN_APP" Name="QTMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWN_APP" Frequency="119.300" Callsign="NZWN_APP" Name="WTMA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWN_DEP" Frequency="122.300" Callsign="NZWN_DEP" Name="WDEP" DisplayInHandoverWindow="False" />
   <Sector FullName="Rarotonga Tower" Frequency="118.100" Callsign="NCRG_APP" Name="A-RAR">
     <Volumes>NCRGAPP</Volumes>
   </Sector>
   <Sector FullName="Tahiti (Faaa) Approach" Frequency="121.300" Callsign="NTAA_APP" Name="A-TAH">
     <Volumes>NTAAAPP</Volumes>
   </Sector>
-  <Sector FullName="Bora Bora Tower" Frequency="118.900" Callsign="NTTB_TWR" Name="TNTTB">
+  <Sector FullName="Bora Bora Tower" Frequency="118.900" Callsign="NTTB_TWR" Name="TNTTB" DisplayInHandoverWindow="False">
     <Volumes>NTTBTWR_Main,NTTBTWR_Mount</Volumes>
   </Sector>
-  <Sector FullName="Faleolo Tower" Frequency="118.100" Callsign="NSFA_TWR" Name="TNSFA">
+  <Sector FullName="Faleolo Tower" Frequency="118.100" Callsign="NSFA_TWR" Name="TNSFA" DisplayInHandoverWindow="False">
     <Volumes>NSFATWR</Volumes>
   </Sector>
-  <Sector FullName="Moorea Tower" Frequency="118.700" Callsign="NTTM_TWR" Name="TNTTM">
+  <Sector FullName="Moorea Tower" Frequency="118.700" Callsign="NTTM_TWR" Name="TNTTM" DisplayInHandoverWindow="False">
     <Volumes>NTTMTWR</Volumes>
   </Sector>
-  <Sector FullName="NCRG_DEL" Frequency="121.900" Callsign="NCRG_DEL" Name="DNCRG" />
-  <Sector FullName="NFTF_GND" Frequency="121.900" Callsign="NFTF_GND" Name="GNFTF" />
-  <Sector FullName="NFTV_GND" Frequency="121.900" Callsign="NFTV_GND" Name="GNFTV" />
-  <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="TNFTV" />
-  <Sector FullName="Niue FIS" Frequency="118.100" Callsign="NIUE_TWR" Name="TNIUE">
+  <Sector FullName="NCRG_DEL" Frequency="121.900" Callsign="NCRG_DEL" Name="DNCRG" DisplayInHandoverWindow="False" />
+  <Sector FullName="NFTF_GND" Frequency="121.900" Callsign="NFTF_GND" Name="GNFTF" DisplayInHandoverWindow="False" />
+  <Sector FullName="NFTV_GND" Frequency="121.900" Callsign="NFTV_GND" Name="GNFTV" DisplayInHandoverWindow="False" />
+  <Sector FullName="NFTV_TWR" Frequency="118.100" Callsign="NFTV_TWR" Name="TNFTV" DisplayInHandoverWindow="False" />
+  <Sector FullName="Niue FIS" Frequency="118.100" Callsign="NIUE_TWR" Name="TNIUE" DisplayInHandoverWindow="False" >
     <Volumes>NIUETWR</Volumes>
   </Sector>
-  <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" />
-  <Sector FullName="NZAA_DEL" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" />
-  <Sector FullName="NZAA_GND" Frequency="121.900" Callsign="NZAA_GND" Name="GAA" />
-  <Sector FullName="NZAA_TWR" Frequency="118.700" Callsign="NZAA_TWR" Name="TAA" />
-  <Sector FullName="NZCH_DEL" Frequency="128.200" Callsign="NZCH_DEL" Name="DCH" />
-  <Sector FullName="NZCH_GND" Frequency="121.900" Callsign="NZCH_GND" Name="GCH" />
-  <Sector FullName="NZCH_TWR" Frequency="118.400" Callsign="NZCH_TWR" Name="TCH" />
-  <Sector FullName="NZDN_TWR" Frequency="120.700" Callsign="NZDN_TWR" Name="TDN" />
-  <Sector FullName="NZGS_TWR" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS" />
-  <Sector FullName="NZHN_DEL" Frequency="122.900" Callsign="NZHN_DEL" Name="DHN" />
-  <Sector FullName="NZHN_TWR" Frequency="126.800" Callsign="NZHN_TWR" Name="THN" />
-  <Sector FullName="NZMF_TWR" Frequency="118.200" Callsign="NZMF_TWR" Name="PFS" />
-  <Sector FullName="NZNP_TWR" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP" />
-  <Sector FullName="NZNR_TWR" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR" />
-  <Sector FullName="NZNS_DEL" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS" />
-  <Sector FullName="NZNS_TWR" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS" />
-  <Sector FullName="NZNV_TWR" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV" />
-  <Sector FullName="NZOH_GND" Frequency="122.100" Callsign="NZOH_GND" Name="GOH" />
-  <Sector FullName="NZOH_TWR" Frequency="134.500" Callsign="NZOH_TWR" Name="TOH" />
-  <Sector FullName="NZPM_GND" Frequency="121.700" Callsign="NZPM_GND" Name="GPM" />
-  <Sector FullName="NZPM_TWR" Frequency="120.600" Callsign="NZPM_TWR" Name="TPM" />
-  <Sector FullName="NZPP_TWR" Frequency="118.300" Callsign="NZPP_TWR" Name="PFS" />
-  <Sector FullName="NZQN_DEL" Frequency="121.900" Callsign="NZQN_DEL" Name="DQN" />
-  <Sector FullName="NZQN_GND" Frequency="128.300" Callsign="NZQN_GND" Name="GQN" />
-  <Sector FullName="NZQN_TWR" Frequency="118.100" Callsign="NZQN_TWR" Name="TQN" />
-  <Sector FullName="NZRO_TWR" Frequency="121.200" Callsign="NZRO_TWR" Name="TRO" />
-  <Sector FullName="NZTG_TWR" Frequency="118.300" Callsign="NZTG_TWR" Name="TTG" />
-  <Sector FullName="NZWB_TWR" Frequency="118.100" Callsign="NZWB_TWR" Name="TWB" />
-  <Sector FullName="NZWD_TWR" Frequency="126.200" Callsign="NZWD_TWR" Name="TWD" />
-  <Sector FullName="NZWN_DEL" Frequency="128.200" Callsign="NZWN_DEL" Name="DWN" />
-  <Sector FullName="NZWN_GND" Frequency="121.900" Callsign="NZWN_GND" Name="GWN" />
-  <Sector FullName="NZWN_TWR" Frequency="118.800" Callsign="NZWN_TWR" Name="TWN" />
-  <Sector FullName="NZWP_TWR" Frequency="134.500" Callsign="NZWP_TWR" Name="TWP" />
-  <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG">
+  <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZAA_DEL" Frequency="128.200" Callsign="NZAA_DEL" Name="DAA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZAA_GND" Frequency="121.900" Callsign="NZAA_GND" Name="GAA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZAA_TWR" Frequency="118.700" Callsign="NZAA_TWR" Name="TAA" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZCH_DEL" Frequency="128.200" Callsign="NZCH_DEL" Name="DCH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZCH_GND" Frequency="121.900" Callsign="NZCH_GND" Name="GCH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZCH_TWR" Frequency="118.400" Callsign="NZCH_TWR" Name="TCH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZDN_TWR" Frequency="120.700" Callsign="NZDN_TWR" Name="TDN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZGS_TWR" Frequency="127.300" Callsign="NZGS_TWR" Name="TGS" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZHN_DEL" Frequency="122.900" Callsign="NZHN_DEL" Name="DHN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZHN_TWR" Frequency="126.800" Callsign="NZHN_TWR" Name="THN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZMF_TWR" Frequency="118.200" Callsign="NZMF_TWR" Name="PFS" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZNP_TWR" Frequency="124.700" Callsign="NZNP_TWR" Name="TNP" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZNR_TWR" Frequency="124.800" Callsign="NZNR_TWR" Name="TNR" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZNS_DEL" Frequency="123.300" Callsign="NZNS_DEL" Name="DNS" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZNS_TWR" Frequency="127.400" Callsign="NZNS_TWR" Name="TNS" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZNV_TWR" Frequency="118.500" Callsign="NZNV_TWR" Name="TNV" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZOH_GND" Frequency="122.100" Callsign="NZOH_GND" Name="GOH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZOH_TWR" Frequency="134.500" Callsign="NZOH_TWR" Name="TOH" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZPM_GND" Frequency="121.700" Callsign="NZPM_GND" Name="GPM" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZPM_TWR" Frequency="120.600" Callsign="NZPM_TWR" Name="TPM" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZPP_TWR" Frequency="118.300" Callsign="NZPP_TWR" Name="PFS" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZQN_DEL" Frequency="121.900" Callsign="NZQN_DEL" Name="DQN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZQN_GND" Frequency="128.300" Callsign="NZQN_GND" Name="GQN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZQN_TWR" Frequency="118.100" Callsign="NZQN_TWR" Name="TQN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZRO_TWR" Frequency="121.200" Callsign="NZRO_TWR" Name="TRO" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZTG_TWR" Frequency="118.300" Callsign="NZTG_TWR" Name="TTG" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWB_TWR" Frequency="118.100" Callsign="NZWB_TWR" Name="TWB" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWD_TWR" Frequency="126.200" Callsign="NZWD_TWR" Name="TWD" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWN_DEL" Frequency="128.200" Callsign="NZWN_DEL" Name="DWN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWN_GND" Frequency="121.900" Callsign="NZWN_GND" Name="GWN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWN_TWR" Frequency="118.800" Callsign="NZWN_TWR" Name="TWN" DisplayInHandoverWindow="False" />
+  <Sector FullName="NZWP_TWR" Frequency="134.500" Callsign="NZWP_TWR" Name="TWP" DisplayInHandoverWindow="False" />
+  <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG" DisplayInHandoverWindow="False">
     <Volumes>NSTUTWR</Volumes>
   </Sector>
-  <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TNTTR">
+  <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TNTTR" DisplayInHandoverWindow="False">
     <Volumes>NTTRTWR</Volumes>
   </Sector>
-  <Sector FullName="Tahiti (Faaa) Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="T-TAH">
+  <Sector FullName="Tahiti (Faaa) Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="T-TAH" DisplayInHandoverWindow="False">
     <Volumes>NTAATWR</Volumes>
   </Sector>
 </Sectors>
