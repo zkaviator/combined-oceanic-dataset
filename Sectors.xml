@@ -104,7 +104,7 @@
   </Sector>
   <Sector FullName="NTAA_GND" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" DisplayInHandoffWindow="False" />
   <Sector FullName="NZWD_TWR" Frequency="126.200" Callsign="NZWD_TWR" Name="TWD" DisplayInHandoffWindow="False" />
-    <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG" DisplayInHandoffWindow="False">
+  <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG" DisplayInHandoffWindow="False">
     <Volumes>NSTUTWR</Volumes>
   </Sector>
   <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TNTTR" DisplayInHandoffWindow="False">
