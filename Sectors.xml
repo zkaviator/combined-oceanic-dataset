@@ -92,25 +92,25 @@
   <Sector FullName="Faleolo Tower" Frequency="118.100" Callsign="NSFA_TWR" Name="TNSFA" DisplayInHandoffWindow="False">
     <Volumes>NSFATWR</Volumes>
   </Sector>
+  <Sector FullName="Fuaamotu Ground" Frequency="121.900" Callsign="NFTF_GND" Name="GNFTF" DisplayInHandoffWindow="False" />
   <Sector FullName="Moorea Tower" Frequency="118.700" Callsign="NTTM_TWR" Name="TNTTM" DisplayInHandoffWindow="False">
     <Volumes>NTTMTWR</Volumes>
   </Sector>
-  <Sector FullName="Rarotonga Delivery" Frequency="121.900" Callsign="NCRG_DEL" Name="DNCRG" DisplayInHandoffWindow="False" />
-  <Sector FullName="Fuaamotu Ground" Frequency="121.900" Callsign="NFTF_GND" Name="GNFTF" DisplayInHandoffWindow="False" />
-  <Sector FullName="Vavau Ground" Frequency="121.900" Callsign="NFTV_GND" Name="GNFTV" DisplayInHandoffWindow="False" />
-  <Sector FullName="Vavau Tower" Frequency="118.100" Callsign="NFTV_TWR" Name="TNFTV" DisplayInHandoffWindow="False" />
   <Sector FullName="Niue FIS" Frequency="118.100" Callsign="NIUE_TWR" Name="TNIUE" DisplayInHandoffWindow="False">
     <Volumes>NIUETWR</Volumes>
   </Sector>
-  <Sector FullName="Tahiti Groung" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" DisplayInHandoffWindow="False" />
-  <Sector FullName="Williams Field Tower" Frequency="126.200" Callsign="NZWD_TWR" Name="TWD" DisplayInHandoffWindow="False" />
   <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="T-PAG" DisplayInHandoffWindow="False">
     <Volumes>NSTUTWR</Volumes>
   </Sector>
   <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TNTTR" DisplayInHandoffWindow="False">
     <Volumes>NTTRTWR</Volumes>
   </Sector>
+  <Sector FullName="Rarotonga Delivery" Frequency="121.900" Callsign="NCRG_DEL" Name="DNCRG" DisplayInHandoffWindow="False" />
   <Sector FullName="Tahiti (Faaa) Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="T-TAH" DisplayInHandoffWindow="False">
     <Volumes>NTAATWR</Volumes>
   </Sector>
+  <Sector FullName="Tahiti Groung" Frequency="121.900" Callsign="NTAA_GND" Name="G-TAH" DisplayInHandoffWindow="False" />
+  <Sector FullName="Vavau Ground" Frequency="121.900" Callsign="NFTV_GND" Name="GNFTV" DisplayInHandoffWindow="False" />
+  <Sector FullName="Vavau Tower" Frequency="118.100" Callsign="NFTV_TWR" Name="TNFTV" DisplayInHandoffWindow="False" />
+  <Sector FullName="Williams Field Tower" Frequency="126.200" Callsign="NZWD_TWR" Name="TWD" DisplayInHandoffWindow="False" />
 </Sectors>

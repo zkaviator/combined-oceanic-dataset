@@ -43,8 +43,8 @@
     </Runway>
     <!--NSAU-->
     <Runway Name="08/26">
-      <Threshold Name="08" Position="-13.505292-172.630844" ExtendedCentrelineTrack="271.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="26" Position="-13.505097-172.624925" ExtendedCentrelineTrack="91.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="08" Position="-13.505764-172.627964" ExtendedCentrelineTrack="271.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-13.505764-172.627964" ExtendedCentrelineTrack="91.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--NSFA-->
     <Runway Name="08/26">
