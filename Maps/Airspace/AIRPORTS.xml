@@ -81,6 +81,7 @@
       <Point>NSAS</Point>
       <Point>NSAU</Point>
       <Point>NSFA</Point>
+      <Point>NSFI</Point>
       <Point>NSFQ</Point>
       <Point>NSMA</Point>
       <Point>NSTU</Point>
@@ -163,6 +164,7 @@
       <Point>NZFX</Point>
       <Point>NZSP</Point>
       <Point>NZWD</Point>
+      <Point>PCIS</Point>
       <Point>PLCH</Point>
       <Point>PLPA</Point>
       <Point>PTSA</Point>
@@ -252,6 +254,7 @@
       <Point Name="AS">NSAS</Point>
       <Point Name="AU">NSAU</Point>
       <Point Name="FA">NSFA</Point>
+      <Point Name="FI">NSFI</Point>
       <Point Name="FQ">NSFQ</Point>
       <Point Name="MA">NSMA</Point>
       <Point Name="TU">NSTU</Point>
@@ -334,6 +337,7 @@
       <Point Name="FX">NZFX</Point>
       <Point Name="SP">NZSP</Point>
       <Point Name="WD">NZWD</Point>
+      <Point Name="IS">PCIS</Point>
       <Point Name="CH">PLCH</Point>
       <Point Name="PA">PLPA</Point>
       <Point Name="SA">PTSA</Point>

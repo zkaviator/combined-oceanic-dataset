@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="NDB_IDENT" Priority="1" Center="-20.000-167.000" CustomColourName="NDB">
     <Label HasLeader="true">
@@ -61,9 +61,8 @@
       <Point Name="RU">-164317.101-1512759.699</Point>
       <Point Name="SON">-153022.291+1671259.620</Point>
       <Point Name="TB">-232213.000-1493141.902</Point>
-      <Point Name="TH">-204725.000+1651520.200</Point>
       <Point Name="TUT">-141955.700-1704310.200</Point>
-      <Point Name="TV">-183508.000-1735811.000</Point>
+      <Point Name="TV">-183507.800-1735810.801</Point>
       <Point Name="UKS">+052111.048+1625724.869</Point>
       <Point Name="VK">-174705.000+1772510.200</Point>
       <Point Name="WG">-192740.320+1691328.628</Point>
@@ -98,8 +97,8 @@
       <Point Name="TUT">-141957.331-1704229.801</Point>
       <Point Name="UKS">+052111.480+1625724.300</Point>
       <Point Name="VLI">-173943.700+1681438.159</Point>
-      <Point Name="ZFX">-775649.988+1664426.588</Point>
-      <Point Name="ZWD">-775323.600+1670501.169</Point>
+      <Point Name="ZFX">-775650.341+1664418.060</Point>
+      <Point Name="ZWD">-775322.718+1670443.691</Point>
     </Label>
   </Map>
   <Map Type="System" Name="NDB" Priority="1" Center="-20.000-167.000" CustomColourName="NDB">
@@ -163,9 +162,8 @@
       <Point>-164317.101-1512759.699</Point>
       <Point>-153022.291+1671259.620</Point>
       <Point>-232213.000-1493141.902</Point>
-      <Point>-204725.000+1651520.200</Point>
       <Point>-141955.700-1704310.200</Point>
-      <Point>-183508.000-1735811.000</Point>
+      <Point>-183507.800-1735810.801</Point>
       <Point>+052111.048+1625724.869</Point>
       <Point>-174705.000+1772510.200</Point>
       <Point>-192740.320+1691328.628</Point>
@@ -200,8 +198,8 @@
       <Point>-141957.331-1704229.801</Point>
       <Point>+052111.480+1625724.300</Point>
       <Point>-173943.700+1681438.159</Point>
-      <Point>-775649.988+1664426.588</Point>
-      <Point>-775323.600+1670501.169</Point>
+      <Point>-775650.341+1664418.060</Point>
+      <Point>-775322.718+1670443.691</Point>
     </Symbol>
   </Map>
 </Maps>

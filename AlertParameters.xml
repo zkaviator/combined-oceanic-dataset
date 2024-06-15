@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AlertParameters>
   <ConflictAlerts>
-    <STCA Name="TMA" LateralNM="2.1" SecondsLookahead="60" AlertPriority="1">
+    <STCA Name="TMA" LateralNM="5.5" SecondsLookahead="60" AlertPriority="1">
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
       <Volumes>NTAAAPP,NCRGAPP,NFTFAPP,NSFATWR,NSTUTWR,NIUETWR</Volumes>
     </STCA>
-    <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
+    <STCA Name="ENR" LateralNM="5.5" SecondsLookahead="90" AlertPriority="1">
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>NZZO,NZCM,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
+      <Volumes>ARO,ART,MAC,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
     </STCA>
-    <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
+    <MTCA Name="ENR" LateralNM="6" SecondsLookahead="300" AlertPriority="3">
       <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>NZZO,NZCM,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
+      <Volumes>ARO,ART,MAC,NTTT,NTTTISLV,NTTTClassE,NCRGCTR,NSFA-W,NSFA-E</Volumes>
     </MTCA>
   </ConflictAlerts>
 

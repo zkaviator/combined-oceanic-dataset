@@ -3,7 +3,9 @@
   <Group Name="NZ Oceanic">
     <Position Name="Auckland Radio" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name="NZZO" />
+        <Sector Name="ARO" />
+        <Sector Name="ART" />
+        <Sector Name="ARE" />
       </Sectors>
       <ManualVisibility>
         <Point>-24.041111+175.053056</Point>
@@ -33,9 +35,41 @@
       </ControllerInfo>
     </Position>
 
+    <Position Name="Auckland Radio (Tasman Sector)" Type="ASD" DefaultCenter="-381005.000+1664243.000" DefaultRange="2000">
+      <Sectors>
+        <Sector Name="ART" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-42.952778+165.012778</Point>
+        <Point>-37.918889+166.811667</Point>
+        <Point>-32.531667+165.982778</Point>
+        <Point>-34.298333+172.578611</Point>
+      </ManualVisibility>        
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Airspace/ENR Sectors" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
+      <ArrivalLists />
+      <ControllerInfo>
+        <Line>Auckland Radio (Tasman) | CPDLC available through text</Line>
+        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Submit feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+
     <Position Name="Auckland Radio (East)" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
-        <Sector Name="NZZE" />
+        <Sector Name="ARE" />
       </Sectors>
       <ManualVisibility>
         <Point>-24.041111+175.053056</Point>
