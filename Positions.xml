@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="NZ Oceanic">
     <Position Name="Auckland Radio" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
@@ -613,12 +614,12 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_GND">
-        <Line>Phoenix Ground</Line>
+        <Line>Phoenix Ground - NZCM Remote ATIS on 129.9</Line>
         <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_DEL">
-        <Line>Phoenix Delivery</Line>
+        <Line>Phoenix Delivery - NZCM Remote ATIS on 129.9</Line>
         <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
