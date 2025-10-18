@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="ATS Routes" Priority="1" CustomColourName="NZZORoutes" Center="-20.000-167.000">
-    <Line Name="A212">NU VOR.A212.PUPIS</Line>
+    <Line Name="A212">NU NDB.A212.PUPIS</Line>
     <Line Name="A220">TAF VOR.A220.MAEVA</Line>
     <Line Name="A222">UKS NDB.A222.STEFF</Line>
     <Line Name="A338">NOBEY.A338.HELGE</Line>
@@ -73,7 +73,7 @@
     <Line Name="J21">VAITE.J21.BB NDB</Line>
     <Line Name="J22">MEREV.J22.TEANO</Line>
     <Line Name="J23">BB NDB.J23.TEANO</Line>
-    <Line Name="J26">RU NDB.J26.IDUTA</Line>
+    <Line Name="J26">RULOM.J26.IDUTA</Line>
     <Line Name="J27">RT NDB.J27.AROBA</Line>
     <Line Name="J28">TB NDB.J28.AROBA</Line>
     <Line Name="J29">MURUA.J29.ASOKI</Line>
@@ -151,7 +151,7 @@
     <Line Name="Q980">NA NDB.Q980.MOALA</Line>
     <Line Name="Q983">IGETO.Q983.DABAS</Line>
     <Line Name="R213">MUNDA.R213.ISPID</Line>
-    <Line Name="R327">IBESO.R327.NU VOR</Line>
+    <Line Name="R327">IBESO.R327.NU NDB</Line>
     <Line Name="R332">NN VOR.R332.VAVEE</Line>
     <Line Name="R450">DUGOM.R450.SON NDB</Line>
     <Line Name="R453">NN VOR.R453.FA VOR</Line>
@@ -191,7 +191,7 @@
       <Point>GUGET</Point>
       <Point>MIGIS</Point>
       <Point>PUPIS</Point>
-      <Point>NU VOR</Point>
+      <Point>NU NDB</Point>
       <Point>TUT NDB</Point>
       <Point>MIKAT</Point>
       <Point>MAGBA</Point>
@@ -540,11 +540,11 @@
       <Point>FAROA</Point>
       <Point>INTIB</Point>
       <Point>ORARE</Point>
+      <Point>REPAR</Point>
       <Point>ROBKO</Point>
       <Point>RUTAK</Point>
       <Point>REVRO</Point>
       <Point>WIBIG</Point>
-      <Point>RAN VOR</Point>
       <Point>ELNOS</Point>
       <Point>MUGEN</Point>
       <Point>ABVOM</Point>
@@ -620,8 +620,8 @@
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
       <Point>MEREV</Point>
+      <Point>RULOM</Point>
       <Point>TEANO</Point>
-      <Point>RU NDB</Point>
       <Point>IDUTA</Point>
       <Point>AROBA</Point>
       <Point>RT NDB</Point>
@@ -820,7 +820,7 @@
     <Symbol Type="HollowTriangleWithBorder" />
   </Map>
   <Map Type="System" Name="ATS Low Routes" Priority="1" CustomColourName="NZZORoutes" Center="-20.000-167.000">
-    <Line Name="A212">NU VOR.A212.PUPIS</Line>
+    <Line Name="A212">NU NDB.A212.PUPIS</Line>
     <Line Name="A220">TAF VOR.A220.MAEVA</Line>
     <Line Name="A338">NOBEY.A338.HELGE</Line>
     <Line Name="A346">VEMLA.A346.SALAG</Line>
@@ -888,7 +888,7 @@
     <Line Name="J21">VAITE.J21.BB NDB</Line>
     <Line Name="J22">MEREV.J22.TEANO</Line>
     <Line Name="J23">BB NDB.J23.TEANO</Line>
-    <Line Name="J26">RU NDB.J26.IDUTA</Line>
+    <Line Name="J26">RULOM.J26.IDUTA</Line>
     <Line Name="J27">RT NDB.J27.AROBA</Line>
     <Line Name="J28">TB NDB.J28.AROBA</Line>
     <Line Name="J29">MURUA.J29.ASOKI</Line>
@@ -952,7 +952,7 @@
     <Line Name="R11">MEKES.R11.VAITE</Line>
     <Line Name="R12">RULOM.R12.UBKIM</Line>
     <Line Name="R213">MUNDA.R213.NIPOK</Line>
-    <Line Name="R327">IBESO.R327.NU VOR</Line>
+    <Line Name="R327">IBESO.R327.NU NDB</Line>
     <Line Name="R332">NN VOR.R332.VAVEE</Line>
     <Line Name="R450">DUGOM.R450.AKNAK</Line>
     <Line Name="R453">NN VOR.R453.FA VOR</Line>
@@ -992,7 +992,7 @@
       <Point>GUGET</Point>
       <Point>MIGIS</Point>
       <Point>PUPIS</Point>
-      <Point>NU VOR</Point>
+      <Point>NU NDB</Point>
       <Point>TUT NDB</Point>
       <Point>MIKAT</Point>
       <Point>MAGBA</Point>
@@ -1316,11 +1316,11 @@
       <Point>FAROA</Point>
       <Point>INTIB</Point>
       <Point>ORARE</Point>
+      <Point>REPAR</Point>
       <Point>ROBKO</Point>
       <Point>RUTAK</Point>
       <Point>REVRO</Point>
       <Point>WIBIG</Point>
-      <Point>RAN VOR</Point>
       <Point>ELNOS</Point>
       <Point>MUGEN</Point>
       <Point>OSVAR</Point>
@@ -1395,8 +1395,8 @@
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
       <Point>MEREV</Point>
+      <Point>RULOM</Point>
       <Point>TEANO</Point>
-      <Point>RU NDB</Point>
       <Point>IDUTA</Point>
       <Point>AROBA</Point>
       <Point>RT NDB</Point>
@@ -1483,7 +1483,6 @@
       <Point>MEKES</Point>
       <Point>BAMBI</Point>
       <Point>UBKIM</Point>
-      <Point>RULOM</Point>
       <Point>MUNDA</Point>
       <Point>NIPOK</Point>
       <Point>IBESO</Point>
@@ -1553,7 +1552,7 @@
       <Point>GUGET</Point>
       <Point>MIGIS</Point>
       <Point>PUPIS</Point>
-      <Point>NU VOR</Point>
+      <Point>NU NDB</Point>
       <Point>TUT NDB</Point>
       <Point>MIKAT</Point>
       <Point>MAGBA</Point>
@@ -1877,11 +1876,11 @@
       <Point>FAROA</Point>
       <Point>INTIB</Point>
       <Point>ORARE</Point>
+      <Point>REPAR</Point>
       <Point>ROBKO</Point>
       <Point>RUTAK</Point>
       <Point>REVRO</Point>
       <Point>WIBIG</Point>
-      <Point>RAN VOR</Point>
       <Point>ELNOS</Point>
       <Point>MUGEN</Point>
       <Point>OSVAR</Point>
@@ -1956,8 +1955,8 @@
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
       <Point>MEREV</Point>
+      <Point>RULOM</Point>
       <Point>TEANO</Point>
-      <Point>RU NDB</Point>
       <Point>IDUTA</Point>
       <Point>AROBA</Point>
       <Point>RT NDB</Point>
@@ -2044,7 +2043,6 @@
       <Point>MEKES</Point>
       <Point>BAMBI</Point>
       <Point>UBKIM</Point>
-      <Point>RULOM</Point>
       <Point>MUNDA</Point>
       <Point>NIPOK</Point>
       <Point>IBESO</Point>
@@ -2112,7 +2110,7 @@
       <Point>GUGET</Point>
       <Point>MIGIS</Point>
       <Point>PUPIS</Point>
-      <Point>NU VOR</Point>
+      <Point>NU NDB</Point>
       <Point>TUT NDB</Point>
       <Point>MIKAT</Point>
       <Point>MAGBA</Point>
@@ -2461,11 +2459,11 @@
       <Point>FAROA</Point>
       <Point>INTIB</Point>
       <Point>ORARE</Point>
+      <Point>REPAR</Point>
       <Point>ROBKO</Point>
       <Point>RUTAK</Point>
       <Point>REVRO</Point>
       <Point>WIBIG</Point>
-      <Point>RAN VOR</Point>
       <Point>ELNOS</Point>
       <Point>MUGEN</Point>
       <Point>ABVOM</Point>
@@ -2541,8 +2539,8 @@
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
       <Point>MEREV</Point>
+      <Point>RULOM</Point>
       <Point>TEANO</Point>
-      <Point>RU NDB</Point>
       <Point>IDUTA</Point>
       <Point>AROBA</Point>
       <Point>RT NDB</Point>

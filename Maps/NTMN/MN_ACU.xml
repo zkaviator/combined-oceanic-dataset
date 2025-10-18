@@ -28,7 +28,7 @@
       <Point>IMN02</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="20 RNP" Priority="1" Center="-09.759469-139.006044" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP" Priority="1" Center="-09.760139-139.006425" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
@@ -43,10 +43,10 @@
     <Symbol Type="SolidTriangle">
       <Point>IMN20</Point>
     </Symbol>
-    <Line Pattern="Solid">IMN20/FMN20/-094534.088-1390021.758</Line>
+    <Line Pattern="Solid">IMN20/FMN20/-094536.500-1390023.130</Line>
     <Line Pattern="Solid">IKAMI/IMN20</Line>
   </Map>
-  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-09.759469-139.006044" CustomColourName="ProcArr">
+  <Map Type="System2" Name="20 RNP Labels" Priority="1" Center="-09.760139-139.006425" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>IKAMI</Point>
       <Point>FMN20</Point>

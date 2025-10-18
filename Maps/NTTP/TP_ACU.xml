@@ -13,13 +13,8 @@
       <!--Rwy08 REVK1G-->
       -16.426392-152.239206/TP501/SUDOR/REVKO
     </Line>
-    <Line Pattern="Dashed">
-      <!--Rwy08 RU3G-->
-      -16.426392-152.239206/RU NDB
-    </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>BOKAL</Point>
@@ -31,7 +26,6 @@
       <Point>BB NDB</Point>
       <Point>BOKAL</Point>
       <Point>REVKO</Point>
-      <Point>RU NDB</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="08 RNP" Priority="1" Center="-16.426597-152.247950" CustomColourName="ProcArr">
@@ -73,16 +67,11 @@
       -16.426597-152.247950/BB NDB
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy26 RU3H-->
-      -16.426597-152.247950/RU NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy26 RULO1H-->
       TP502/TB504/RULOM
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>TP502</Point>
@@ -93,7 +82,6 @@
     <Label HasLeader="true">
       <Point>BAMBI</Point>
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
       <Point>RULOM</Point>
     </Label>
   </Map>

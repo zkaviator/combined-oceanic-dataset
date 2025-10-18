@@ -163,10 +163,8 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
-      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
-      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
@@ -307,6 +305,8 @@
       <Point>IMN02</Point>
       <Point>IMN20</Point>
       <Point>ARITI</Point>
+      <Point>GUMTI</Point>
+      <Point>GOBAN</Point>
       <Point>UXINO</Point>
       <Point>NIVAL</Point>
       <Point>MORNI</Point>
@@ -493,10 +493,8 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
-      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
-      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
@@ -643,6 +641,8 @@
       <Point>IMN02</Point>
       <Point>IMN20</Point>
       <Point>ARITI</Point>
+      <Point>GUMTI</Point>
+      <Point>GOBAN</Point>
       <Point>UXINO</Point>
       <Point>NIVAL</Point>
       <Point>MORNI</Point>
@@ -769,7 +769,7 @@
     <Line Pattern="Solid">VISIT/VEXUS</Line>
     <Line Pattern="Solid">ARIVA/GI401/-142618.920-1460424.121</Line>
     <Line Pattern="Solid">MIDEM/GI403/NISUD/ARIVA</Line>
-    <Line Pattern="Solid">MINIT/GI402/-142555.330-1460347.891</Line>
+    <Line Pattern="Solid">MINIT/GI402/-142555.441-1460348.060</Line>
     <Line Pattern="Solid">MIDEM/GI404/NONAS/MINIT</Line>
     <Line Pattern="Solid">KAMVO/FGJ12/-230429.320-1345343.508</Line>
     <Line Pattern="Solid">TONED/KAMVO</Line>
@@ -815,7 +815,7 @@
     <Line Pattern="Solid">IMN02/FMN02/-094614.930-1390044.932</Line>
     <Line Pattern="Solid">IBULO/IMN02</Line>
     <Line Pattern="Solid">ISBON/IMN02</Line>
-    <Line Pattern="Solid">IMN20/FMN20/-094534.088-1390021.758</Line>
+    <Line Pattern="Solid">IMN20/FMN20/-094536.500-1390023.130</Line>
     <Line Pattern="Solid">IKAMI/IMN20</Line>
     <Line Pattern="Solid">BELBO/FTB29/-162653.491-1514443.710</Line>
     <Line Pattern="Solid">BAMBI/BELTI/BATOP/BELBO</Line>

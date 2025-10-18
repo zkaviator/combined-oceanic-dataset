@@ -5,7 +5,6 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
     </Symbol>
@@ -14,17 +13,19 @@
       <Point>FTG09</Point>
     </Symbol>
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
+    <Symbol Type="SolidTriangle">
+      <Point>GUMTI</Point>
+    </Symbol>
     <Line Pattern="Solid">GUMTI/FTG09/-145705.782-1474012.850</Line>
     <Line Pattern="Solid">GITUL/GUMTI</Line>
     <Line Pattern="Solid">GODOL/GUMTI</Line>
   </Map>
   <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-14.951606-147.670236" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
       <Point>FTG09</Point>
+      <Point>GUMTI</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="27 RNP" Priority="1" Center="-14.955550-147.656539" CustomColourName="ProcArr">
@@ -34,23 +35,24 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
-      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
     </Symbol>
     <!--FAF Symbols-->
     <Symbol Type="MalteseCross" />
     <!--IF Symbols-->
-    <Symbol Type="SolidTriangle" />
+    <Symbol Type="SolidTriangle">
+      <Point>GOBAN</Point>
+    </Symbol>
     <Line Pattern="Solid">GOBAN/FTG27/-145719.980-1473923.540</Line>
     <Line Pattern="Solid">GIVIX/GOBAN</Line>
     <Line Pattern="Solid">GULEM/GOBAN</Line>
   </Map>
   <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-14.955550-147.656539" CustomColourName="ProcArr">
     <Label HasLeader="true">
-      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
+      <Point>GOBAN</Point>
     </Label>
   </Map>
 </Maps>
