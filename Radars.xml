@@ -296,4 +296,28 @@
     <Lat>-60.6472463888889</Lat>
     <Long>173.874405833333</Long>
   </Radar>
+  <Radar Name="WF TSN NW ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-34.54874</Lat>
+    <Long>163.1829</Long>
+  </Radar>
+  <Radar Name="WF TSN NW ADSB" Type="ADSB" Elevation="17" MaxRange="500">
+    <Lat>-34.54874</Lat>
+    <Long>163.1829</Long>
+  </Radar>
+  <Radar Name="WF TSN NE ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-36.6602</Lat>
+    <Long>168.68924</Long>
+  </Radar>
+  <Radar Name="WF TSN NE ADSB" Type="ADSB" Elevation="17" MaxRange="500">
+    <Lat>-36.6602</Lat>
+    <Long>168.68924</Long>
+  </Radar>
+  <Radar Name="WF TSN STH ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-42.0538</Lat>
+    <Long>165.61401</Long>
+  </Radar>
+  <Radar Name="WF TSN STH ADSB" Type="ADSB" Elevation="17" MaxRange="500">
+    <Lat>-42.0538</Lat>
+    <Long>165.61401</Long>
+  </Radar>
 </Radars>
