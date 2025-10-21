@@ -61,8 +61,9 @@
       <CFL QuickLevel="25000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>Auckland Radio (Tasman) | CPDLC available through text</Line>
-        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Auckland Radio (Tasman) | OPR as a RADAR Sector</Line>
+        <Line>Read WorldFlight Brief: xxx</Line>
+        <Line>Comms via VHF 129.5. SURV via ADSB - Nil Pos. Rpts REQ</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
@@ -576,7 +577,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="WorldFlight 2025">
+  <Group Name="Antarctica">
     <Position Name="Williams Field Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
       <Sectors>
         <Sector Name="WDTMA" />
