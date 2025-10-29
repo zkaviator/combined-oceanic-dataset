@@ -5,6 +5,7 @@
     <Symbol Type="HollowTriangle" />
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
     </Symbol>
@@ -22,6 +23,7 @@
   </Map>
   <Map Type="System2" Name="09 RNP Labels" Priority="1" Center="-14.951606-147.670236" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
       <Point>FTG09</Point>
@@ -35,6 +37,7 @@
     </Symbol>
     <!--IAF Symbols-->
     <Symbol Type="HollowTriangle">
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
     </Symbol>
@@ -50,6 +53,7 @@
   </Map>
   <Map Type="System2" Name="27 RNP Labels" Priority="1" Center="-14.955550-147.656539" CustomColourName="ProcArr">
     <Label HasLeader="true">
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
       <Point>GOBAN</Point>

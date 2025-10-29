@@ -95,6 +95,8 @@
         <SID Name="ODUM1R" />
         <SID Name="PONA1R" />
         <SID Name="UVUT1R" />
+        <STAR Name="AVKO1B" ApproachName="RNP" />
+        <STAR Name="AVKO1D" ApproachName="RNP" />
         <STAR Name="BIGE2B" ApproachName="RNP" />
         <STAR Name="BIGE2D" ApproachName="RNP" />
         <STAR Name="DORO2B" ApproachName="RNP" />
@@ -121,6 +123,7 @@
         <SID Name="ODUM1S" />
         <SID Name="PONA1S" />
         <SID Name="UVUT1S" />
+        <STAR Name="AVKO1C" ApproachName="RNP" />
         <STAR Name="BIGE2C" ApproachName="RNP" />
         <STAR Name="DORO2C" ApproachName="RNP" />
         <STAR Name="ISDO2C" ApproachName="RNP" />
@@ -5700,6 +5703,7 @@ CH VOR
     <Point Name="MEXEB" Type="Fix">-365840.480+1750556.969</Point>
     <Point Name="MEXIP" Type="Fix">-315000.769-1750000.000</Point>
     <Point Name="MEXIS" Type="Fix">-384625.860+1754800.990</Point>
+    <Point Name="MEZZO" Type="Fix">-374433.540+1755601.669</Point>
     <Point Name="MFLAT" Type="Fix">-444712.098+1680100.199</Point>
     <Point Name="MG934" Type="Fix">-214925.540-1575739.420</Point>
     <Point Name="MGLEY" Type="Fix">-435835.101+1695241.300</Point>
@@ -6925,6 +6929,7 @@ CH VOR
     <Point Name="SG934" Type="Fix">-151220.491+1680051.458</Point>
     <Point Name="SGROD" Type="Fix">-374252.000+1761826.600</Point>
     <Point Name="SHEAD" Type="Fix">-412143.801+1744257.600</Point>
+    <Point Name="SHELL" Type="Fix">-393546.388+1732352.699</Point>
     <Point Name="SHELS" Type="Fix">-365035.498+1745150.699</Point>
     <Point Name="SHIL1" Type="Fix">-384408.599+1760738.701</Point>
     <Point Name="SHILI" Type="Fix">-362242.290+1741610.628</Point>
@@ -7199,6 +7204,7 @@ CH VOR
     <Point Name="TL837" Type="Fix">-194848.550-1741631.210</Point>
     <Point Name="TLAKE" Type="Fix">-383553.700+1775225.799</Point>
     <Point Name="TLARP" Type="Fix">-194637.409-1742025.350</Point>
+    <Point Name="TLENE" Type="Fix">-775607.688+1680932.411</Point>
     <Point Name="TM410" Type="Fix">-172151.000-1494748.800</Point>
     <Point Name="TM501" Type="Fix">-172705.400-1494250.699</Point>
     <Point Name="TM502" Type="Fix">-174256.300-1495442.300</Point>
@@ -8373,6 +8379,15 @@ CH VOR
     </STAR>
     <STAR Name="KETU1B" Airport="NFTF" Runways="29">
       <Route Runway="29">KETUP/OLPER</Route>
+    </STAR>
+    <STAR Name="AVKO1B" Airport="NSFA" Runways="08">
+      <Route Runway="08">AVKOL/TAFUA</Route>
+    </STAR>
+    <STAR Name="AVKO1C" Airport="NSFA" Runways="26">
+      <Route Runway="26">AVKOL/MAUGA</Route>
+    </STAR>
+    <STAR Name="AVKO1D" Airport="NSFA" Runways="08">
+      <Route Runway="08">AVKOL/DINAR</Route>
     </STAR>
     <STAR Name="BIGE2B" Airport="NSFA" Runways="08">
       <Route Runway="08">BIGEK/TAFUA</Route>

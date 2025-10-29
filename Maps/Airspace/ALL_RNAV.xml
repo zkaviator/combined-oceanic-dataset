@@ -163,8 +163,10 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
@@ -493,8 +495,10 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
