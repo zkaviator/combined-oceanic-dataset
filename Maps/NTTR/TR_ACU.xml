@@ -64,15 +64,15 @@
   <Map Type="System2" Name="07 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.723606-151.472372">
     <Line>
       <!--Rwy07 BB1R-->
-      BB NDB/RU NDB
+      BB NDB/NTTR
     </Line>
     <Line>
       <!--Rwy07 HHN1R-->
-      HHN VOR/RU NDB
+      HHN VOR/NTTR
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
+      <Point>NTTR</Point>
       <Point>HHN VOR</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -100,7 +100,7 @@
       <Point>REVKO</Point>
     </Symbol>
     <Line Pattern="Solid">REVKO/FTR07/MTR07/-164324.982-1512820.539</Line>
-    <Line Pattern="Solid">RULOM/TR410/RUTIX/REVKO</Line>
+    <Line Pattern="Solid">RULOM/TR410/RUTIX/REVKO/REVKO</Line>
   </Map>
   <Map Type="System2" Name="07 RNP Labels" Priority="1" Center="-16.723606-151.472372" CustomColourName="ProcArr">
     <Label HasLeader="true">
@@ -174,15 +174,15 @@
   <Map Type="System2" Name="25 STARs" Priority="1" CustomColourName="ProcArr" Center="-16.722253-151.459331">
     <Line>
       <!--Rwy25 BB1R-->
-      BB NDB/RU NDB
+      BB NDB/NTTR
     </Line>
     <Line>
       <!--Rwy25 HHN1R-->
-      HHN VOR/RU NDB
+      HHN VOR/NTTR
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
+      <Point>NTTR</Point>
       <Point>HHN VOR</Point>
     </Symbol>
     <Label HasLeader="true">
@@ -210,7 +210,7 @@
       <Point>REVRI</Point>
     </Symbol>
     <Line Pattern="Solid">REVRI/FTR25/MTR25/-164320.111-1512733.592</Line>
-    <Line Pattern="Solid">RULOM/REDOK/RIBRA/REVRI</Line>
+    <Line Pattern="Solid">RULOM/REDOK/RIBRA/REVRI/REVRI</Line>
   </Map>
   <Map Type="System2" Name="25 RNP Labels" Priority="1" Center="-16.722253-151.459331" CustomColourName="ProcArr">
     <Label HasLeader="true">

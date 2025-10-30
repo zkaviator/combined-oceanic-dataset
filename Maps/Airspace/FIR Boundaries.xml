@@ -114,7 +114,7 @@
 -050000.000-1570000.000/
 -300000.000-1570000.000/
 -300000.000-1310000.000</Line>
-    <!--Auckland Oceanic - Tasman Sector-->
+    <!--Auckland Oceanic - Tasman-->
     <Line Name="NZZT" Pattern="Solid">
 -455459.994+1651800.000/
 -450000.000+1630000.000/

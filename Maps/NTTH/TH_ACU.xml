@@ -18,10 +18,6 @@
       TH501/-16.758980-150.909120/ORAMA/IDUTA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy07 RU3E-->
-      -16.674000-150.994220/RU NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy07 RULO1E-->
       -16.674000-150.994220/TH503/RULOM
     </Line>
@@ -31,7 +27,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>-16.682330-150.994430</Point>
@@ -50,7 +45,6 @@
       <Point>BAMBI</Point>
       <Point>BB NDB</Point>
       <Point>IDUTA</Point>
-      <Point>RU NDB</Point>
       <Point>RULOM</Point>
       <Point>TEANO</Point>
     </Label>
@@ -61,24 +55,18 @@
       BB NDB/HHN VOR
     </Line>
     <Line>
-      <!--Rwy07 RU1H-->
-      RU NDB/HHN VOR
-    </Line>
-    <Line>
       <!--Rwy07 VAIT1H-->
       VAITE/HHN VOR
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
       <Point>HHN VOR</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>VAITE</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
       <Point>VAITE</Point>
     </Label>
   </Map>
@@ -138,17 +126,12 @@
       TH502/REVRI
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy25 RU3F-->
-      -16.691780-151.048980/RU NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy25 TEAN3F-->
       -16.657970-151.093190/ORAMA/TEANO
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
       <Point>HHN VOR</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>-16.691780-151.048980</Point>
@@ -170,7 +153,6 @@
       <Point>IDUTA</Point>
       <Point>ORAMA</Point>
       <Point>REVRI</Point>
-      <Point>RU NDB</Point>
       <Point>TEANO</Point>
     </Label>
   </Map>
@@ -180,24 +162,18 @@
       BB NDB/HHN VOR
     </Line>
     <Line>
-      <!--Rwy25 RU1H-->
-      RU NDB/HHN VOR
-    </Line>
-    <Line>
       <!--Rwy25 VAIT1H-->
       VAITE/HHN VOR
     </Line>
     <Symbol Type="Circle">
       <Point>BB NDB</Point>
       <Point>HHN VOR</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>VAITE</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
       <Point>VAITE</Point>
     </Label>
   </Map>

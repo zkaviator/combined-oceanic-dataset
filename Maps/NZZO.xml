@@ -94,7 +94,7 @@
     <!--NTGI-->
     <Runway Name="04/22">
       <Threshold Name="04" Position="-14.438589-146.073367" ExtendedCentrelineTrack="236" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="22" Position="-14.432036-146.063303" ExtendedCentrelineTrack="56" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="22" Position="-14.432067-146.063350" ExtendedCentrelineTrack="56" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--NTGJ-->
     <Runway Name="12/30">
@@ -123,8 +123,8 @@
     </Runway>
     <!--NTMN-->
     <Runway Name="02/20">
-      <Threshold Name="02" Position="-09.770814-139.012481" ExtendedCentrelineTrack="208.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="20" Position="-09.759469-139.006044" ExtendedCentrelineTrack="28.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="02" Position="-09.770814-139.012481" ExtendedCentrelineTrack="209.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="20" Position="-09.760139-139.006425" ExtendedCentrelineTrack="29.7" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--NTTB-->
     <Runway Name="11/29">

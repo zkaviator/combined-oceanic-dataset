@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="NZ Oceanic">
     <Position Name="Auckland Radio" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
@@ -34,7 +35,6 @@
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Auckland Radio (Tasman Sector)" Type="ASD" DefaultCenter="-381005.000+1664243.000" DefaultRange="2000">
       <Sectors>
         <Sector Name="ART" />
@@ -44,7 +44,7 @@
         <Point>-37.918889+166.811667</Point>
         <Point>-32.531667+165.982778</Point>
         <Point>-34.298333+172.578611</Point>
-      </ManualVisibility>        
+      </ManualVisibility>
       <Maps>
         <Map Name="Coast" />
         <Map Name="Airspace/ENR Sectors" />
@@ -61,12 +61,12 @@
       <CFL QuickLevel="25000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>Auckland Radio (Tasman) | CPDLC available through text</Line>
-        <Line>Oceanic Report Tool - vats.im/nz/oce</Line>
+        <Line>Auckland Radio (Tasman) | OPR as a RADAR Sector</Line>
+        <Line>Read WorldFlight Brief: xxx</Line>
+        <Line>Comms via VHF 129.5. SURV via ADSB - Nil Pos. Rpts REQ</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Auckland Radio (East)" Type="ASD" DefaultCenter="-300000.000-1750000.000" DefaultRange="6500">
       <Sectors>
         <Sector Name="ARE" />
@@ -99,7 +99,6 @@
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="MacMurdo Centre" Type="ASD" DefaultCenter="-711936.000+1674616.000" DefaultRange="4500">
       <Sectors>
         <Sector Name="MAC" />
@@ -129,7 +128,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="French Poly.">
     <Position Name="Tahiti Oceanic" Type="ASD" DefaultCenter="-144925.000-1382246.000" DefaultRange="6000">
       <Sectors>
@@ -168,16 +166,16 @@
         <Map Name="Navaids/VOR" />
         <Map Name="Airspace/Aerodromes" />
       </Maps>
-      <ArrivalLists>
-        <Airport Name="NTAA" />
-        <Airport Name="NTTB" />
-      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <CFL QuickLevel="19500" />
+      <ArrivalLists>
+        <Airport Name="NTAA" />
+        <Airport Name="NTTB" />
+      </ArrivalLists>
       <ControllerInfo>
         <Line>Tahiti Control (Enroute) | Class D SVC - Iles Sous Le Vent</Line>
         <Line>Class E SCV 200nm TAF VOR from FL045 - FL195</Line>
@@ -185,7 +183,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Tahiti (Faaa) Approach" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="300">
       <Sectors>
         <Sector Name="A-TAH" />
@@ -216,7 +213,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Faaa Tower (NTAA)" Type="ASD" DefaultCenter="-173324.000-1493641.000" DefaultRange="120">
       <Sectors>
         <Sector Name="T-TAH" />
@@ -253,7 +249,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Moorea Tower (NTTM)" Type="ASD" DefaultCenter="-172922.000-1494544.000" DefaultRange="60">
       <Sectors>
         <Sector Name="TNTTM" />
@@ -284,7 +279,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Bora Bora Tower (NTTB)" Type="ASD" DefaultCenter="-162637.000-1514509.000" DefaultRange="70">
       <Sectors>
         <Sector Name="TNTTB" />
@@ -314,7 +308,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Raiatea Tower (NTTR)" Type="ASD" DefaultCenter="-164323.000-1512801.000" DefaultRange="60">
       <Sectors>
         <Sector Name="TNTTR" />
@@ -345,7 +338,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="Minor Pacific">
     <Position Name="Fuaamotu Tower" Type="ASD" DefaultCenter="-211430.700-1750825.591" DefaultRange="500">
       <Sectors>
@@ -368,10 +360,10 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="19500" />
       <ArrivalLists>
         <Airport Name="NFTF" />
       </ArrivalLists>
-      <CFL QuickLevel="19500" />
       <ControllerInfo>
         <Line>Fuaamotu Tower | Combined TWR/APP SVC</Line>
         <Line>SVC W/I 100NM TBU VOR - SFC to 19,500ft</Line>
@@ -383,7 +375,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Niue FIS" Type="ASD" DefaultCenter="-190441.000-1695536.000" DefaultRange="200">
       <Sectors>
         <Sector Name="TNIUE" />
@@ -405,10 +396,10 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="19500" />
       <ArrivalLists>
         <Airport Name="NIUE" />
       </ArrivalLists>
-      <CFL QuickLevel="19500" />
       <ControllerInfo>
         <Line>Niue Flight Information Service</Line>
         <Line>Information and IFR Relay - Nil Control avail.</Line>
@@ -416,7 +407,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="Samoa">
     <Position Name="Faleolo Control" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="1200">
       <Sectors>
@@ -433,23 +423,22 @@
         <Map Name="Navaids/VOR" />
         <Map Name="Airspace/Aerodromes" />
       </Maps>
-      <CFL QuickLevel="24500" />
-      <ArrivalLists>
-        <Airport Name="NSFA" />
-        <Airport Name="NSTU" />
-      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="24500" />
+      <ArrivalLists>
+        <Airport Name="NSFA" />
+        <Airport Name="NSTU" />
+      </ArrivalLists>
       <ControllerInfo>
         <Line>Faleolo Control | SVC to both W and American Samoa</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Faleolo Tower" Type="ASD" DefaultCenter="-134954.620-1715952.850" DefaultRange="400">
       <Sectors>
         <Sector Name="TNSFA" />
@@ -468,16 +457,16 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
-      <CFL QuickLevel="24500" />
-      <ArrivalLists>
-        <Airport Name="NSFA" />
-        <Airport Name="NSMA" />
-      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="24500" />
+      <ArrivalLists>
+        <Airport Name="NSFA" />
+        <Airport Name="NSMA" />
+      </ArrivalLists>
       <ControllerInfo>
         <Line>Faleolo Tower</Line>
         <Line>Procedural service to 7,500ft</Line>
@@ -485,7 +474,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Pago Pago Tower" Type="ASD" DefaultCenter="-141953.980-1704241.411" DefaultRange="50">
       <Sectors>
         <Sector Name="T-PAG" />
@@ -502,15 +490,15 @@
         <Map Name="Airspace/Aerodromes" />
         <Map Name="Runways" />
       </Maps>
-      <CFL QuickLevel="10000" />
-      <ArrivalLists>
-        <Airport Name="NSTU" />
-      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="10000" />
+      <ArrivalLists>
+        <Airport Name="NSTU" />
+      </ArrivalLists>
       <ControllerInfo>
         <Line>Pago Pago Tower | ATIS 127.900</Line>
         <Line>Need local charts? - vats.im/nz/charts</Line>
@@ -518,7 +506,6 @@
       </ControllerInfo>
     </Position>
   </Group>
-
   <Group Name="Cook Islands">
     <Position Name="Rarotonga Control" Type="ASD" DefaultCenter="-195833.000-1592047.000" DefaultRange="1200">
       <Sectors>
@@ -535,15 +522,15 @@
         <Map Name="Navaids/VOR" />
         <Map Name="Airspace/Aerodromes" />
       </Maps>
-      <CFL QuickLevel="24500" />
-      <ArrivalLists>
-        <Airport Name="NCRG" />
-      </ArrivalLists>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
+      <CFL QuickLevel="24500" />
+      <ArrivalLists>
+        <Airport Name="NCRG" />
+      </ArrivalLists>
       <ControllerInfo>
         <Line>Rarotonga Control</Line>
         <Line>SVC to the entire Cook Is. from 5,500ft</Line>
@@ -551,7 +538,6 @@
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
-
     <Position Name="Rarotonga Tower" Type="ASD" DefaultCenter="-211204.522-1594756.558" DefaultRange="400">
       <Sectors>
         <Sector Name="A-RAR" />
@@ -591,8 +577,57 @@
       </ControllerInfo>
     </Position>
   </Group>
-
-  <Position Name="NTAA FAAA" ASMGCSAirport="NTAA" DefaultRange="3" Rotation="0" MagneticVariation="-13.1133451" Type="ASMGCS" DefaultCenter="-173324.0-1493641.0">
+  <Group Name="Antarctica">
+    <Position Name="Williams Field Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
+      <Sectors>
+        <Sector Name="WDTMA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-77.947358+166.736386</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="Coast" />
+        <Map Name="Runways" />
+        <Map Name="Airspace/FIR Boundaries" />
+        <Map Name="Airspace/TMA Sectors" />
+        <Map Name="Navaids/NDB" />
+        <Map Name="Navaids/VOR" />
+        <Map Name="Airspace/Aerodromes" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24500" />
+      <ArrivalLists>
+        <Airport Name="NZFX" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Williams Field Approach</Line>
+        <Line>Class E SVC from SFC to FL245</Line>
+        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NZFX_TWR">
+        <Line>Phoenix Tower - NZCM Remote ATIS on 129.9</Line>
+        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NZFX_GND">
+        <Line>Phoenix Ground - NZCM Remote ATIS on 129.9</Line>
+        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NZFX_DEL">
+        <Line>Phoenix Delivery - NZCM Remote ATIS on 129.9</Line>
+        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Position Name="NTAA FAAA" Type="ASMGCS" ASMGCSAirport="NTAA" DefaultCenter="-173324.0-1493641.0" DefaultRange="3" MagneticVariation="-13.1133451" Rotation="0">
+    <Sectors />
     <Maps>
       <Map Name="NTAA/NTAA_BAK" />
       <Map Name="NTAA/NTAA_BLDS" />
@@ -600,10 +635,9 @@
       <Map Name="NTAA/NTAA_TWYS" />
       <Map Name="NTAA/NTAA_RWYS" />
     </Maps>
-    <Sectors />
   </Position>
-
-  <Position Name="NCRG RARO" ASMGCSAirport="NCRG" DefaultRange="3" Rotation="0" MagneticVariation="-14" Type="ASMGCS" DefaultCenter="-211204.5-1594756.5">
+  <Position Name="NCRG RARO" Type="ASMGCS" ASMGCSAirport="NCRG" DefaultCenter="-211204.5-1594756.5" DefaultRange="3" MagneticVariation="-14" Rotation="0">
+    <Sectors />
     <Maps>
       <Map Name="NCRG/NCRG_BAK" />
       <Map Name="NCRG/NCRG_BLDS" />
@@ -611,6 +645,5 @@
       <Map Name="NCRG/NCRG_TWYS" />
       <Map Name="NCRG/NCRG_RWYS" />
     </Maps>
-    <Sectors />
   </Position>
 </Positions>

@@ -12,7 +12,7 @@
     <Lat>-41.3299</Lat>
     <Long>174.725572222222</Long>
   </Radar>
-  <Radar Name="Hawkins Hill Pri/ADSB/C" Type="ADSB" Elevation="1591" MaxRange="256">
+  <Radar Name="Hawkins Hill Pri/ADSB/C" Type="ADSB" Elevation="1591" MaxRange="255">
     <Lat>-41.3299</Lat>
     <Long>174.725572222222</Long>
   </Radar>
@@ -24,7 +24,7 @@
     <Lat>-36.9242777777778</Lat>
     <Long>174.553369444444</Long>
   </Radar>
-  <Radar Name="Rua o te Whenua ADSB/C" Type="ADSB" Elevation="1490" MaxRange="256">
+  <Radar Name="Rua o te Whenua ADSB/C" Type="ADSB" Elevation="1490" MaxRange="255">
     <Lat>-36.9242777777778</Lat>
     <Long>174.553369444444</Long>
   </Radar>
@@ -32,43 +32,43 @@
     <Lat>-37.8382805555556</Lat>
     <Long>175.912230555556</Long>
   </Radar>
-  <Radar Name="Te Weraiti ADSB/C" Type="ADSB" Elevation="2144" MaxRange="256">
+  <Radar Name="Te Weraiti ADSB/C" Type="ADSB" Elevation="2144" MaxRange="255">
     <Lat>-37.8382805555556</Lat>
     <Long>175.912230555556</Long>
   </Radar>
-  <Radar Name="Ballance ADSB" Type="ADSB" Elevation="1640" MaxRange="256">
+  <Radar Name="Ballance ADSB" Type="ADSB" Elevation="1640" MaxRange="255">
     <Lat>-40.4004027777778</Lat>
     <Long>175.732505555556</Long>
   </Radar>
-  <Radar Name="Mount Robertson ADSB" Type="ADSB" Elevation="3395" MaxRange="256">
+  <Radar Name="Mount Robertson ADSB" Type="ADSB" Elevation="3395" MaxRange="255">
     <Lat>-41.3482666666667</Lat>
     <Long>174.022344444444</Long>
   </Radar>
-  <Radar Name="Cass Peak ADSB" Type="ADSB" Elevation="1751" MaxRange="256">
+  <Radar Name="Cass Peak ADSB" Type="ADSB" Elevation="1751" MaxRange="255">
     <Lat>-43.6358166666667</Lat>
     <Long>172.623716666667</Long>
   </Radar>
-  <Radar Name="Cardrona MLAT/ADSB" Type="ADSB" Elevation="6125" MaxRange="50">
+  <Radar Name="Cardrona MLAT/ADSB" Type="ADSB" Elevation="6125" MaxRange="255">
     <Lat>-44.8569777777778</Lat>
     <Long>168.9447</Long>
   </Radar>
-  <Radar Name="Coronet Peak MLAT/ADSB" Type="ADSB" Elevation="5272" MaxRange="50">
+  <Radar Name="Coronet Peak MLAT/ADSB" Type="ADSB" Elevation="5272" MaxRange="255">
     <Lat>-44.916575</Lat>
     <Long>168.739055555556</Long>
   </Radar>
-  <Radar Name="Mt Nicholas MLAT/ADSB" Type="ADSB" Elevation="2047" MaxRange="50">
+  <Radar Name="Mt Nicholas MLAT/ADSB" Type="ADSB" Elevation="2047" MaxRange="255">
     <Lat>-45.0912944444444</Lat>
     <Long>168.426997222222</Long>
   </Radar>
-  <Radar Name="Obelisk MLAT/ADSB" Type="ADSB" Elevation="5508" MaxRange="50">
+  <Radar Name="Obelisk MLAT/ADSB" Type="ADSB" Elevation="5508" MaxRange="255">
     <Lat>-45.3218861111111</Lat>
     <Long>169.206572222222</Long>
   </Radar>
-  <Radar Name="Maungataniwha ADSB" Type="ADSB" Elevation="1" MaxRange="4">
+  <Radar Name="Maungataniwha ADSB" Type="ADSB" Elevation="1" MaxRange="255">
     <Lat>-38.8167711111111</Lat>
     <Long>176.799973888889</Long>
   </Radar>
-  <Radar Name="Mount Rochfort" Type="SSR_ModeS" Elevation="1" MaxRange="4">
+  <Radar Name="Mount Rochfort" Type="SSR_ModeS" Elevation="1" MaxRange="255">
     <Lat>-41.7834969444444</Lat>
     <Long>171.733365</Long>
   </Radar>
@@ -88,7 +88,7 @@
     <Lat>-45.0234030555556</Lat>
     <Long>168.748966111111</Long>
   </Radar>
-  <Radar Name="Taupo SMR" Type="SMR" Elevation="1345" MaxRange="4">
+  <Radar Name="Taupo SMR" Type="SMR" Elevation="1345" MaxRange="255">
     <Lat>-38.7408</Lat>
     <Long>176.0839</Long>
   </Radar>
@@ -96,7 +96,7 @@
     <Lat>-36.7893761111111</Lat>
     <Long>174.628793888889</Long>
   </Radar>
-  <Radar Name="Woodbourne SMR/ADSB" Type="ADSB" Elevation="100" MaxRange="150">
+  <Radar Name="Woodbourne SMR/ADSB" Type="ADSB" Elevation="100" MaxRange="255">
     <Lat>-41.5156188888889</Lat>
     <Long>173.87023</Long>
   </Radar>
@@ -256,8 +256,68 @@
     <Lat>-13.6119611111111</Lat>
     <Long>187.557463888889</Long>
   </Radar>
-  <Radar Name="Antarctic ADSC" Type="SSR_ModeC" Elevation="50" MaxRange="4000">
+  <Radar Name="McMurdo ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
     <Lat>-77.8492280555556</Lat>
     <Long>166.692285</Long>
+  </Radar>
+  <Radar Name="McMurdo ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-77.8492280555556</Lat>
+    <Long>166.692285</Long>
+  </Radar>
+  <Radar Name="Sturge Island ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-67.4303611111111</Lat>
+    <Long>164.763055555556</Long>
+  </Radar>
+  <Radar Name="Sturge Island ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-67.4303611111111</Lat>
+    <Long>164.763055555556</Long>
+  </Radar>
+  <Radar Name="Mount Honey ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-52.5705769444444</Lat>
+    <Long>169.162501944444</Long>
+  </Radar>
+  <Radar Name="Mount Honey ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-52.5705769444444</Lat>
+    <Long>169.162501944444</Long>
+  </Radar>
+  <Radar Name="Zucchelli Station ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-74.6945380555556</Lat>
+    <Long>164.114421111111</Long>
+  </Radar>
+  <Radar Name="Zucchelli Station ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-74.6945380555556</Lat>
+    <Long>164.114421111111</Long>
+  </Radar>
+  <Radar Name="Boat ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="1000">
+    <Lat>-60.6472463888889</Lat>
+    <Long>173.874405833333</Long>
+  </Radar>
+  <Radar Name="Boat ADSB" Type="ADSB" Elevation="17" MaxRange="750">
+    <Lat>-60.6472463888889</Lat>
+    <Long>173.874405833333</Long>
+  </Radar>
+  <Radar Name="WF TSN NW ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="350">
+    <Lat>-34.54874</Lat>
+    <Long>163.1829</Long>
+  </Radar>
+  <Radar Name="WF TSN NW ADSB" Type="ADSB" Elevation="17" MaxRange="450">
+    <Lat>-34.54874</Lat>
+    <Long>163.1829</Long>
+  </Radar>
+  <Radar Name="WF TSN NE ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="350">
+    <Lat>-36.6602</Lat>
+    <Long>168.68924</Long>
+  </Radar>
+  <Radar Name="WF TSN NE ADSB" Type="ADSB" Elevation="17" MaxRange="450">
+    <Lat>-36.6602</Lat>
+    <Long>168.68924</Long>
+  </Radar>
+  <Radar Name="WF TSN STH ADSB" Type="SSR_ModeC" Elevation="50" MaxRange="350">
+    <Lat>-40.8020480555556</Lat>
+    <Long>166.166851111111</Long>
+  </Radar>
+  <Radar Name="WF TSN STH ADSB" Type="ADSB" Elevation="17" MaxRange="450">
+    <Lat>-40.8020480555556</Lat>
+    <Long>166.166851111111</Long>
   </Radar>
 </Radars>

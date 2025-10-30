@@ -105,7 +105,6 @@
       <Point>NTGO</Point>
       <Point>NTGP</Point>
       <Point>NTGQ</Point>
-      <Point>NTGR</Point>
       <Point>NTGT</Point>
       <Point>NTGU</Point>
       <Point>NTGV</Point>
@@ -159,7 +158,6 @@
       <Point>NWWU</Point>
       <Point>NWWV</Point>
       <Point>NWWW</Point>
-      <Point>NWWX</Point>
       <Point>NZCI</Point>
       <Point>NZFX</Point>
       <Point>NZSP</Point>
@@ -278,7 +276,6 @@
       <Point Name="GO">NTGO</Point>
       <Point Name="GP">NTGP</Point>
       <Point Name="GQ">NTGQ</Point>
-      <Point Name="GR">NTGR</Point>
       <Point Name="GT">NTGT</Point>
       <Point Name="GU">NTGU</Point>
       <Point Name="GV">NTGV</Point>
@@ -332,7 +329,6 @@
       <Point Name="WU">NWWU</Point>
       <Point Name="WV">NWWV</Point>
       <Point Name="WW">NWWW</Point>
-      <Point Name="WX">NWWX</Point>
       <Point Name="CI">NZCI</Point>
       <Point Name="FX">NZFX</Point>
       <Point Name="SP">NZSP</Point>
