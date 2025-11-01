@@ -63,7 +63,7 @@
       <ControllerInfo>
         <Line>Auckland Control (Tasman) | OPR as a RADAR Sector</Line>
         <Line>Read WorldFlight Brief: vats.im/nz/wf-gen</Line>
-        <Line>Comms via VHF 129.5. SURV via ADSB - Nil Pos. Rpts REQ</Line>
+        <Line>Comms via VHF 129.55. SURV via ADSB - Nil Pos. Rpts REQ</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>

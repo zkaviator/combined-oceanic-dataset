@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Auckland Control" Frequency="123.900" Callsign="NZAA_CTR" Name="OCR" DisplayInSectorsWindow="False">
     <Volumes>OCR</Volumes>
     <ResponsibleSectors>RAN</ResponsibleSectors>
@@ -39,7 +40,7 @@
   <Sector FullName="Auckland Radio (East)" Frequency="131.500" Callsign="NZZO-E_FSS" Name="ARE">
     <Volumes>ARE</Volumes>
   </Sector>
-  <Sector FullName="Auckland Radio (Tasman)" Frequency="129.500" Callsign="NZZO-TSN_FSS" Name="ART">
+  <Sector FullName="Auckland Control (Tasman)" Frequency="129.550" Callsign="NZZO-TSN_FSS" Name="ART">
     <Volumes>ART</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="BN-TSN" DisplayInSectorsWindow="False">
