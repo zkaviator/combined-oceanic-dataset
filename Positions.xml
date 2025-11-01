@@ -61,8 +61,8 @@
       <CFL QuickLevel="25000" />
       <ArrivalLists />
       <ControllerInfo>
-        <Line>Auckland Radio (Tasman) | OPR as a RADAR Sector</Line>
-        <Line>Read WorldFlight Brief: xxx</Line>
+        <Line>Auckland Control (Tasman) | OPR as a RADAR Sector</Line>
+        <Line>Read WorldFlight Brief: vats.im/nz/wf-gen</Line>
         <Line>Comms via VHF 129.5. SURV via ADSB - Nil Pos. Rpts REQ</Line>
         <Line>Submit feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
@@ -578,7 +578,7 @@
     </Position>
   </Group>
   <Group Name="Antarctica">
-    <Position Name="Williams Field Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
+    <Position Name="Williams Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
       <Sectors>
         <Sector Name="WDTMA" />
       </Sectors>
