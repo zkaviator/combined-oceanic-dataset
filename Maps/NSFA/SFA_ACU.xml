@@ -61,6 +61,14 @@
   </Map>
   <Map Type="System2" Name="08 STARs" Priority="1" CustomColourName="ProcArr" Center="-13.830214-172.022278">
     <Line>
+      <!--Rwy08 AVKO1B-->
+      AVKOL/TAFUA
+    </Line>
+    <Line>
+      <!--Rwy08 AVKO1D-->
+      AVKOL/DINAR
+    </Line>
+    <Line>
       <!--Rwy08 BIGE2B-->
       BIGEK/TAFUA
     </Line>
@@ -83,14 +91,6 @@
     <Line>
       <!--Rwy08 ISDO2D-->
       ISDOT/DINAR
-    </Line>
-    <Line>
-      <!--Rwy08 LANA2B-->
-      LANAT/TAFUA
-    </Line>
-    <Line>
-      <!--Rwy08 LANA2D-->
-      LANAT/DINAR
     </Line>
     <Line>
       <!--Rwy08 LAVE2B-->
@@ -138,11 +138,11 @@
       <Point>SHMPA</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>FA818</Point>
       <Point>DOROS</Point>
       <Point>ISDOT</Point>
-      <Point>LANAT</Point>
       <Point>LAVEK</Point>
       <Point>FA812</Point>
       <Point>ODUMA</Point>
@@ -151,10 +151,10 @@
       <Point>UVUTI</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>DOROS</Point>
       <Point>ISDOT</Point>
-      <Point>LANAT</Point>
       <Point>LAVEK</Point>
       <Point>ODUMA</Point>
       <Point>PONAT</Point>
@@ -252,6 +252,10 @@
   </Map>
   <Map Type="System2" Name="26 STARs" Priority="1" CustomColourName="ProcArr" Center="-13.829886-171.994481">
     <Line>
+      <!--Rwy26 AVKO1C-->
+      AVKOL/MAUGA
+    </Line>
+    <Line>
       <!--Rwy26 BIGE2C-->
       BIGEK/MAUGA
     </Line>
@@ -262,10 +266,6 @@
     <Line>
       <!--Rwy26 ISDO2C-->
       ISDOT/MAUGA
-    </Line>
-    <Line>
-      <!--Rwy26 LANA2C-->
-      LANAT/MAUGA
     </Line>
     <Line>
       <!--Rwy26 LAVE2A-->
@@ -300,20 +300,20 @@
       <Point>FA VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
+      <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>DOROS</Point>
       <Point>ISDOT</Point>
-      <Point>LANAT</Point>
       <Point>ODUMA</Point>
       <Point>PONAT</Point>
       <Point>SAMVU</Point>
       <Point>UVUTI</Point>
     </Symbol>
     <Label HasLeader="true">
+      <Point>AVKOL</Point>
       <Point>BIGEK</Point>
       <Point>DOROS</Point>
       <Point>ISDOT</Point>
-      <Point>LANAT</Point>
       <Point>LAVEK</Point>
       <Point>ODUMA</Point>
       <Point>PONAT</Point>

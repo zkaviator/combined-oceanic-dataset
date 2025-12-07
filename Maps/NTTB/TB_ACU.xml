@@ -14,10 +14,6 @@
       -16.459590-151.728640/ROBNA
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy11 RU3A-->
-      -16.459590-151.728640/-16.474950-151.697510/-16.518450-151.672670/RU NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy11 RUTI1A-->
       TB503/RUTIX
     </Line>
@@ -31,7 +27,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
-      <Point>RU NDB</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>-16.459590-151.728640</Point>
@@ -40,8 +35,6 @@
       <Point>TB504</Point>
       <Point>MEKES</Point>
       <Point>ROBNA</Point>
-      <Point>-16.474950-151.697510</Point>
-      <Point>-16.518450-151.672670</Point>
       <Point>RUTIX</Point>
       <Point>SUDOR</Point>
       <Point>UDINI</Point>
@@ -50,7 +43,6 @@
       <Point>HHN VOR</Point>
       <Point>MEKES</Point>
       <Point>ROBNA</Point>
-      <Point>RU NDB</Point>
       <Point>RUTIX</Point>
       <Point>SUDOR</Point>
       <Point>UDINI</Point>
@@ -61,28 +53,15 @@
       <!--Rwy11 HHN1B-->
       HHN VOR/ATALA/BB NDB
     </Line>
-    <Line>
-      <!--Rwy11 RAIA1B-->
-      HHN VOR/OSPOD/RU NDB/BB NDB
-    </Line>
-    <Line>
-      <!--Rwy11 RAN1B-->
-      RAN VOR/BIBUS/BB NDB
-    </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
-      <Point>RAN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>ATALA</Point>
-      <Point>OSPOD</Point>
-      <Point>BIBUS</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>RAN VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="11 RNP" Priority="1" Center="-16.440508-151.757061" CustomColourName="ProcArr">
@@ -127,10 +106,6 @@
       -16.429050-151.774000/RELAK
     </Line>
     <Line Pattern="Dashed">
-      <!--Rwy29 RU3B-->
-      -16.421890-151.769610/BB NDB/RU NDB
-    </Line>
-    <Line Pattern="Dashed">
       <!--Rwy29 RULO1B-->
       -16.429050-151.774000/TB504/RULOM
     </Line>
@@ -144,8 +119,6 @@
     </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
-      <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
       <Point>RULOM</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
@@ -164,7 +137,6 @@
       <Point>HHN VOR</Point>
       <Point>MANAX</Point>
       <Point>RELAK</Point>
-      <Point>RU NDB</Point>
       <Point>RULOM</Point>
       <Point>SUDOR</Point>
       <Point>UBKIM</Point>
@@ -175,28 +147,15 @@
       <!--Rwy29 HHN1B-->
       HHN VOR/ATALA/BB NDB
     </Line>
-    <Line>
-      <!--Rwy29 RAIA1B-->
-      HHN VOR/OSPOD/RU NDB/BB NDB
-    </Line>
-    <Line>
-      <!--Rwy29 RAN1B-->
-      RAN VOR/BIBUS/BB NDB
-    </Line>
     <Symbol Type="Circle">
       <Point>HHN VOR</Point>
       <Point>BB NDB</Point>
-      <Point>RU NDB</Point>
-      <Point>RAN VOR</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>ATALA</Point>
-      <Point>OSPOD</Point>
-      <Point>BIBUS</Point>
     </Symbol>
     <Label HasLeader="true">
       <Point>HHN VOR</Point>
-      <Point>RAN VOR</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="29 RNP" Priority="1" Center="-16.448192-151.745475" CustomColourName="ProcArr">

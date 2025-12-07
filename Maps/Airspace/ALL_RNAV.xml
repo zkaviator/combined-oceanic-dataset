@@ -163,10 +163,11 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
-      <Point>GOBER</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
       <Point>UDINI</Point>
@@ -253,8 +254,7 @@
       <Point>FTB29</Point>
       <Point>FTB11</Point>
       <Point>TE402</Point>
-      <Point>TG401</Point>
-      <Point>TG402</Point>
+      <Point>FTG09</Point>
       <Point>FTH07</Point>
       <Point>FTH25</Point>
       <Point>FTM12</Point>
@@ -308,7 +308,7 @@
       <Point>IMN20</Point>
       <Point>ARITI</Point>
       <Point>GUMTI</Point>
-      <Point>TG404</Point>
+      <Point>GOBAN</Point>
       <Point>UXINO</Point>
       <Point>NIVAL</Point>
       <Point>MORNI</Point>
@@ -356,6 +356,7 @@
       <Point>BIDOP</Point>
       <Point>TE401</Point>
       <Point>TE403</Point>
+      <Point>FTG27</Point>
       <Point>MTH07</Point>
       <Point>UKALA</Point>
       <Point>UGANI</Point>
@@ -494,10 +495,11 @@
       <Point>BATOP</Point>
       <Point>BOKAL</Point>
       <Point>NOMIS</Point>
+      <Point>GUMTI</Point>
       <Point>GITUL</Point>
       <Point>GODOL</Point>
+      <Point>GOBAN</Point>
       <Point>GIVIX</Point>
-      <Point>GOBER</Point>
       <Point>GULEM</Point>
       <Point>UBKIM</Point>
       <Point>UDINI</Point>
@@ -587,8 +589,7 @@
       <Point>FTB29</Point>
       <Point>FTB11</Point>
       <Point>TE402</Point>
-      <Point>TG401</Point>
-      <Point>TG402</Point>
+      <Point>FTG09</Point>
       <Point>FTH07</Point>
       <Point>FTH25</Point>
       <Point>FTM12</Point>
@@ -645,7 +646,7 @@
       <Point>IMN20</Point>
       <Point>ARITI</Point>
       <Point>GUMTI</Point>
-      <Point>TG404</Point>
+      <Point>GOBAN</Point>
       <Point>UXINO</Point>
       <Point>NIVAL</Point>
       <Point>MORNI</Point>
@@ -772,7 +773,7 @@
     <Line Pattern="Solid">VISIT/VEXUS</Line>
     <Line Pattern="Solid">ARIVA/GI401/-142618.920-1460424.121</Line>
     <Line Pattern="Solid">MIDEM/GI403/NISUD/ARIVA</Line>
-    <Line Pattern="Solid">MINIT/GI402/-142555.330-1460347.891</Line>
+    <Line Pattern="Solid">MINIT/GI402/-142555.441-1460348.060</Line>
     <Line Pattern="Solid">MIDEM/GI404/NONAS/MINIT</Line>
     <Line Pattern="Solid">KAMVO/FGJ12/-230429.320-1345343.508</Line>
     <Line Pattern="Solid">TONED/KAMVO</Line>
@@ -818,7 +819,7 @@
     <Line Pattern="Solid">IMN02/FMN02/-094614.930-1390044.932</Line>
     <Line Pattern="Solid">IBULO/IMN02</Line>
     <Line Pattern="Solid">ISBON/IMN02</Line>
-    <Line Pattern="Solid">IMN20/FMN20/-094534.088-1390021.758</Line>
+    <Line Pattern="Solid">IMN20/FMN20/-094536.500-1390023.130</Line>
     <Line Pattern="Solid">IKAMI/IMN20</Line>
     <Line Pattern="Solid">BELBO/FTB29/-162653.491-1514443.710</Line>
     <Line Pattern="Solid">BAMBI/BELTI/BATOP/BELBO</Line>
@@ -826,13 +827,12 @@
     <Line Pattern="Solid">BAMBI/BIDOP/NOMIS/BOKAL</Line>
     <Line Pattern="Solid">ARITI/TE401/TE402/TE403/-170056.819-1493532.849</Line>
     <Line Pattern="Solid">TE403/-170050.692-1493509.341</Line>
-    <Line Pattern="Solid">GUMTI/TG401/-145705.782-1474012.850</Line>
+    <Line Pattern="Solid">GUMTI/FTG09/-145705.782-1474012.850</Line>
     <Line Pattern="Solid">GITUL/GUMTI</Line>
     <Line Pattern="Solid">GODOL/GUMTI</Line>
-    <Line Pattern="Solid">TG404/TG402/-145719.980-1473923.540</Line>
-    <Line Pattern="Solid">GIVIX/TG404</Line>
-    <Line Pattern="Solid">GOBER/TG404</Line>
-    <Line Pattern="Solid">GULEM/TG404</Line>
+    <Line Pattern="Solid">GOBAN/FTG27/-145719.980-1473923.540</Line>
+    <Line Pattern="Solid">GIVIX/GOBAN</Line>
+    <Line Pattern="Solid">GULEM/GOBAN</Line>
     <Line Pattern="Solid">UXINO/FTH07/MTH07/-164117.570-1510141.210</Line>
     <Line Pattern="Solid">UBKIM/UKALA/UDINI/UXINO</Line>
     <Line Pattern="Solid">NIVAL/FTH25/-164109.031-1510053.039</Line>

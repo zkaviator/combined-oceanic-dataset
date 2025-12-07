@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ATIS>
   <Frequencies>
-    
+
     <Frequency Airport="NTAA" Frequency="128.8"/>
     <Frequency Airport="NTTB" Frequency="121.5"/>
-    <Frequency Airport="NTTR" Frequency="119.6"/>    
+    <Frequency Airport="NTTR" Frequency="119.6"/>
     <Frequency Airport="NTTM" Frequency="118.4"/>
     <Frequency Airport="NCRG" Frequency="121.9"/>
     <Frequency Airport="NSFA" Frequency="126.9"/>
     <Frequency Airport="NSTU" Frequency="127.9"/>
-    <Frequency Airport="NFTF" Frequency="121.9"/><!-- TODO: Fix GND/ATIS Conflict -->
+    <Frequency Airport="NFTF" Frequency="121.9"/>
+    <!-- TODO: Fix GND/ATIS Conflict -->
     <Frequency Airport="NFTV" Frequency="127.0"/>
     <Frequency Airport="NIUE" Frequency="127.5"/>
-    <Frequency Airport="NZWD" Frequency="122.6"/> 
+    <Frequency Airport="NZWD" Frequency="122.6"/>
+    <Frequency Airport="NZCM" Frequency="129.9"/>
+    <Frequency Airport="NZFX" Frequency="129.9"/>
 
   </Frequencies>
-  
+
   <Translations>
     <Translation String="ATIS" Spoken="information" />
 
@@ -56,13 +59,13 @@
     <Translation String="INSTR" Spoken="instrument" />
     <Translation String="ILS" Spoken="I L S" />
     <Translation String="ILSDME" Spoken="I L S D M E" />
-    <Translation String="CAT" Spoken="category" />	
+    <Translation String="CAT" Spoken="category" />
     <Translation String="NDB" Spoken="N D B" />
     <Translation String="VOR" Spoken="V O R" />
     <Translation String="GLS" Spoken="G L S" />
     <Translation String="DME" Spoken="D M E" />
     <Translation String="RNP" Spoken="R N P" />
-    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />	
+    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />
     <Translation String="OPR" Spoken="operational" />
     <Translation String="EXP" Spoken="expect" />
     <Translation String="EIA" Spoken="expect instrument approach" />
@@ -72,8 +75,8 @@
     <Translation String="PROG" Spoken="progress" />
     <Translation String="INDEP" Spoken="independent" />
     <Translation String="AVBL" Spoken="available" />
-    <Translation String="REQ" Spoken="request" />  
-    <Translation String="REQD" Spoken="required" />  
+    <Translation String="REQ" Spoken="request" />
+    <Translation String="REQD" Spoken="required" />
     <Translation String="LAHSO" Spoken="land and hold short operations" />
     <Translation String="FM" Spoken="from" />
     <Translation String="THRU" Spoken="through" />
@@ -101,31 +104,31 @@
     <Translation String="DEG" Spoken="degrees" />
     <Translation String="NAVBL" Spoken="not available" />
     <Translation String="SFC" Spoken="surface" />
-    <Translation String="CTN" Spoken="caution" />	
-    <Translation String="DTHR" Spoken="displaced threshold" />	
-    <Translation String="LEN" Spoken="length" />	
-    <Translation String="LDA" Spoken="landing distance available" />	
+    <Translation String="CTN" Spoken="caution" />
+    <Translation String="DTHR" Spoken="displaced threshold" />
+    <Translation String="LEN" Spoken="length" />
+    <Translation String="LDA" Spoken="landing distance available" />
     <Translation String="WIP" Spoken="work in progress" />
     <Translation String="NOTAM" Spoken="notam" />
     <Translation String="DEL" Spoken="delivery" />
-    <Translation String="GND" Spoken="ground" />	
-    <Translation String="TWR" Spoken="tower" />	
+    <Translation String="GND" Spoken="ground" />
+    <Translation String="TWR" Spoken="tower" />
     <Translation String="CTC" Spoken="contact" />
     <Translation String="CTR" Spoken="control" />
     <Translation String="OBS" Spoken="observed" />
     <Translation String="REP" Spoken="reported" />
     <Translation String="FNA" Spoken="final approach" />
     <Translation String="LVP" Spoken="low visibility procedures" />
-    <Translation String="REF" Spoken="refer" />	
+    <Translation String="REF" Spoken="refer" />
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />
     <Translation String="SLP" Spoken="speed limiting point" />
-	
-	<!--Changes xxx.xxx to xxx decimal xxx for frequencies -->
-	  <Translation Regex="(\d{3})\.(\d{1,3})" Spoken="$1 decimal $2" />
-	
+
+    <!--Changes xxx.xxx to xxx decimal xxx for frequencies -->
+    <Translation Regex="(\d{3})\.(\d{1,3})" Spoken="$1 decimal $2" />
+
     <!--Changes L to Left when it is associated with a two digit runway identifier-->
-	  <Translation Regex="([012]\d|[3][0123456])L AND R" Spoken="$1 left and right" />
+    <Translation Regex="([012]\d|[3][0123456])L AND R" Spoken="$1 left and right" />
     <Translation Regex="([012]\d|[3][0123456])L AND C" Spoken="$1 left and centre" />
     <Translation Regex="([012]\d|[3][0123456])C AND R" Spoken="$1 centre and right" />
     <Translation Regex="([012]\d|[3][0123456])L" Spoken="$1 left" />
@@ -159,13 +162,13 @@
     <Translation String="VIS" Spoken="visibility" />
     <Translation String="RED" Spoken="reducing" />
     <Translation Regex="[0]{0,3}(\d+)M" Spoken="$1 meters" />
-	  <Translation String="10KM" Spoken="1 0 kilometres" />
+    <Translation String="10KM" Spoken="1 0 kilometres" />
     <Translation Regex="[0]{0,1}(\d+)KM" Spoken="$1 kilometres" />
     <Translation String="RVR" Spoken="rvr" />
     <Translation String="GT" Spoken="greater than" />
-    <Translation String="TDZ" Spoken="touchdown" />	
-    <Translation String="MID" Spoken="mid point" />	
-    <Translation String="END" Spoken="stop end" />	
+    <Translation String="TDZ" Spoken="touchdown" />
+    <Translation String="MID" Spoken="mid point" />
+    <Translation String="END" Spoken="stop end" />
 
     <Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" Alphabet="IPA" FallbackSpoken="kuv-okay"/>
     <Translation String="NSC" Spoken="nil significant cloud" />
@@ -207,17 +210,17 @@
     <Translation String="TSRA" Spoken="thunderstorms and rain" />
     <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
     <Translation String="TCU" Spoken="towering cumulus" />
-    <Translation String="COND" Spoken="condition" /> 
+    <Translation String="COND" Spoken="condition" />
     <Translation String="CONDS" Spoken="conditions" />
-    <Translation String="WS" Spoken="windshear" />	
+    <Translation String="WS" Spoken="windshear" />
     <Translation String="TMP" Spoken="temperature" />
     <Translation String="QNH" Spoken="Q-N-H" />
-	  <Translation String="DP" Spoken="dew point" />
+    <Translation String="DP" Spoken="dew point" />
     <Translation String="SIGMET" Spoken="sɪɢɱɛt" Alphabet="IPA" FallbackSpoken="sygmet" />
   </Translations>
-  
+
   <Editor>
-	  <Input name="ISSUED AT" value=". ZULU" NameIsSpoken="true" InputType="Edit" />
+    <Input name="ISSUED AT" value=". ZULU" NameIsSpoken="true" InputType="Edit" />
     <Input name="EXPECT" value=". APCH" NameIsSpoken="true" InputType="Edit" />
     <Input name="RWY" NameIsSpoken="true" InputType="Edit" />
     <Input name="RWY COND" NameIsSpoken="true" InputType="Edit" />

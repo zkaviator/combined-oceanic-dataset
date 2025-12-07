@@ -29,7 +29,7 @@
       <Point>ARIVA</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="22 RNP" Priority="1" Center="-14.432036-146.063303" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP" Priority="1" Center="-14.432067-146.063350" CustomColourName="ProcArr">
     <!--Fix Symbols-->
     <Symbol Type="HollowTriangle">
       <Point>GI404</Point>
@@ -47,10 +47,10 @@
     <Symbol Type="SolidTriangle">
       <Point>MINIT</Point>
     </Symbol>
-    <Line Pattern="Solid">MINIT/GI402/-142555.330-1460347.891</Line>
+    <Line Pattern="Solid">MINIT/GI402/-142555.441-1460348.060</Line>
     <Line Pattern="Solid">MIDEM/GI404/NONAS/MINIT</Line>
   </Map>
-  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-14.432036-146.063303" CustomColourName="ProcArr">
+  <Map Type="System2" Name="22 RNP Labels" Priority="1" Center="-14.432067-146.063350" CustomColourName="ProcArr">
     <Label HasLeader="true">
       <Point>MIDEM</Point>
       <Point>NONAS</Point>
