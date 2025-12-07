@@ -578,10 +578,8 @@
     </Position>
   </Group>
   <Group Name="Antarctica">
-    <Position Name="Williams Approach" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="250">
-      <Sectors>
-        <Sector Name="WDTMA" />
-      </Sectors>
+    <Position Name="Phoenix Tower" Type="ASD" DefaultCenter="-772648.000+1665120.000" DefaultRange="50">
+      <Sectors />
       <ManualVisibility>
         <Point>-77.947358+166.736386</Point>
       </ManualVisibility>
@@ -599,29 +597,25 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-      <CFL QuickLevel="24500" />
+      <CFL QuickLevel="14500" />
       <ArrivalLists>
         <Airport Name="NZFX" />
+		<Airport Name="NZWD" />
       </ArrivalLists>
-      <ControllerInfo>
-        <Line>Williams Field Approach</Line>
-        <Line>Class E SVC from SFC to FL245</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+      <ControllerInfo Callsign="NZFX_TWR">
+        <Line>Phoenix Tower</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="NZFX_TWR">
-        <Line>Phoenix Tower - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+	  <ControllerInfo Callsign="NZWD_TWR">
+        <Line>Williams Field Tower</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_GND">
-        <Line>Phoenix Ground - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Ground</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NZFX_DEL">
-        <Line>Phoenix Delivery - NZCM Remote ATIS on 129.9</Line>
-        <Line>Ensure you have read the briefing - vats.im/nz/wf-ant</Line>
+        <Line>Phoenix Delivery</Line>
         <Line>Provide Feedback - vats.im/nz/atc-fb</Line>
       </ControllerInfo>
     </Position>
